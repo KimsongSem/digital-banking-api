@@ -1,0 +1,814 @@
+2025-06-19 21:00:25.022|INFO |a26e0fe2e8b249f9be8d7a2030f8b625|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 1760 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 21:00:25.084|DEBUG|a26e0fe2e8b249f9be8d7a2030f8b625|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 21:00:25.085|INFO |a26e0fe2e8b249f9be8d7a2030f8b625|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 21:00:26.139|INFO |a26e0fe2e8b249f9be8d7a2030f8b625|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 21:00:26.141|INFO |a26e0fe2e8b249f9be8d7a2030f8b625|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 21:00:26.142|INFO |a26e0fe2e8b249f9be8d7a2030f8b625|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 21:00:26.200|INFO |a26e0fe2e8b249f9be8d7a2030f8b625|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 21:00:26.288|INFO |a26e0fe2e8b249f9be8d7a2030f8b625|org.apache.catalina.core.StandardService          :168 - Stopping service [Tomcat]
+2025-06-19 21:01:52.283|INFO |7700c88f882540c19ac57f8574be6e85|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 3760 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 21:01:52.344|DEBUG|7700c88f882540c19ac57f8574be6e85|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 21:01:52.345|INFO |7700c88f882540c19ac57f8574be6e85|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 21:01:53.417|INFO |7700c88f882540c19ac57f8574be6e85|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 21:01:53.419|INFO |7700c88f882540c19ac57f8574be6e85|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 21:01:53.419|INFO |7700c88f882540c19ac57f8574be6e85|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 21:01:53.476|INFO |7700c88f882540c19ac57f8574be6e85|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 21:01:53.687|DEBUG|7700c88f882540c19ac57f8574be6e85|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-06-19 21:01:53.702|DEBUG|7700c88f882540c19ac57f8574be6e85|_.s.web.servlet.HandlerMapping.Mappings           :86 - 'beanNameHandlerMapping' {}
+2025-06-19 21:01:53.771|DEBUG|7700c88f882540c19ac57f8574be6e85|_.s.web.servlet.HandlerMapping.Mappings           :176 - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-06-19 21:01:53.901|INFO |7700c88f882540c19ac57f8574be6e85|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 21:01:53.939|INFO |7700c88f882540c19ac57f8574be6e85|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 2.319 seconds (process running for 3.155)
+2025-06-19 21:34:46.577|INFO |4b8b2b5e1e0a475b84d18912ae316d1c|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 23120 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 21:34:46.696|DEBUG|4b8b2b5e1e0a475b84d18912ae316d1c|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 21:34:46.698|INFO |4b8b2b5e1e0a475b84d18912ae316d1c|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 21:34:48.436|INFO |4b8b2b5e1e0a475b84d18912ae316d1c|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 21:34:48.442|INFO |4b8b2b5e1e0a475b84d18912ae316d1c|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 21:34:48.443|INFO |4b8b2b5e1e0a475b84d18912ae316d1c|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 21:34:48.529|INFO |4b8b2b5e1e0a475b84d18912ae316d1c|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 21:34:48.638|INFO |4b8b2b5e1e0a475b84d18912ae316d1c|org.apache.catalina.core.StandardService          :168 - Stopping service [Tomcat]
+2025-06-19 21:35:07.480|INFO |dbfc1cef5fba424ea45562af74e7e139|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 17648 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 21:35:07.612|DEBUG|dbfc1cef5fba424ea45562af74e7e139|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 21:35:07.614|INFO |dbfc1cef5fba424ea45562af74e7e139|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 21:35:09.632|INFO |dbfc1cef5fba424ea45562af74e7e139|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 21:35:09.638|INFO |dbfc1cef5fba424ea45562af74e7e139|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 21:35:09.639|INFO |dbfc1cef5fba424ea45562af74e7e139|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 21:35:09.739|INFO |dbfc1cef5fba424ea45562af74e7e139|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 21:35:09.864|INFO |dbfc1cef5fba424ea45562af74e7e139|org.apache.catalina.core.StandardService          :168 - Stopping service [Tomcat]
+2025-06-19 21:35:48.909|INFO |440fb6834d5042a68519cc6675cb5742|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 22260 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 21:35:49.012|DEBUG|440fb6834d5042a68519cc6675cb5742|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 21:35:49.014|INFO |440fb6834d5042a68519cc6675cb5742|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 21:35:50.643|INFO |440fb6834d5042a68519cc6675cb5742|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 21:35:50.647|INFO |440fb6834d5042a68519cc6675cb5742|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 21:35:50.648|INFO |440fb6834d5042a68519cc6675cb5742|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 21:35:50.741|INFO |440fb6834d5042a68519cc6675cb5742|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 21:35:51.049|DEBUG|440fb6834d5042a68519cc6675cb5742|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	c.k.d.c.AccountController:
+	{GET [/api/account/test]}: test()
+	{POST [/api/account/createCustomerAccount]}: createCustomerAccount(CreateCustomerAccountRequest)
+2025-06-19 21:35:51.065|DEBUG|440fb6834d5042a68519cc6675cb5742|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-06-19 21:35:51.089|DEBUG|440fb6834d5042a68519cc6675cb5742|_.s.web.servlet.HandlerMapping.Mappings           :86 - 'beanNameHandlerMapping' {}
+2025-06-19 21:35:51.203|DEBUG|440fb6834d5042a68519cc6675cb5742|_.s.web.servlet.HandlerMapping.Mappings           :176 - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-06-19 21:35:51.403|INFO |440fb6834d5042a68519cc6675cb5742|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 21:35:51.456|INFO |440fb6834d5042a68519cc6675cb5742|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 3.289 seconds (process running for 4.326)
+2025-06-19 21:36:03.520|INFO |5654f611b3ae4865985429105cd34548|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-19 21:36:03.523|INFO |5654f611b3ae4865985429105cd34548|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/test, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-19 21:36:03.594|INFO |5654f611b3ae4865985429105cd34548|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:200
+2025-06-19 23:19:23.597|INFO |e8c2839a2c6e41999c4d34378531444c|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 6148 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:19:23.730|DEBUG|e8c2839a2c6e41999c4d34378531444c|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 23:19:23.732|INFO |e8c2839a2c6e41999c4d34378531444c|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:19:25.350|INFO |e8c2839a2c6e41999c4d34378531444c|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:19:25.354|INFO |e8c2839a2c6e41999c4d34378531444c|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:19:25.355|INFO |e8c2839a2c6e41999c4d34378531444c|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:19:25.448|INFO |e8c2839a2c6e41999c4d34378531444c|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:19:25.725|DEBUG|e8c2839a2c6e41999c4d34378531444c|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	c.k.d.c.AccountController:
+	{GET [/api/account/test]}: test()
+	{POST [/api/account/createCustomerAccount]}: createCustomerAccount(CreateCustomerAccountRequest)
+2025-06-19 23:19:25.740|DEBUG|e8c2839a2c6e41999c4d34378531444c|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-06-19 23:19:25.757|DEBUG|e8c2839a2c6e41999c4d34378531444c|_.s.web.servlet.HandlerMapping.Mappings           :86 - 'beanNameHandlerMapping' {}
+2025-06-19 23:19:25.855|DEBUG|e8c2839a2c6e41999c4d34378531444c|_.s.web.servlet.HandlerMapping.Mappings           :176 - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-06-19 23:19:26.023|INFO |e8c2839a2c6e41999c4d34378531444c|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:19:26.070|INFO |e8c2839a2c6e41999c4d34378531444c|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 3.333 seconds (process running for 4.317)
+2025-06-19 23:20:43.165|INFO |a66ecf9146914622b47a8b7ad6ea0a65|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 21028 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:20:43.312|DEBUG|a66ecf9146914622b47a8b7ad6ea0a65|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 23:20:43.313|INFO |a66ecf9146914622b47a8b7ad6ea0a65|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:20:45.220|INFO |a66ecf9146914622b47a8b7ad6ea0a65|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:20:45.224|INFO |a66ecf9146914622b47a8b7ad6ea0a65|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:20:45.226|INFO |a66ecf9146914622b47a8b7ad6ea0a65|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:20:45.317|INFO |a66ecf9146914622b47a8b7ad6ea0a65|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:20:45.616|DEBUG|a66ecf9146914622b47a8b7ad6ea0a65|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	c.k.d.c.AccountController:
+	{GET [/api/account/test]}: test()
+	{POST [/api/account/createCustomerAccount]}: createCustomerAccount(CreateCustomerAccountRequest)
+2025-06-19 23:20:45.632|DEBUG|a66ecf9146914622b47a8b7ad6ea0a65|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-06-19 23:20:45.650|DEBUG|a66ecf9146914622b47a8b7ad6ea0a65|_.s.web.servlet.HandlerMapping.Mappings           :86 - 'beanNameHandlerMapping' {}
+2025-06-19 23:20:45.758|DEBUG|a66ecf9146914622b47a8b7ad6ea0a65|_.s.web.servlet.HandlerMapping.Mappings           :176 - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-06-19 23:20:45.961|INFO |a66ecf9146914622b47a8b7ad6ea0a65|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:20:46.009|INFO |a66ecf9146914622b47a8b7ad6ea0a65|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 3.713 seconds (process running for 4.494)
+2025-06-19 23:20:49.920|INFO |2624e9394ab54a319912d8b371198def|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-19 23:20:49.925|INFO |2624e9394ab54a319912d8b371198def|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/test, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:20:50.020|INFO |2624e9394ab54a319912d8b371198def|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:200
+2025-06-19 23:21:19.722|INFO |89b11bf91d6548f98b57beab43334a7e|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:21:19.735|INFO |89b11bf91d6548f98b57beab43334a7e|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:400
+2025-06-19 23:21:31.237|INFO |8130f4e3d3e04a45bc76413dbe76a538|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:21:31.314|INFO |8130f4e3d3e04a45bc76413dbe76a538|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-19 23:21:54.691|INFO |4ee6e8d905e0453db95258ec0d769ef8|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 23096 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:21:54.784|DEBUG|4ee6e8d905e0453db95258ec0d769ef8|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 23:21:54.786|INFO |4ee6e8d905e0453db95258ec0d769ef8|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:21:56.798|INFO |4ee6e8d905e0453db95258ec0d769ef8|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:21:56.802|INFO |4ee6e8d905e0453db95258ec0d769ef8|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:21:56.803|INFO |4ee6e8d905e0453db95258ec0d769ef8|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:21:56.908|INFO |4ee6e8d905e0453db95258ec0d769ef8|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:21:57.223|DEBUG|4ee6e8d905e0453db95258ec0d769ef8|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	c.k.d.c.AccountController:
+	{GET [/api/account/test]}: test()
+	{POST [/api/account/createCustomerAccount]}: createCustomerAccount(CreateCustomerAccountRequest)
+2025-06-19 23:21:57.240|DEBUG|4ee6e8d905e0453db95258ec0d769ef8|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-06-19 23:21:57.261|DEBUG|4ee6e8d905e0453db95258ec0d769ef8|_.s.web.servlet.HandlerMapping.Mappings           :86 - 'beanNameHandlerMapping' {}
+2025-06-19 23:21:57.375|DEBUG|4ee6e8d905e0453db95258ec0d769ef8|_.s.web.servlet.HandlerMapping.Mappings           :176 - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-06-19 23:21:57.622|INFO |4ee6e8d905e0453db95258ec0d769ef8|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:21:57.680|INFO |4ee6e8d905e0453db95258ec0d769ef8|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 3.551 seconds (process running for 4.907)
+2025-06-19 23:22:07.383|INFO |3b1e3cf594dc48ebaa18de6b1e2ee812|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-19 23:22:07.390|INFO |3b1e3cf594dc48ebaa18de6b1e2ee812|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:22:07.909|INFO |3b1e3cf594dc48ebaa18de6b1e2ee812|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-19 23:22:21.977|INFO |41cf3786dbc643dba3e438ba45417de4|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:22:21.980|INFO |41cf3786dbc643dba3e438ba45417de4|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-19 23:22:23.011|INFO |d2034e942f4843118df49724a67fc88c|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:22:23.014|INFO |d2034e942f4843118df49724a67fc88c|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-19 23:22:41.266|INFO |42003afd17d34ebaa8bee6e2ec554f76|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:22:41.268|INFO |42003afd17d34ebaa8bee6e2ec554f76|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-19 23:23:58.595|INFO |c1ccb1879c544664b70f80f281b68d18|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 11100 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:23:58.730|DEBUG|c1ccb1879c544664b70f80f281b68d18|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 23:23:58.732|INFO |c1ccb1879c544664b70f80f281b68d18|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:24:00.658|INFO |c1ccb1879c544664b70f80f281b68d18|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:24:00.663|INFO |c1ccb1879c544664b70f80f281b68d18|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:24:00.664|INFO |c1ccb1879c544664b70f80f281b68d18|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:24:00.780|INFO |c1ccb1879c544664b70f80f281b68d18|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:24:01.131|DEBUG|c1ccb1879c544664b70f80f281b68d18|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	c.k.d.c.AccountController:
+	{GET [/api/account/test]}: test()
+	{POST [/api/account/createCustomerAccount]}: createCustomerAccount(CreateCustomerAccountRequest)
+2025-06-19 23:24:01.150|DEBUG|c1ccb1879c544664b70f80f281b68d18|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-06-19 23:24:01.170|DEBUG|c1ccb1879c544664b70f80f281b68d18|_.s.web.servlet.HandlerMapping.Mappings           :86 - 'beanNameHandlerMapping' {}
+2025-06-19 23:24:01.285|DEBUG|c1ccb1879c544664b70f80f281b68d18|_.s.web.servlet.HandlerMapping.Mappings           :176 - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-06-19 23:24:01.517|INFO |c1ccb1879c544664b70f80f281b68d18|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:24:01.573|INFO |c1ccb1879c544664b70f80f281b68d18|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 3.893 seconds (process running for 5.211)
+2025-06-19 23:24:02.709|INFO |7d85d2bfd7874b11a12d116e8f2d78bb|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-19 23:24:02.712|INFO |7d85d2bfd7874b11a12d116e8f2d78bb|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:24:02.900|INFO |7d85d2bfd7874b11a12d116e8f2d78bb|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-19 23:24:39.019|INFO |edd7ac829db04c3296b84556096ffc79|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 14624 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:24:39.154|DEBUG|edd7ac829db04c3296b84556096ffc79|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 23:24:39.156|INFO |edd7ac829db04c3296b84556096ffc79|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:24:41.295|INFO |edd7ac829db04c3296b84556096ffc79|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:24:41.314|INFO |edd7ac829db04c3296b84556096ffc79|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:24:41.315|INFO |edd7ac829db04c3296b84556096ffc79|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:24:41.438|INFO |edd7ac829db04c3296b84556096ffc79|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:24:41.799|DEBUG|edd7ac829db04c3296b84556096ffc79|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	c.k.d.c.AccountController:
+	{GET [/api/account/test]}: test()
+	{POST [/api/account/createCustomerAccount]}: createCustomerAccount(CreateCustomerAccountRequest)
+2025-06-19 23:24:41.840|DEBUG|edd7ac829db04c3296b84556096ffc79|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-06-19 23:24:41.861|DEBUG|edd7ac829db04c3296b84556096ffc79|_.s.web.servlet.HandlerMapping.Mappings           :86 - 'beanNameHandlerMapping' {}
+2025-06-19 23:24:41.978|DEBUG|edd7ac829db04c3296b84556096ffc79|_.s.web.servlet.HandlerMapping.Mappings           :176 - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-06-19 23:24:42.201|INFO |edd7ac829db04c3296b84556096ffc79|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:24:42.251|INFO |edd7ac829db04c3296b84556096ffc79|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 4.1 seconds (process running for 5.486)
+2025-06-19 23:24:45.194|INFO |b5214945a2b9463ca42b1109b1ae9fcf|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-19 23:24:45.200|INFO |b5214945a2b9463ca42b1109b1ae9fcf|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:25:10.185|INFO |b5214945a2b9463ca42b1109b1ae9fcf|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-19 23:25:17.066|INFO |479bfae595894f0eb92b66d4d788959d|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 9676 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:25:17.177|DEBUG|479bfae595894f0eb92b66d4d788959d|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 23:25:17.179|INFO |479bfae595894f0eb92b66d4d788959d|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:25:18.915|INFO |479bfae595894f0eb92b66d4d788959d|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:25:18.919|INFO |479bfae595894f0eb92b66d4d788959d|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:25:18.919|INFO |479bfae595894f0eb92b66d4d788959d|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:25:19.010|INFO |479bfae595894f0eb92b66d4d788959d|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:25:19.358|DEBUG|479bfae595894f0eb92b66d4d788959d|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	c.k.d.c.AccountController:
+	{GET [/api/account/test]}: test()
+	{POST [/api/account/createCustomerAccount]}: createCustomerAccount(CreateCustomerAccountRequest)
+2025-06-19 23:25:19.374|DEBUG|479bfae595894f0eb92b66d4d788959d|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-06-19 23:25:19.394|DEBUG|479bfae595894f0eb92b66d4d788959d|_.s.web.servlet.HandlerMapping.Mappings           :86 - 'beanNameHandlerMapping' {}
+2025-06-19 23:25:19.507|DEBUG|479bfae595894f0eb92b66d4d788959d|_.s.web.servlet.HandlerMapping.Mappings           :176 - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-06-19 23:25:19.748|INFO |479bfae595894f0eb92b66d4d788959d|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:25:19.810|INFO |479bfae595894f0eb92b66d4d788959d|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 3.53 seconds (process running for 4.872)
+2025-06-19 23:25:22.373|INFO |d82f61f26ec7452ebbb01d64ae8ea495|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-19 23:25:22.377|INFO |d82f61f26ec7452ebbb01d64ae8ea495|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:25:30.795|INFO |d82f61f26ec7452ebbb01d64ae8ea495|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-19 23:25:46.615|INFO |d7fe96cd3cd94160ac6d9e928c17c3b1|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 14756 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:25:46.736|DEBUG|d7fe96cd3cd94160ac6d9e928c17c3b1|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 23:25:46.738|INFO |d7fe96cd3cd94160ac6d9e928c17c3b1|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:25:48.762|INFO |d7fe96cd3cd94160ac6d9e928c17c3b1|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:25:48.767|INFO |d7fe96cd3cd94160ac6d9e928c17c3b1|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:25:48.768|INFO |d7fe96cd3cd94160ac6d9e928c17c3b1|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:25:48.867|INFO |d7fe96cd3cd94160ac6d9e928c17c3b1|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:25:49.220|DEBUG|d7fe96cd3cd94160ac6d9e928c17c3b1|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	c.k.d.c.AccountController:
+	{GET [/api/account/test]}: test()
+	{POST [/api/account/createCustomerAccount]}: createCustomerAccount(CreateCustomerAccountRequest)
+2025-06-19 23:25:49.239|DEBUG|d7fe96cd3cd94160ac6d9e928c17c3b1|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-06-19 23:25:49.264|DEBUG|d7fe96cd3cd94160ac6d9e928c17c3b1|_.s.web.servlet.HandlerMapping.Mappings           :86 - 'beanNameHandlerMapping' {}
+2025-06-19 23:25:49.383|DEBUG|d7fe96cd3cd94160ac6d9e928c17c3b1|_.s.web.servlet.HandlerMapping.Mappings           :176 - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-06-19 23:25:49.615|INFO |d7fe96cd3cd94160ac6d9e928c17c3b1|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:25:49.672|INFO |d7fe96cd3cd94160ac6d9e928c17c3b1|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 3.952 seconds (process running for 5.231)
+2025-06-19 23:25:53.753|INFO |4273e46623064462a2ffdb9ba3a350c2|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-19 23:25:53.757|INFO |4273e46623064462a2ffdb9ba3a350c2|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:26:07.326|INFO |4273e46623064462a2ffdb9ba3a350c2|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-19 23:26:11.135|INFO |912867b8bbb64af48e6c2bff1bf5de78|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:26:11.154|INFO |912867b8bbb64af48e6c2bff1bf5de78|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:400
+2025-06-19 23:39:54.954|INFO |8875dde8e14243599e370035fc98cdfa|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 23228 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:39:55.071|DEBUG|8875dde8e14243599e370035fc98cdfa|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 23:39:55.073|INFO |8875dde8e14243599e370035fc98cdfa|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:39:56.820|INFO |8875dde8e14243599e370035fc98cdfa|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:39:56.825|INFO |8875dde8e14243599e370035fc98cdfa|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:39:56.826|INFO |8875dde8e14243599e370035fc98cdfa|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:39:56.933|INFO |8875dde8e14243599e370035fc98cdfa|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:39:57.274|DEBUG|8875dde8e14243599e370035fc98cdfa|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	c.k.d.c.AccountController:
+	{GET [/api/account/test]}: test()
+	{POST [/api/account/createCustomerAccount]}: createCustomerAccount(CreateCustomerAccountRequest)
+2025-06-19 23:39:57.290|DEBUG|8875dde8e14243599e370035fc98cdfa|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-06-19 23:39:57.308|DEBUG|8875dde8e14243599e370035fc98cdfa|_.s.web.servlet.HandlerMapping.Mappings           :86 - 'beanNameHandlerMapping' {}
+2025-06-19 23:39:57.412|DEBUG|8875dde8e14243599e370035fc98cdfa|_.s.web.servlet.HandlerMapping.Mappings           :176 - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-06-19 23:39:57.623|INFO |8875dde8e14243599e370035fc98cdfa|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:39:57.674|INFO |8875dde8e14243599e370035fc98cdfa|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 3.631 seconds (process running for 4.659)
+2025-06-19 23:41:06.197|INFO |6400ad82cd89436c963e0c5a42cfc45d|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 6956 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:41:06.270|DEBUG|6400ad82cd89436c963e0c5a42cfc45d|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 23:41:06.272|INFO |6400ad82cd89436c963e0c5a42cfc45d|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:41:07.877|INFO |6400ad82cd89436c963e0c5a42cfc45d|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:41:07.880|INFO |6400ad82cd89436c963e0c5a42cfc45d|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:41:07.881|INFO |6400ad82cd89436c963e0c5a42cfc45d|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:41:07.958|INFO |6400ad82cd89436c963e0c5a42cfc45d|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:41:08.243|DEBUG|6400ad82cd89436c963e0c5a42cfc45d|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	c.k.d.c.AccountController:
+	{GET [/api/account/test]}: test()
+	{POST [/api/account/createCustomerAccount]}: createCustomerAccount(CreateCustomerAccountRequest)
+2025-06-19 23:41:08.256|DEBUG|6400ad82cd89436c963e0c5a42cfc45d|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-06-19 23:41:08.272|DEBUG|6400ad82cd89436c963e0c5a42cfc45d|_.s.web.servlet.HandlerMapping.Mappings           :86 - 'beanNameHandlerMapping' {}
+2025-06-19 23:41:08.363|DEBUG|6400ad82cd89436c963e0c5a42cfc45d|_.s.web.servlet.HandlerMapping.Mappings           :176 - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-06-19 23:41:08.560|INFO |6400ad82cd89436c963e0c5a42cfc45d|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:41:08.608|INFO |6400ad82cd89436c963e0c5a42cfc45d|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 2.913 seconds (process running for 3.592)
+2025-06-19 23:42:33.305|INFO |87f813bf405f494ababd687e6ce379a8|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 18400 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:42:33.377|DEBUG|87f813bf405f494ababd687e6ce379a8|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 23:42:33.378|INFO |87f813bf405f494ababd687e6ce379a8|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:42:34.478|INFO |87f813bf405f494ababd687e6ce379a8|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:42:34.480|INFO |87f813bf405f494ababd687e6ce379a8|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:42:34.481|INFO |87f813bf405f494ababd687e6ce379a8|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:42:34.541|INFO |87f813bf405f494ababd687e6ce379a8|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:42:34.743|DEBUG|87f813bf405f494ababd687e6ce379a8|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	c.k.d.c.AccountController:
+	{GET [/api/account/test]}: test()
+	{POST [/api/account/createCustomerAccount]}: createCustomerAccount(CreateCustomerAccountRequest)
+2025-06-19 23:42:34.754|DEBUG|87f813bf405f494ababd687e6ce379a8|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-06-19 23:42:34.769|DEBUG|87f813bf405f494ababd687e6ce379a8|_.s.web.servlet.HandlerMapping.Mappings           :86 - 'beanNameHandlerMapping' {}
+2025-06-19 23:42:34.844|DEBUG|87f813bf405f494ababd687e6ce379a8|_.s.web.servlet.HandlerMapping.Mappings           :176 - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-06-19 23:42:34.959|INFO |87f813bf405f494ababd687e6ce379a8|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:42:35.003|INFO |87f813bf405f494ababd687e6ce379a8|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 2.23 seconds (process running for 2.952)
+2025-06-19 23:44:08.812|INFO |5d5fc1c930234442af2d753b59abfb4d|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 21120 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:44:08.879|DEBUG|5d5fc1c930234442af2d753b59abfb4d|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 23:44:08.880|INFO |5d5fc1c930234442af2d753b59abfb4d|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:44:09.983|INFO |5d5fc1c930234442af2d753b59abfb4d|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:44:09.986|INFO |5d5fc1c930234442af2d753b59abfb4d|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:44:09.986|INFO |5d5fc1c930234442af2d753b59abfb4d|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:44:10.055|INFO |5d5fc1c930234442af2d753b59abfb4d|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:44:10.308|DEBUG|5d5fc1c930234442af2d753b59abfb4d|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	c.k.d.c.AccountController:
+	{GET [/api/account/test]}: test()
+	{POST [/api/account/createCustomerAccount]}: createCustomerAccount(CreateCustomerAccountRequest)
+2025-06-19 23:44:10.321|DEBUG|5d5fc1c930234442af2d753b59abfb4d|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-06-19 23:44:10.338|DEBUG|5d5fc1c930234442af2d753b59abfb4d|_.s.web.servlet.HandlerMapping.Mappings           :86 - 'beanNameHandlerMapping' {}
+2025-06-19 23:44:10.438|DEBUG|5d5fc1c930234442af2d753b59abfb4d|_.s.web.servlet.HandlerMapping.Mappings           :176 - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-06-19 23:44:10.586|INFO |5d5fc1c930234442af2d753b59abfb4d|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:44:10.624|INFO |5d5fc1c930234442af2d753b59abfb4d|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 2.316 seconds (process running for 2.963)
+2025-06-19 23:44:22.253|INFO |4e0b401c921843b194daa4a608b70c08|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 12904 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:44:22.321|DEBUG|4e0b401c921843b194daa4a608b70c08|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 23:44:22.322|INFO |4e0b401c921843b194daa4a608b70c08|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:44:23.622|INFO |4e0b401c921843b194daa4a608b70c08|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:44:23.625|INFO |4e0b401c921843b194daa4a608b70c08|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:44:23.626|INFO |4e0b401c921843b194daa4a608b70c08|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:44:23.709|INFO |4e0b401c921843b194daa4a608b70c08|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:44:23.986|DEBUG|4e0b401c921843b194daa4a608b70c08|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	c.k.d.c.AccountController:
+	{GET [/api/account/test]}: test()
+	{POST [/api/account/createCustomerAccount]}: createCustomerAccount(CreateCustomerAccountRequest)
+2025-06-19 23:44:23.999|DEBUG|4e0b401c921843b194daa4a608b70c08|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-06-19 23:44:24.014|DEBUG|4e0b401c921843b194daa4a608b70c08|_.s.web.servlet.HandlerMapping.Mappings           :86 - 'beanNameHandlerMapping' {}
+2025-06-19 23:44:24.113|DEBUG|4e0b401c921843b194daa4a608b70c08|_.s.web.servlet.HandlerMapping.Mappings           :176 - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-06-19 23:44:24.304|INFO |4e0b401c921843b194daa4a608b70c08|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:44:24.348|INFO |4e0b401c921843b194daa4a608b70c08|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 2.629 seconds (process running for 3.303)
+2025-06-19 23:47:48.770|INFO |8d533ff3c64f468a9b5af2060073d3e2|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 13796 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:47:48.846|DEBUG|8d533ff3c64f468a9b5af2060073d3e2|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 23:47:48.847|INFO |8d533ff3c64f468a9b5af2060073d3e2|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:47:49.973|INFO |8d533ff3c64f468a9b5af2060073d3e2|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:47:49.975|INFO |8d533ff3c64f468a9b5af2060073d3e2|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:47:49.976|INFO |8d533ff3c64f468a9b5af2060073d3e2|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:47:50.032|INFO |8d533ff3c64f468a9b5af2060073d3e2|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:47:50.221|DEBUG|8d533ff3c64f468a9b5af2060073d3e2|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	c.k.d.c.AccountController:
+	{GET [/api/account/test]}: test()
+	{POST [/api/account/createCustomerAccount]}: createCustomerAccount(CreateCustomerAccountRequest)
+2025-06-19 23:47:50.236|DEBUG|8d533ff3c64f468a9b5af2060073d3e2|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-06-19 23:47:50.248|DEBUG|8d533ff3c64f468a9b5af2060073d3e2|_.s.web.servlet.HandlerMapping.Mappings           :86 - 'beanNameHandlerMapping' {}
+2025-06-19 23:47:50.327|DEBUG|8d533ff3c64f468a9b5af2060073d3e2|_.s.web.servlet.HandlerMapping.Mappings           :176 - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-06-19 23:47:50.467|INFO |8d533ff3c64f468a9b5af2060073d3e2|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:47:50.509|INFO |8d533ff3c64f468a9b5af2060073d3e2|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 2.287 seconds (process running for 3.046)
+2025-06-19 23:49:55.179|INFO |559fe68b1fa2464d970c4c067b778376|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 19360 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:49:55.369|DEBUG|559fe68b1fa2464d970c4c067b778376|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 23:49:55.371|INFO |559fe68b1fa2464d970c4c067b778376|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:49:58.489|INFO |559fe68b1fa2464d970c4c067b778376|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:49:58.496|INFO |559fe68b1fa2464d970c4c067b778376|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:49:58.497|INFO |559fe68b1fa2464d970c4c067b778376|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:49:58.622|INFO |559fe68b1fa2464d970c4c067b778376|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:49:59.089|DEBUG|559fe68b1fa2464d970c4c067b778376|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	c.k.d.c.AccountController:
+	{GET [/api/account/test]}: test()
+	{POST [/api/account/createCustomerAccount]}: createCustomerAccount(CreateCustomerAccountRequest)
+2025-06-19 23:49:59.109|DEBUG|559fe68b1fa2464d970c4c067b778376|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-06-19 23:49:59.137|DEBUG|559fe68b1fa2464d970c4c067b778376|_.s.web.servlet.HandlerMapping.Mappings           :86 - 'beanNameHandlerMapping' {}
+2025-06-19 23:49:59.291|DEBUG|559fe68b1fa2464d970c4c067b778376|_.s.web.servlet.HandlerMapping.Mappings           :176 - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-06-19 23:49:59.581|INFO |559fe68b1fa2464d970c4c067b778376|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:49:59.648|INFO |559fe68b1fa2464d970c4c067b778376|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 5.366 seconds (process running for 6.634)
+2025-06-19 23:51:58.345|INFO |1e4252a796aa45e38f92bb3df6719bbb|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 14572 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:51:58.458|DEBUG|1e4252a796aa45e38f92bb3df6719bbb|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 23:51:58.460|INFO |1e4252a796aa45e38f92bb3df6719bbb|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:52:00.686|INFO |1e4252a796aa45e38f92bb3df6719bbb|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:52:00.689|INFO |1e4252a796aa45e38f92bb3df6719bbb|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:52:00.690|INFO |1e4252a796aa45e38f92bb3df6719bbb|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:52:00.794|INFO |1e4252a796aa45e38f92bb3df6719bbb|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:52:00.924|INFO |1e4252a796aa45e38f92bb3df6719bbb|org.apache.catalina.core.StandardService          :168 - Stopping service [Tomcat]
+2025-06-19 23:52:16.181|INFO |9700c4be399148a8882e4afe88037cdf|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 7788 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:52:16.310|DEBUG|9700c4be399148a8882e4afe88037cdf|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 23:52:16.312|INFO |9700c4be399148a8882e4afe88037cdf|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:52:18.621|INFO |9700c4be399148a8882e4afe88037cdf|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:52:18.625|INFO |9700c4be399148a8882e4afe88037cdf|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:52:18.626|INFO |9700c4be399148a8882e4afe88037cdf|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:52:18.733|INFO |9700c4be399148a8882e4afe88037cdf|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:52:18.865|INFO |9700c4be399148a8882e4afe88037cdf|org.apache.catalina.core.StandardService          :168 - Stopping service [Tomcat]
+2025-06-19 23:53:53.833|INFO |7021c29adbc04d7e8d72a762fd0bb255|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 18988 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:53:53.889|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 23:53:53.890|INFO |7021c29adbc04d7e8d72a762fd0bb255|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:53:55.346|INFO |7021c29adbc04d7e8d72a762fd0bb255|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:53:55.349|INFO |7021c29adbc04d7e8d72a762fd0bb255|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:53:55.349|INFO |7021c29adbc04d7e8d72a762fd0bb255|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:53:55.424|INFO |7021c29adbc04d7e8d72a762fd0bb255|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:53:55.510|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1026 - Class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886
+2025-06-19 23:53:55.561|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|org.jboss.logging                                 :164 - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-06-19 23:53:56.111|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1154 - HikariPool-1 - configuration:
+2025-06-19 23:53:56.114|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - allowPoolSuspension.............false
+2025-06-19 23:53:56.115|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - autoCommit......................true
+2025-06-19 23:53:56.116|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - catalog.........................none
+2025-06-19 23:53:56.116|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - connectionInitSql...............none
+2025-06-19 23:53:56.117|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - connectionTestQuery.............none
+2025-06-19 23:53:56.118|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - connectionTimeout...............30000
+2025-06-19 23:53:56.118|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - credentials.....................com.zaxxer.hikari.util.Credentials@30ffb2a6
+2025-06-19 23:53:56.119|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - dataSource......................none
+2025-06-19 23:53:56.119|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - dataSourceClassName.............none
+2025-06-19 23:53:56.119|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - dataSourceJNDI..................none
+2025-06-19 23:53:56.120|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - dataSourceProperties............{password=<masked>}
+2025-06-19 23:53:56.121|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - driverClassName................."org.postgresql.Driver"
+2025-06-19 23:53:56.121|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - exceptionOverride...............none
+2025-06-19 23:53:56.121|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - exceptionOverrideClassName......none
+2025-06-19 23:53:56.121|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - healthCheckProperties...........{}
+2025-06-19 23:53:56.122|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - healthCheckRegistry.............none
+2025-06-19 23:53:56.122|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - idleTimeout.....................600000
+2025-06-19 23:53:56.122|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - initializationFailTimeout.......1
+2025-06-19 23:53:56.122|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - isolateInternalQueries..........false
+2025-06-19 23:53:56.123|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - jdbcUrl.........................jdbc:postgresql://localhost:5432/digital_banking
+2025-06-19 23:53:56.123|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - keepaliveTime...................120000
+2025-06-19 23:53:56.123|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - leakDetectionThreshold..........0
+2025-06-19 23:53:56.123|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - maxLifetime.....................1800000
+2025-06-19 23:53:56.123|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - maximumPoolSize.................10
+2025-06-19 23:53:56.124|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - metricRegistry..................none
+2025-06-19 23:53:56.124|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - metricsTrackerFactory...........none
+2025-06-19 23:53:56.124|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - minimumIdle.....................10
+2025-06-19 23:53:56.124|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - password........................<masked>
+2025-06-19 23:53:56.124|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - poolName........................"HikariPool-1"
+2025-06-19 23:53:56.125|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - readOnly........................false
+2025-06-19 23:53:56.125|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - registerMbeans..................false
+2025-06-19 23:53:56.125|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - scheduledExecutor...............none
+2025-06-19 23:53:56.126|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - schema..........................none
+2025-06-19 23:53:56.126|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - threadFactory...................internal
+2025-06-19 23:53:56.126|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - transactionIsolation............default
+2025-06-19 23:53:56.127|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - username........................"postgres"
+2025-06-19 23:53:56.127|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariConfig                    :1186 - validationTimeout...............5000
+2025-06-19 23:53:56.127|INFO |7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-19 23:53:56.140|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (eb9cce96-fc73-4218-bea5-1cd1fd55ef07)
+2025-06-19 23:53:56.352|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (eb9cce96-fc73-4218-bea5-1cd1fd55ef07)
+2025-06-19 23:53:56.355|INFO |7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@74fc3fc7
+2025-06-19 23:53:56.358|INFO |7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-19 23:53:56.468|DEBUG|faa24426700c4e92a71715ab1dfef160|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - Pool stats (total=1/10, idle=1/10, active=0, waiting=0)
+2025-06-19 23:53:56.469|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (d6a7a1a4-d4ad-4ef1-9a2d-59d4baf2db77)
+2025-06-19 23:53:56.520|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (d6a7a1a4-d4ad-4ef1-9a2d-59d4baf2db77)
+2025-06-19 23:53:56.520|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@642bfcaf
+2025-06-19 23:53:56.562|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=2/10, idle=2/10, active=0, waiting=0)
+2025-06-19 23:53:56.562|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (4d4b277d-e451-44f2-a3f5-45ce2144ab14)
+2025-06-19 23:53:56.614|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (4d4b277d-e451-44f2-a3f5-45ce2144ab14)
+2025-06-19 23:53:56.614|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6aec0e5a
+2025-06-19 23:53:56.657|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=3/10, idle=3/10, active=0, waiting=0)
+2025-06-19 23:53:56.657|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (0c4e6628-e4d7-4fdb-aa92-1094c1d27d25)
+2025-06-19 23:53:56.704|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (0c4e6628-e4d7-4fdb-aa92-1094c1d27d25)
+2025-06-19 23:53:56.704|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ed397df
+2025-06-19 23:53:56.737|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=4/10, idle=4/10, active=0, waiting=0)
+2025-06-19 23:53:56.737|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (e0ac47f0-d731-4766-9fba-b8387e270b50)
+2025-06-19 23:53:56.786|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (e0ac47f0-d731-4766-9fba-b8387e270b50)
+2025-06-19 23:53:56.786|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2bd10461
+2025-06-19 23:53:56.831|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=5/10, idle=5/10, active=0, waiting=0)
+2025-06-19 23:53:56.831|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (f161d346-0c2e-439f-81f3-8b3f388e0ec5)
+2025-06-19 23:53:56.858|INFO |7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
+2025-06-19 23:53:56.859|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - Before shutdown stats (total=5/10, idle=5/10, active=0, waiting=0)
+2025-06-19 23:53:56.860|DEBUG|eb05094bfede479dad3e6519bfc3ec2b|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@74fc3fc7: (connection evicted)
+2025-06-19 23:53:56.861|DEBUG|eb05094bfede479dad3e6519bfc3ec2b|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@642bfcaf: (connection evicted)
+2025-06-19 23:53:56.861|DEBUG|eb05094bfede479dad3e6519bfc3ec2b|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6aec0e5a: (connection evicted)
+2025-06-19 23:53:56.862|DEBUG|eb05094bfede479dad3e6519bfc3ec2b|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6ed397df: (connection evicted)
+2025-06-19 23:53:56.862|DEBUG|eb05094bfede479dad3e6519bfc3ec2b|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@2bd10461: (connection evicted)
+2025-06-19 23:53:56.877|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (f161d346-0c2e-439f-81f3-8b3f388e0ec5)
+2025-06-19 23:53:56.877|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@10245b30
+2025-06-19 23:53:56.910|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=1/10, idle=1/10, active=0, waiting=0)
+2025-06-19 23:53:56.910|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - Connection not added, stats (total=1/10, idle=1/10, active=0, waiting=0)
+2025-06-19 23:53:56.910|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - Connection not added, stats (total=1/10, idle=1/10, active=0, waiting=0)
+2025-06-19 23:53:56.910|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - Connection not added, stats (total=1/10, idle=1/10, active=0, waiting=0)
+2025-06-19 23:53:56.910|DEBUG|8d11413a1e6c4b0f92e633a82dc12efc|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - Connection not added, stats (total=1/10, idle=1/10, active=0, waiting=0)
+2025-06-19 23:53:56.911|DEBUG|eb05094bfede479dad3e6519bfc3ec2b|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@10245b30: (connection evicted)
+2025-06-19 23:53:56.912|DEBUG|7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After  shutdown stats (total=0/10, idle=0/10, active=0, waiting=0)
+2025-06-19 23:53:56.912|INFO |7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
+2025-06-19 23:53:56.914|INFO |7021c29adbc04d7e8d72a762fd0bb255|org.apache.catalina.core.StandardService          :168 - Stopping service [Tomcat]
+2025-06-19 23:55:23.802|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 19448 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:55:23.872|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 23:55:23.873|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:55:25.246|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:55:25.249|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:55:25.249|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:55:25.314|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:55:25.395|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1026 - Class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886
+2025-06-19 23:55:25.443|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|org.jboss.logging                                 :164 - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-06-19 23:55:25.922|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1154 - HikariPool-1 - configuration:
+2025-06-19 23:55:25.925|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - allowPoolSuspension.............false
+2025-06-19 23:55:25.926|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - autoCommit......................true
+2025-06-19 23:55:25.927|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - catalog.........................none
+2025-06-19 23:55:25.927|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - connectionInitSql...............none
+2025-06-19 23:55:25.928|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - connectionTestQuery.............none
+2025-06-19 23:55:25.929|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - connectionTimeout...............30000
+2025-06-19 23:55:25.930|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - credentials.....................com.zaxxer.hikari.util.Credentials@1cc41b77
+2025-06-19 23:55:25.932|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - dataSource......................none
+2025-06-19 23:55:25.932|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - dataSourceClassName.............none
+2025-06-19 23:55:25.932|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - dataSourceJNDI..................none
+2025-06-19 23:55:25.933|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - dataSourceProperties............{password=<masked>}
+2025-06-19 23:55:25.933|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - driverClassName................."org.postgresql.Driver"
+2025-06-19 23:55:25.934|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - exceptionOverride...............none
+2025-06-19 23:55:25.934|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - exceptionOverrideClassName......none
+2025-06-19 23:55:25.934|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - healthCheckProperties...........{}
+2025-06-19 23:55:25.934|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - healthCheckRegistry.............none
+2025-06-19 23:55:25.935|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - idleTimeout.....................600000
+2025-06-19 23:55:25.935|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - initializationFailTimeout.......1
+2025-06-19 23:55:25.935|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - isolateInternalQueries..........false
+2025-06-19 23:55:25.936|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - jdbcUrl.........................jdbc:postgresql://localhost:5432/digital_banking
+2025-06-19 23:55:25.936|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - keepaliveTime...................120000
+2025-06-19 23:55:25.936|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - leakDetectionThreshold..........0
+2025-06-19 23:55:25.936|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - maxLifetime.....................1800000
+2025-06-19 23:55:25.936|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - maximumPoolSize.................10
+2025-06-19 23:55:25.937|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - metricRegistry..................none
+2025-06-19 23:55:25.937|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - metricsTrackerFactory...........none
+2025-06-19 23:55:25.937|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - minimumIdle.....................10
+2025-06-19 23:55:25.937|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - password........................<masked>
+2025-06-19 23:55:25.938|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - poolName........................"HikariPool-1"
+2025-06-19 23:55:25.938|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - readOnly........................false
+2025-06-19 23:55:25.938|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - registerMbeans..................false
+2025-06-19 23:55:25.938|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - scheduledExecutor...............none
+2025-06-19 23:55:25.939|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - schema..........................none
+2025-06-19 23:55:25.939|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - threadFactory...................internal
+2025-06-19 23:55:25.939|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - transactionIsolation............default
+2025-06-19 23:55:25.939|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - username........................"postgres"
+2025-06-19 23:55:25.939|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariConfig                    :1186 - validationTimeout...............5000
+2025-06-19 23:55:25.940|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-19 23:55:25.951|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (0a2e9d0a-5069-46d8-a9c9-c055eeb7e711)
+2025-06-19 23:55:26.157|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (0a2e9d0a-5069-46d8-a9c9-c055eeb7e711)
+2025-06-19 23:55:26.159|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@45707f76
+2025-06-19 23:55:26.162|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-19 23:55:26.266|DEBUG|b6fad3e269534713b4d32799c5c8c8d6|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - Pool stats (total=1/10, idle=1/10, active=0, waiting=0)
+2025-06-19 23:55:26.267|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (35693b0d-4dd1-4e83-9628-3ae4f387b075)
+2025-06-19 23:55:26.318|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (35693b0d-4dd1-4e83-9628-3ae4f387b075)
+2025-06-19 23:55:26.318|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@327434c3
+2025-06-19 23:55:26.361|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=2/10, idle=2/10, active=0, waiting=0)
+2025-06-19 23:55:26.362|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (1a91fcfa-4082-4a78-8591-94f68266c065)
+2025-06-19 23:55:26.413|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (1a91fcfa-4082-4a78-8591-94f68266c065)
+2025-06-19 23:55:26.414|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3cb3ccfd
+2025-06-19 23:55:26.454|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=3/10, idle=3/10, active=0, waiting=0)
+2025-06-19 23:55:26.454|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (fdc99779-6498-47e4-9bcc-7f724ecb642a)
+2025-06-19 23:55:26.497|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (fdc99779-6498-47e4-9bcc-7f724ecb642a)
+2025-06-19 23:55:26.497|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@388c5fb3
+2025-06-19 23:55:26.532|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=4/10, idle=4/10, active=0, waiting=0)
+2025-06-19 23:55:26.532|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (6af48c3b-4329-4818-ad68-4011e9453152)
+2025-06-19 23:55:26.580|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (6af48c3b-4329-4818-ad68-4011e9453152)
+2025-06-19 23:55:26.580|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7d8ec6c6
+2025-06-19 23:55:26.612|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=5/10, idle=5/10, active=0, waiting=0)
+2025-06-19 23:55:26.612|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (710d9b50-56d5-4462-a8c1-4b098b0e879e)
+2025-06-19 23:55:26.664|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (710d9b50-56d5-4462-a8c1-4b098b0e879e)
+2025-06-19 23:55:26.664|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ecf2798
+2025-06-19 23:55:26.705|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=6/10, idle=6/10, active=0, waiting=0)
+2025-06-19 23:55:26.705|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (dbe0db68-e799-4d50-bae0-05db49018b61)
+2025-06-19 23:55:26.742|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (dbe0db68-e799-4d50-bae0-05db49018b61)
+2025-06-19 23:55:26.743|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4c39da98
+2025-06-19 23:55:26.785|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=7/10, idle=7/10, active=0, waiting=0)
+2025-06-19 23:55:26.785|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (094029b3-27b9-4922-8f61-4a6c6396ab25)
+2025-06-19 23:55:26.825|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (094029b3-27b9-4922-8f61-4a6c6396ab25)
+2025-06-19 23:55:26.825|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1692656b
+2025-06-19 23:55:26.863|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=8/10, idle=8/10, active=0, waiting=0)
+2025-06-19 23:55:26.863|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (9e20671b-9fee-467d-9b46-c605824cb2c6)
+2025-06-19 23:55:26.902|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (9e20671b-9fee-467d-9b46-c605824cb2c6)
+2025-06-19 23:55:26.903|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1da13989
+2025-06-19 23:55:26.941|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=9/10, idle=9/10, active=0, waiting=0)
+2025-06-19 23:55:26.941|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (3d81f852-6e9d-47d1-a4c9-d263ef16af36)
+2025-06-19 23:55:26.982|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (3d81f852-6e9d-47d1-a4c9-d263ef16af36)
+2025-06-19 23:55:26.982|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@a452e42
+2025-06-19 23:55:27.019|DEBUG|69060bc391dd47d8afb868256c21fb65|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-06-19 23:55:27.644|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	c.k.d.c.AccountController:
+	{GET [/api/account/test]}: test()
+	{POST [/api/account/createCustomerAccount]}: createCustomerAccount(CreateCustomerAccountRequest)
+2025-06-19 23:55:27.652|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-06-19 23:55:27.666|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|_.s.web.servlet.HandlerMapping.Mappings           :86 - 'beanNameHandlerMapping' {}
+2025-06-19 23:55:27.773|DEBUG|37c839bf29ef4942b8f9ec2c1ac713ae|_.s.web.servlet.HandlerMapping.Mappings           :176 - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-06-19 23:55:28.323|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:55:28.369|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 5.068 seconds (process running for 5.74)
+2025-06-19 23:55:56.273|DEBUG|b6fad3e269534713b4d32799c5c8c8d6|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-06-19 23:55:56.273|DEBUG|b6fad3e269534713b4d32799c5c8c8d6|com.zaxxer.hikari.pool.HikariPool                 :531 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-06-19 23:56:08.581|INFO |ff385462bd72401e830209f9d605ba05|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
+2025-06-19 23:56:08.582|DEBUG|ff385462bd72401e830209f9d605ba05|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - Before shutdown stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-06-19 23:56:08.583|DEBUG|a2c23466f4724f06bf2aebe1b8b75a66|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@45707f76: (connection evicted)
+2025-06-19 23:56:08.583|DEBUG|a2c23466f4724f06bf2aebe1b8b75a66|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@327434c3: (connection evicted)
+2025-06-19 23:56:08.584|DEBUG|a2c23466f4724f06bf2aebe1b8b75a66|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@3cb3ccfd: (connection evicted)
+2025-06-19 23:56:08.584|DEBUG|a2c23466f4724f06bf2aebe1b8b75a66|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@388c5fb3: (connection evicted)
+2025-06-19 23:56:08.584|DEBUG|a2c23466f4724f06bf2aebe1b8b75a66|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7d8ec6c6: (connection evicted)
+2025-06-19 23:56:08.584|DEBUG|a2c23466f4724f06bf2aebe1b8b75a66|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6ecf2798: (connection evicted)
+2025-06-19 23:56:08.584|DEBUG|a2c23466f4724f06bf2aebe1b8b75a66|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@4c39da98: (connection evicted)
+2025-06-19 23:56:08.585|DEBUG|a2c23466f4724f06bf2aebe1b8b75a66|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@1692656b: (connection evicted)
+2025-06-19 23:56:08.586|DEBUG|a2c23466f4724f06bf2aebe1b8b75a66|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@1da13989: (connection evicted)
+2025-06-19 23:56:08.586|DEBUG|a2c23466f4724f06bf2aebe1b8b75a66|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@a452e42: (connection evicted)
+2025-06-19 23:56:08.587|DEBUG|ff385462bd72401e830209f9d605ba05|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After  shutdown stats (total=0/10, idle=0/10, active=0, waiting=0)
+2025-06-19 23:56:08.587|INFO |ff385462bd72401e830209f9d605ba05|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
+2025-06-19 23:56:11.207|INFO |6ae09d9f709b49b69f1c5474db02c671|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 14528 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:56:11.268|DEBUG|6ae09d9f709b49b69f1c5474db02c671|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 23:56:11.271|INFO |6ae09d9f709b49b69f1c5474db02c671|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:56:12.574|INFO |6ae09d9f709b49b69f1c5474db02c671|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:56:12.577|INFO |6ae09d9f709b49b69f1c5474db02c671|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:56:12.577|INFO |6ae09d9f709b49b69f1c5474db02c671|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:56:12.643|INFO |6ae09d9f709b49b69f1c5474db02c671|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:56:12.720|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1026 - Class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886
+2025-06-19 23:56:12.769|DEBUG|6ae09d9f709b49b69f1c5474db02c671|org.jboss.logging                                 :164 - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-06-19 23:56:13.247|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1154 - HikariPool-1 - configuration:
+2025-06-19 23:56:13.250|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - allowPoolSuspension.............false
+2025-06-19 23:56:13.251|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - autoCommit......................true
+2025-06-19 23:56:13.251|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - catalog.........................none
+2025-06-19 23:56:13.251|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - connectionInitSql...............none
+2025-06-19 23:56:13.252|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - connectionTestQuery.............none
+2025-06-19 23:56:13.253|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - connectionTimeout...............30000
+2025-06-19 23:56:13.253|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - credentials.....................com.zaxxer.hikari.util.Credentials@6e93b0e7
+2025-06-19 23:56:13.254|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - dataSource......................none
+2025-06-19 23:56:13.254|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - dataSourceClassName.............none
+2025-06-19 23:56:13.254|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - dataSourceJNDI..................none
+2025-06-19 23:56:13.254|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - dataSourceProperties............{password=<masked>}
+2025-06-19 23:56:13.255|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - driverClassName................."org.postgresql.Driver"
+2025-06-19 23:56:13.255|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - exceptionOverride...............none
+2025-06-19 23:56:13.255|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - exceptionOverrideClassName......none
+2025-06-19 23:56:13.255|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - healthCheckProperties...........{}
+2025-06-19 23:56:13.256|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - healthCheckRegistry.............none
+2025-06-19 23:56:13.256|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - idleTimeout.....................600000
+2025-06-19 23:56:13.256|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - initializationFailTimeout.......1
+2025-06-19 23:56:13.256|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - isolateInternalQueries..........false
+2025-06-19 23:56:13.256|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - jdbcUrl.........................jdbc:postgresql://localhost:5432/digital_banking
+2025-06-19 23:56:13.257|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - keepaliveTime...................120000
+2025-06-19 23:56:13.257|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - leakDetectionThreshold..........0
+2025-06-19 23:56:13.257|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - maxLifetime.....................1800000
+2025-06-19 23:56:13.257|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - maximumPoolSize.................10
+2025-06-19 23:56:13.257|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - metricRegistry..................none
+2025-06-19 23:56:13.258|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - metricsTrackerFactory...........none
+2025-06-19 23:56:13.258|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - minimumIdle.....................10
+2025-06-19 23:56:13.258|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - password........................<masked>
+2025-06-19 23:56:13.258|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - poolName........................"HikariPool-1"
+2025-06-19 23:56:13.258|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - readOnly........................false
+2025-06-19 23:56:13.259|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - registerMbeans..................false
+2025-06-19 23:56:13.259|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - scheduledExecutor...............none
+2025-06-19 23:56:13.259|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - schema..........................none
+2025-06-19 23:56:13.259|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - threadFactory...................internal
+2025-06-19 23:56:13.259|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - transactionIsolation............default
+2025-06-19 23:56:13.260|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - username........................"postgres"
+2025-06-19 23:56:13.260|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariConfig                    :1186 - validationTimeout...............5000
+2025-06-19 23:56:13.260|INFO |6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-19 23:56:13.270|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (c43de32c-d160-4cb8-b324-27e0ca39c001)
+2025-06-19 23:56:13.441|DEBUG|6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (c43de32c-d160-4cb8-b324-27e0ca39c001)
+2025-06-19 23:56:13.443|INFO |6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@682266d8
+2025-06-19 23:56:13.445|INFO |6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-19 23:56:13.551|DEBUG|071014a8a7064b6ebe538178f3882acf|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - Pool stats (total=1/10, idle=1/10, active=0, waiting=0)
+2025-06-19 23:56:13.552|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (eaf3c780-6340-490e-94d8-df6cbe047f95)
+2025-06-19 23:56:13.599|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (eaf3c780-6340-490e-94d8-df6cbe047f95)
+2025-06-19 23:56:13.599|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@43e13322
+2025-06-19 23:56:13.631|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=2/10, idle=2/10, active=0, waiting=0)
+2025-06-19 23:56:13.631|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (4387fa6f-03f8-4925-9e58-700d8db0b7b9)
+2025-06-19 23:56:13.673|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (4387fa6f-03f8-4925-9e58-700d8db0b7b9)
+2025-06-19 23:56:13.674|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4d26d52e
+2025-06-19 23:56:13.710|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=3/10, idle=3/10, active=0, waiting=0)
+2025-06-19 23:56:13.710|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (9dd151d5-947f-4317-b218-0cc4892e9361)
+2025-06-19 23:56:13.754|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (9dd151d5-947f-4317-b218-0cc4892e9361)
+2025-06-19 23:56:13.755|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@49195852
+2025-06-19 23:56:13.788|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=4/10, idle=4/10, active=0, waiting=0)
+2025-06-19 23:56:13.788|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (3e009025-46e8-4740-91a6-f825e469c1a2)
+2025-06-19 23:56:13.835|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (3e009025-46e8-4740-91a6-f825e469c1a2)
+2025-06-19 23:56:13.835|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@c1bdf15
+2025-06-19 23:56:13.867|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=5/10, idle=5/10, active=0, waiting=0)
+2025-06-19 23:56:13.867|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (0537d90e-20f8-4ae9-8fde-e137447405d9)
+2025-06-19 23:56:13.912|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (0537d90e-20f8-4ae9-8fde-e137447405d9)
+2025-06-19 23:56:13.912|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@46a98597
+2025-06-19 23:56:13.944|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=6/10, idle=6/10, active=0, waiting=0)
+2025-06-19 23:56:13.944|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (e745cfcf-a143-446f-91c4-d3c2956042a8)
+2025-06-19 23:56:13.988|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (e745cfcf-a143-446f-91c4-d3c2956042a8)
+2025-06-19 23:56:13.989|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d5db7c9
+2025-06-19 23:56:14.021|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=7/10, idle=7/10, active=0, waiting=0)
+2025-06-19 23:56:14.021|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (970a699c-cb60-4ad5-9a0e-a208e0dc63bc)
+2025-06-19 23:56:14.069|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (970a699c-cb60-4ad5-9a0e-a208e0dc63bc)
+2025-06-19 23:56:14.070|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e05b3f8
+2025-06-19 23:56:14.115|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=8/10, idle=8/10, active=0, waiting=0)
+2025-06-19 23:56:14.115|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (e722a50b-f89e-475b-8943-1b5bf01b15a5)
+2025-06-19 23:56:14.152|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (e722a50b-f89e-475b-8943-1b5bf01b15a5)
+2025-06-19 23:56:14.152|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6c34205a
+2025-06-19 23:56:14.194|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=9/10, idle=9/10, active=0, waiting=0)
+2025-06-19 23:56:14.194|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (1732a54b-4f32-4a0c-9232-c9d67e3ee075)
+2025-06-19 23:56:14.236|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (1732a54b-4f32-4a0c-9232-c9d67e3ee075)
+2025-06-19 23:56:14.236|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@663b8576
+2025-06-19 23:56:14.273|DEBUG|77fc92c2661f47e9a6adea0e158fb88c|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-06-19 23:56:14.971|DEBUG|6ae09d9f709b49b69f1c5474db02c671|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	c.k.d.c.AccountController:
+	{GET [/api/account/test]}: test()
+	{POST [/api/account/createCustomerAccount]}: createCustomerAccount(CreateCustomerAccountRequest)
+2025-06-19 23:56:14.979|DEBUG|6ae09d9f709b49b69f1c5474db02c671|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-06-19 23:56:14.994|DEBUG|6ae09d9f709b49b69f1c5474db02c671|_.s.web.servlet.HandlerMapping.Mappings           :86 - 'beanNameHandlerMapping' {}
+2025-06-19 23:56:15.096|DEBUG|6ae09d9f709b49b69f1c5474db02c671|_.s.web.servlet.HandlerMapping.Mappings           :176 - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-06-19 23:56:15.611|INFO |6ae09d9f709b49b69f1c5474db02c671|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:56:15.652|INFO |6ae09d9f709b49b69f1c5474db02c671|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 4.907 seconds (process running for 5.557)
+2025-06-19 23:56:41.553|INFO |f3ad4752eb6948718bd0718dad9346ea|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
+2025-06-19 23:56:41.553|DEBUG|f3ad4752eb6948718bd0718dad9346ea|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - Before shutdown stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-06-19 23:56:41.555|DEBUG|28a94d3b577448b48557ac642e468da8|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@682266d8: (connection evicted)
+2025-06-19 23:56:41.555|DEBUG|28a94d3b577448b48557ac642e468da8|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@43e13322: (connection evicted)
+2025-06-19 23:56:41.555|DEBUG|28a94d3b577448b48557ac642e468da8|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@4d26d52e: (connection evicted)
+2025-06-19 23:56:41.556|DEBUG|28a94d3b577448b48557ac642e468da8|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@49195852: (connection evicted)
+2025-06-19 23:56:41.556|DEBUG|28a94d3b577448b48557ac642e468da8|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@c1bdf15: (connection evicted)
+2025-06-19 23:56:41.556|DEBUG|28a94d3b577448b48557ac642e468da8|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@46a98597: (connection evicted)
+2025-06-19 23:56:41.557|DEBUG|28a94d3b577448b48557ac642e468da8|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@3d5db7c9: (connection evicted)
+2025-06-19 23:56:41.557|DEBUG|28a94d3b577448b48557ac642e468da8|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@3e05b3f8: (connection evicted)
+2025-06-19 23:56:41.558|DEBUG|28a94d3b577448b48557ac642e468da8|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6c34205a: (connection evicted)
+2025-06-19 23:56:41.558|DEBUG|28a94d3b577448b48557ac642e468da8|com.zaxxer.hikari.pool.PoolBase                   :136 - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@663b8576: (connection evicted)
+2025-06-19 23:56:41.559|DEBUG|f3ad4752eb6948718bd0718dad9346ea|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After  shutdown stats (total=0/10, idle=0/10, active=0, waiting=0)
+2025-06-19 23:56:41.559|INFO |f3ad4752eb6948718bd0718dad9346ea|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
+2025-06-19 23:57:14.168|INFO |4240e860bd1a46a1930f3eb45fc7da77|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 9064 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:57:14.227|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|c.k.digital_banking.DigitalBankingApplication     :54 - Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-19 23:57:14.228|INFO |4240e860bd1a46a1930f3eb45fc7da77|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:57:15.563|INFO |4240e860bd1a46a1930f3eb45fc7da77|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:57:15.565|INFO |4240e860bd1a46a1930f3eb45fc7da77|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:57:15.566|INFO |4240e860bd1a46a1930f3eb45fc7da77|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:57:15.627|INFO |4240e860bd1a46a1930f3eb45fc7da77|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:57:15.706|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1026 - Class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886
+2025-06-19 23:57:15.755|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|org.jboss.logging                                 :164 - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-06-19 23:57:16.277|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1154 - HikariPool-1 - configuration:
+2025-06-19 23:57:16.281|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - allowPoolSuspension.............false
+2025-06-19 23:57:16.281|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - autoCommit......................true
+2025-06-19 23:57:16.281|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - catalog.........................none
+2025-06-19 23:57:16.282|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - connectionInitSql...............none
+2025-06-19 23:57:16.282|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - connectionTestQuery.............none
+2025-06-19 23:57:16.283|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - connectionTimeout...............30000
+2025-06-19 23:57:16.283|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - credentials.....................com.zaxxer.hikari.util.Credentials@6e93b0e7
+2025-06-19 23:57:16.284|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - dataSource......................none
+2025-06-19 23:57:16.284|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - dataSourceClassName.............none
+2025-06-19 23:57:16.284|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - dataSourceJNDI..................none
+2025-06-19 23:57:16.284|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - dataSourceProperties............{password=<masked>}
+2025-06-19 23:57:16.284|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - driverClassName................."org.postgresql.Driver"
+2025-06-19 23:57:16.284|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - exceptionOverride...............none
+2025-06-19 23:57:16.285|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - exceptionOverrideClassName......none
+2025-06-19 23:57:16.285|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - healthCheckProperties...........{}
+2025-06-19 23:57:16.285|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - healthCheckRegistry.............none
+2025-06-19 23:57:16.285|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - idleTimeout.....................600000
+2025-06-19 23:57:16.286|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - initializationFailTimeout.......1
+2025-06-19 23:57:16.286|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - isolateInternalQueries..........false
+2025-06-19 23:57:16.286|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - jdbcUrl.........................jdbc:postgresql://localhost:5432/digital_banking
+2025-06-19 23:57:16.288|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - keepaliveTime...................120000
+2025-06-19 23:57:16.288|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - leakDetectionThreshold..........0
+2025-06-19 23:57:16.288|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - maxLifetime.....................1800000
+2025-06-19 23:57:16.288|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - maximumPoolSize.................10
+2025-06-19 23:57:16.288|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - metricRegistry..................none
+2025-06-19 23:57:16.288|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - metricsTrackerFactory...........none
+2025-06-19 23:57:16.288|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - minimumIdle.....................10
+2025-06-19 23:57:16.288|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - password........................<masked>
+2025-06-19 23:57:16.288|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - poolName........................"HikariPool-1"
+2025-06-19 23:57:16.288|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - readOnly........................false
+2025-06-19 23:57:16.289|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - registerMbeans..................false
+2025-06-19 23:57:16.289|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - scheduledExecutor...............none
+2025-06-19 23:57:16.289|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - schema..........................none
+2025-06-19 23:57:16.289|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - threadFactory...................internal
+2025-06-19 23:57:16.290|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - transactionIsolation............default
+2025-06-19 23:57:16.290|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - username........................"postgres"
+2025-06-19 23:57:16.290|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariConfig                    :1186 - validationTimeout...............5000
+2025-06-19 23:57:16.290|INFO |4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-19 23:57:16.303|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (3c1ebcf4-29d8-48bc-821b-dadccd63cb1e)
+2025-06-19 23:57:16.483|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (3c1ebcf4-29d8-48bc-821b-dadccd63cb1e)
+2025-06-19 23:57:16.485|INFO |4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@682266d8
+2025-06-19 23:57:16.487|INFO |4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-19 23:57:16.598|DEBUG|8a1308254c624571bf2448368fb7e416|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - Pool stats (total=1/10, idle=1/10, active=0, waiting=0)
+2025-06-19 23:57:16.599|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (cb8340bd-c2b3-49c4-84a9-080d1465842f)
+2025-06-19 23:57:16.651|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (cb8340bd-c2b3-49c4-84a9-080d1465842f)
+2025-06-19 23:57:16.651|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@560a90b7
+2025-06-19 23:57:16.692|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=2/10, idle=2/10, active=0, waiting=0)
+2025-06-19 23:57:16.692|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (ad201c34-300c-423c-88cd-0aeee58bf7c2)
+2025-06-19 23:57:16.744|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (ad201c34-300c-423c-88cd-0aeee58bf7c2)
+2025-06-19 23:57:16.745|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@58cd6406
+2025-06-19 23:57:16.786|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=3/10, idle=3/10, active=0, waiting=0)
+2025-06-19 23:57:16.786|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (c79892b2-d007-4caf-a407-ed37e191881a)
+2025-06-19 23:57:16.831|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (c79892b2-d007-4caf-a407-ed37e191881a)
+2025-06-19 23:57:16.831|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5cf2fbc7
+2025-06-19 23:57:16.864|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=4/10, idle=4/10, active=0, waiting=0)
+2025-06-19 23:57:16.864|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (dc4724ad-f3cb-44b5-a08f-17431fc82752)
+2025-06-19 23:57:16.910|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (dc4724ad-f3cb-44b5-a08f-17431fc82752)
+2025-06-19 23:57:16.911|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@19f06e3d
+2025-06-19 23:57:16.942|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=5/10, idle=5/10, active=0, waiting=0)
+2025-06-19 23:57:16.943|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (81d3a0f0-89da-4e3e-b380-93d20e5f42cf)
+2025-06-19 23:57:16.989|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (81d3a0f0-89da-4e3e-b380-93d20e5f42cf)
+2025-06-19 23:57:16.990|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1b7dda9c
+2025-06-19 23:57:17.022|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=6/10, idle=6/10, active=0, waiting=0)
+2025-06-19 23:57:17.022|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (2afa2424-89ee-4369-ab43-97b390eb52c6)
+2025-06-19 23:57:17.056|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (2afa2424-89ee-4369-ab43-97b390eb52c6)
+2025-06-19 23:57:17.056|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@282370a1
+2025-06-19 23:57:17.101|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=7/10, idle=7/10, active=0, waiting=0)
+2025-06-19 23:57:17.101|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (0900d18d-8f7b-4f71-94bb-534a857dee59)
+2025-06-19 23:57:17.136|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (0900d18d-8f7b-4f71-94bb-534a857dee59)
+2025-06-19 23:57:17.137|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63449aa1
+2025-06-19 23:57:17.181|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=8/10, idle=8/10, active=0, waiting=0)
+2025-06-19 23:57:17.181|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (cc4e5f9d-40fe-4cc1-87b7-2ca9f96159e4)
+2025-06-19 23:57:17.224|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (cc4e5f9d-40fe-4cc1-87b7-2ca9f96159e4)
+2025-06-19 23:57:17.225|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@79df9172
+2025-06-19 23:57:17.259|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=9/10, idle=9/10, active=0, waiting=0)
+2025-06-19 23:57:17.259|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.PoolBase                   :366 - HikariPool-1 - Attempting to create/setup new connection (9e5cac56-b300-4f31-9113-4ac4bcef99d4)
+2025-06-19 23:57:17.297|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.PoolBase                   :378 - HikariPool-1 - Established new connection (9e5cac56-b300-4f31-9113-4ac4bcef99d4)
+2025-06-19 23:57:17.297|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.HikariPool                 :751 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@c030def
+2025-06-19 23:57:17.336|DEBUG|eb1f48ea0def40e28dac3cc0dafbd9ed|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - After adding stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-06-19 23:57:17.909|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	c.k.d.c.AccountController:
+	{GET [/api/account/test]}: test()
+	{POST [/api/account/createCustomerAccount]}: createCustomerAccount(CreateCustomerAccountRequest)
+2025-06-19 23:57:17.915|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|_.s.web.servlet.HandlerMapping.Mappings           :294 - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-06-19 23:57:17.928|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|_.s.web.servlet.HandlerMapping.Mappings           :86 - 'beanNameHandlerMapping' {}
+2025-06-19 23:57:18.041|DEBUG|4240e860bd1a46a1930f3eb45fc7da77|_.s.web.servlet.HandlerMapping.Mappings           :176 - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-06-19 23:57:18.602|INFO |4240e860bd1a46a1930f3eb45fc7da77|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:57:18.649|INFO |4240e860bd1a46a1930f3eb45fc7da77|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 4.969 seconds (process running for 5.633)
+2025-06-19 23:57:46.611|DEBUG|8a1308254c624571bf2448368fb7e416|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-06-19 23:57:46.611|DEBUG|8a1308254c624571bf2448368fb7e416|com.zaxxer.hikari.pool.HikariPool                 :531 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-06-19 23:58:16.625|DEBUG|8a1308254c624571bf2448368fb7e416|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-06-19 23:58:16.625|DEBUG|8a1308254c624571bf2448368fb7e416|com.zaxxer.hikari.pool.HikariPool                 :531 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-06-19 23:58:46.627|DEBUG|8a1308254c624571bf2448368fb7e416|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-06-19 23:58:46.627|DEBUG|8a1308254c624571bf2448368fb7e416|com.zaxxer.hikari.pool.HikariPool                 :531 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-06-19 23:58:54.222|DEBUG|8a1308254c624571bf2448368fb7e416|com.zaxxer.hikari.pool.HikariPool                 :883 - HikariPool-1 - keepalive: connection org.postgresql.jdbc.PgConnection@58cd6406 is alive
+2025-06-19 23:58:56.864|DEBUG|8a1308254c624571bf2448368fb7e416|com.zaxxer.hikari.pool.HikariPool                 :883 - HikariPool-1 - keepalive: connection org.postgresql.jdbc.PgConnection@1b7dda9c is alive
+2025-06-19 23:58:57.688|DEBUG|8a1308254c624571bf2448368fb7e416|com.zaxxer.hikari.pool.HikariPool                 :883 - HikariPool-1 - keepalive: connection org.postgresql.jdbc.PgConnection@282370a1 is alive
+2025-06-19 23:58:59.720|DEBUG|8a1308254c624571bf2448368fb7e416|com.zaxxer.hikari.pool.HikariPool                 :883 - HikariPool-1 - keepalive: connection org.postgresql.jdbc.PgConnection@19f06e3d is alive
+2025-06-19 23:59:02.864|DEBUG|8a1308254c624571bf2448368fb7e416|com.zaxxer.hikari.pool.HikariPool                 :883 - HikariPool-1 - keepalive: connection org.postgresql.jdbc.PgConnection@5cf2fbc7 is alive
+2025-06-19 23:59:08.553|DEBUG|8a1308254c624571bf2448368fb7e416|com.zaxxer.hikari.pool.HikariPool                 :883 - HikariPool-1 - keepalive: connection org.postgresql.jdbc.PgConnection@63449aa1 is alive
+2025-06-19 23:59:12.679|DEBUG|8a1308254c624571bf2448368fb7e416|com.zaxxer.hikari.pool.HikariPool                 :883 - HikariPool-1 - keepalive: connection org.postgresql.jdbc.PgConnection@560a90b7 is alive
+2025-06-19 23:59:12.834|DEBUG|8a1308254c624571bf2448368fb7e416|com.zaxxer.hikari.pool.HikariPool                 :883 - HikariPool-1 - keepalive: connection org.postgresql.jdbc.PgConnection@682266d8 is alive
+2025-06-19 23:59:16.154|DEBUG|8a1308254c624571bf2448368fb7e416|com.zaxxer.hikari.pool.HikariPool                 :883 - HikariPool-1 - keepalive: connection org.postgresql.jdbc.PgConnection@c030def is alive
+2025-06-19 23:59:16.640|DEBUG|8a1308254c624571bf2448368fb7e416|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-06-19 23:59:16.640|DEBUG|8a1308254c624571bf2448368fb7e416|com.zaxxer.hikari.pool.HikariPool                 :531 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-06-19 23:59:17.140|DEBUG|8a1308254c624571bf2448368fb7e416|com.zaxxer.hikari.pool.HikariPool                 :883 - HikariPool-1 - keepalive: connection org.postgresql.jdbc.PgConnection@79df9172 is alive
+2025-06-19 23:59:46.641|DEBUG|8a1308254c624571bf2448368fb7e416|com.zaxxer.hikari.pool.HikariPool                 :417 - HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-06-19 23:59:46.641|DEBUG|8a1308254c624571bf2448368fb7e416|com.zaxxer.hikari.pool.HikariPool                 :531 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.

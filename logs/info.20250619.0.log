@@ -1,0 +1,245 @@
+2025-06-19 21:00:25.022|INFO |a26e0fe2e8b249f9be8d7a2030f8b625|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 1760 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 21:00:25.085|INFO |a26e0fe2e8b249f9be8d7a2030f8b625|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 21:00:26.139|INFO |a26e0fe2e8b249f9be8d7a2030f8b625|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 21:00:26.141|INFO |a26e0fe2e8b249f9be8d7a2030f8b625|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 21:00:26.142|INFO |a26e0fe2e8b249f9be8d7a2030f8b625|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 21:00:26.200|INFO |a26e0fe2e8b249f9be8d7a2030f8b625|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 21:00:26.288|INFO |a26e0fe2e8b249f9be8d7a2030f8b625|org.apache.catalina.core.StandardService          :168 - Stopping service [Tomcat]
+2025-06-19 21:01:52.283|INFO |7700c88f882540c19ac57f8574be6e85|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 3760 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 21:01:52.345|INFO |7700c88f882540c19ac57f8574be6e85|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 21:01:53.417|INFO |7700c88f882540c19ac57f8574be6e85|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 21:01:53.419|INFO |7700c88f882540c19ac57f8574be6e85|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 21:01:53.419|INFO |7700c88f882540c19ac57f8574be6e85|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 21:01:53.476|INFO |7700c88f882540c19ac57f8574be6e85|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 21:01:53.901|INFO |7700c88f882540c19ac57f8574be6e85|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 21:01:53.939|INFO |7700c88f882540c19ac57f8574be6e85|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 2.319 seconds (process running for 3.155)
+2025-06-19 21:34:46.577|INFO |4b8b2b5e1e0a475b84d18912ae316d1c|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 23120 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 21:34:46.698|INFO |4b8b2b5e1e0a475b84d18912ae316d1c|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 21:34:48.436|INFO |4b8b2b5e1e0a475b84d18912ae316d1c|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 21:34:48.442|INFO |4b8b2b5e1e0a475b84d18912ae316d1c|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 21:34:48.443|INFO |4b8b2b5e1e0a475b84d18912ae316d1c|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 21:34:48.529|INFO |4b8b2b5e1e0a475b84d18912ae316d1c|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 21:34:48.638|INFO |4b8b2b5e1e0a475b84d18912ae316d1c|org.apache.catalina.core.StandardService          :168 - Stopping service [Tomcat]
+2025-06-19 21:35:07.480|INFO |dbfc1cef5fba424ea45562af74e7e139|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 17648 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 21:35:07.614|INFO |dbfc1cef5fba424ea45562af74e7e139|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 21:35:09.632|INFO |dbfc1cef5fba424ea45562af74e7e139|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 21:35:09.638|INFO |dbfc1cef5fba424ea45562af74e7e139|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 21:35:09.639|INFO |dbfc1cef5fba424ea45562af74e7e139|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 21:35:09.739|INFO |dbfc1cef5fba424ea45562af74e7e139|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 21:35:09.864|INFO |dbfc1cef5fba424ea45562af74e7e139|org.apache.catalina.core.StandardService          :168 - Stopping service [Tomcat]
+2025-06-19 21:35:48.909|INFO |440fb6834d5042a68519cc6675cb5742|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 22260 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 21:35:49.014|INFO |440fb6834d5042a68519cc6675cb5742|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 21:35:50.643|INFO |440fb6834d5042a68519cc6675cb5742|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 21:35:50.647|INFO |440fb6834d5042a68519cc6675cb5742|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 21:35:50.648|INFO |440fb6834d5042a68519cc6675cb5742|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 21:35:50.741|INFO |440fb6834d5042a68519cc6675cb5742|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 21:35:51.403|INFO |440fb6834d5042a68519cc6675cb5742|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 21:35:51.456|INFO |440fb6834d5042a68519cc6675cb5742|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 3.289 seconds (process running for 4.326)
+2025-06-19 21:36:03.520|INFO |5654f611b3ae4865985429105cd34548|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-19 21:36:03.523|INFO |5654f611b3ae4865985429105cd34548|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/test, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-19 21:36:03.594|INFO |5654f611b3ae4865985429105cd34548|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:200
+2025-06-19 23:19:23.597|INFO |e8c2839a2c6e41999c4d34378531444c|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 6148 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:19:23.732|INFO |e8c2839a2c6e41999c4d34378531444c|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:19:25.350|INFO |e8c2839a2c6e41999c4d34378531444c|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:19:25.354|INFO |e8c2839a2c6e41999c4d34378531444c|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:19:25.355|INFO |e8c2839a2c6e41999c4d34378531444c|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:19:25.448|INFO |e8c2839a2c6e41999c4d34378531444c|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:19:26.023|INFO |e8c2839a2c6e41999c4d34378531444c|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:19:26.070|INFO |e8c2839a2c6e41999c4d34378531444c|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 3.333 seconds (process running for 4.317)
+2025-06-19 23:20:43.165|INFO |a66ecf9146914622b47a8b7ad6ea0a65|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 21028 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:20:43.313|INFO |a66ecf9146914622b47a8b7ad6ea0a65|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:20:45.220|INFO |a66ecf9146914622b47a8b7ad6ea0a65|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:20:45.224|INFO |a66ecf9146914622b47a8b7ad6ea0a65|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:20:45.226|INFO |a66ecf9146914622b47a8b7ad6ea0a65|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:20:45.317|INFO |a66ecf9146914622b47a8b7ad6ea0a65|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:20:45.961|INFO |a66ecf9146914622b47a8b7ad6ea0a65|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:20:46.009|INFO |a66ecf9146914622b47a8b7ad6ea0a65|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 3.713 seconds (process running for 4.494)
+2025-06-19 23:20:49.920|INFO |2624e9394ab54a319912d8b371198def|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-19 23:20:49.925|INFO |2624e9394ab54a319912d8b371198def|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/test, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:20:50.020|INFO |2624e9394ab54a319912d8b371198def|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:200
+2025-06-19 23:21:19.722|INFO |89b11bf91d6548f98b57beab43334a7e|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:21:19.735|INFO |89b11bf91d6548f98b57beab43334a7e|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:400
+2025-06-19 23:21:31.237|INFO |8130f4e3d3e04a45bc76413dbe76a538|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:21:31.314|INFO |8130f4e3d3e04a45bc76413dbe76a538|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-19 23:21:54.691|INFO |4ee6e8d905e0453db95258ec0d769ef8|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 23096 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:21:54.786|INFO |4ee6e8d905e0453db95258ec0d769ef8|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:21:56.798|INFO |4ee6e8d905e0453db95258ec0d769ef8|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:21:56.802|INFO |4ee6e8d905e0453db95258ec0d769ef8|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:21:56.803|INFO |4ee6e8d905e0453db95258ec0d769ef8|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:21:56.908|INFO |4ee6e8d905e0453db95258ec0d769ef8|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:21:57.622|INFO |4ee6e8d905e0453db95258ec0d769ef8|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:21:57.680|INFO |4ee6e8d905e0453db95258ec0d769ef8|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 3.551 seconds (process running for 4.907)
+2025-06-19 23:22:07.383|INFO |3b1e3cf594dc48ebaa18de6b1e2ee812|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-19 23:22:07.390|INFO |3b1e3cf594dc48ebaa18de6b1e2ee812|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:22:07.909|INFO |3b1e3cf594dc48ebaa18de6b1e2ee812|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-19 23:22:21.977|INFO |41cf3786dbc643dba3e438ba45417de4|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:22:21.980|INFO |41cf3786dbc643dba3e438ba45417de4|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-19 23:22:23.011|INFO |d2034e942f4843118df49724a67fc88c|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:22:23.014|INFO |d2034e942f4843118df49724a67fc88c|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-19 23:22:41.266|INFO |42003afd17d34ebaa8bee6e2ec554f76|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:22:41.268|INFO |42003afd17d34ebaa8bee6e2ec554f76|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-19 23:23:58.595|INFO |c1ccb1879c544664b70f80f281b68d18|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 11100 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:23:58.732|INFO |c1ccb1879c544664b70f80f281b68d18|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:24:00.658|INFO |c1ccb1879c544664b70f80f281b68d18|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:24:00.663|INFO |c1ccb1879c544664b70f80f281b68d18|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:24:00.664|INFO |c1ccb1879c544664b70f80f281b68d18|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:24:00.780|INFO |c1ccb1879c544664b70f80f281b68d18|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:24:01.517|INFO |c1ccb1879c544664b70f80f281b68d18|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:24:01.573|INFO |c1ccb1879c544664b70f80f281b68d18|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 3.893 seconds (process running for 5.211)
+2025-06-19 23:24:02.709|INFO |7d85d2bfd7874b11a12d116e8f2d78bb|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-19 23:24:02.712|INFO |7d85d2bfd7874b11a12d116e8f2d78bb|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:24:02.900|INFO |7d85d2bfd7874b11a12d116e8f2d78bb|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-19 23:24:39.019|INFO |edd7ac829db04c3296b84556096ffc79|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 14624 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:24:39.156|INFO |edd7ac829db04c3296b84556096ffc79|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:24:41.295|INFO |edd7ac829db04c3296b84556096ffc79|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:24:41.314|INFO |edd7ac829db04c3296b84556096ffc79|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:24:41.315|INFO |edd7ac829db04c3296b84556096ffc79|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:24:41.438|INFO |edd7ac829db04c3296b84556096ffc79|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:24:42.201|INFO |edd7ac829db04c3296b84556096ffc79|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:24:42.251|INFO |edd7ac829db04c3296b84556096ffc79|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 4.1 seconds (process running for 5.486)
+2025-06-19 23:24:45.194|INFO |b5214945a2b9463ca42b1109b1ae9fcf|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-19 23:24:45.200|INFO |b5214945a2b9463ca42b1109b1ae9fcf|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:25:10.185|INFO |b5214945a2b9463ca42b1109b1ae9fcf|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-19 23:25:17.066|INFO |479bfae595894f0eb92b66d4d788959d|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 9676 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:25:17.179|INFO |479bfae595894f0eb92b66d4d788959d|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:25:18.915|INFO |479bfae595894f0eb92b66d4d788959d|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:25:18.919|INFO |479bfae595894f0eb92b66d4d788959d|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:25:18.919|INFO |479bfae595894f0eb92b66d4d788959d|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:25:19.010|INFO |479bfae595894f0eb92b66d4d788959d|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:25:19.748|INFO |479bfae595894f0eb92b66d4d788959d|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:25:19.810|INFO |479bfae595894f0eb92b66d4d788959d|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 3.53 seconds (process running for 4.872)
+2025-06-19 23:25:22.373|INFO |d82f61f26ec7452ebbb01d64ae8ea495|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-19 23:25:22.377|INFO |d82f61f26ec7452ebbb01d64ae8ea495|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:25:30.795|INFO |d82f61f26ec7452ebbb01d64ae8ea495|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-19 23:25:46.615|INFO |d7fe96cd3cd94160ac6d9e928c17c3b1|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 14756 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:25:46.738|INFO |d7fe96cd3cd94160ac6d9e928c17c3b1|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:25:48.762|INFO |d7fe96cd3cd94160ac6d9e928c17c3b1|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:25:48.767|INFO |d7fe96cd3cd94160ac6d9e928c17c3b1|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:25:48.768|INFO |d7fe96cd3cd94160ac6d9e928c17c3b1|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:25:48.867|INFO |d7fe96cd3cd94160ac6d9e928c17c3b1|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:25:49.615|INFO |d7fe96cd3cd94160ac6d9e928c17c3b1|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:25:49.672|INFO |d7fe96cd3cd94160ac6d9e928c17c3b1|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 3.952 seconds (process running for 5.231)
+2025-06-19 23:25:53.753|INFO |4273e46623064462a2ffdb9ba3a350c2|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-19 23:25:53.757|INFO |4273e46623064462a2ffdb9ba3a350c2|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:26:07.326|INFO |4273e46623064462a2ffdb9ba3a350c2|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-19 23:26:11.135|INFO |912867b8bbb64af48e6c2bff1bf5de78|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/createCustomerAccount, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-19 23:26:11.154|INFO |912867b8bbb64af48e6c2bff1bf5de78|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:400
+2025-06-19 23:39:54.954|INFO |8875dde8e14243599e370035fc98cdfa|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 23228 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:39:55.073|INFO |8875dde8e14243599e370035fc98cdfa|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:39:56.820|INFO |8875dde8e14243599e370035fc98cdfa|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:39:56.825|INFO |8875dde8e14243599e370035fc98cdfa|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:39:56.826|INFO |8875dde8e14243599e370035fc98cdfa|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:39:56.933|INFO |8875dde8e14243599e370035fc98cdfa|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:39:57.623|INFO |8875dde8e14243599e370035fc98cdfa|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:39:57.674|INFO |8875dde8e14243599e370035fc98cdfa|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 3.631 seconds (process running for 4.659)
+2025-06-19 23:41:06.197|INFO |6400ad82cd89436c963e0c5a42cfc45d|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 6956 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:41:06.272|INFO |6400ad82cd89436c963e0c5a42cfc45d|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:41:07.877|INFO |6400ad82cd89436c963e0c5a42cfc45d|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:41:07.880|INFO |6400ad82cd89436c963e0c5a42cfc45d|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:41:07.881|INFO |6400ad82cd89436c963e0c5a42cfc45d|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:41:07.958|INFO |6400ad82cd89436c963e0c5a42cfc45d|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:41:08.560|INFO |6400ad82cd89436c963e0c5a42cfc45d|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:41:08.608|INFO |6400ad82cd89436c963e0c5a42cfc45d|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 2.913 seconds (process running for 3.592)
+2025-06-19 23:42:33.305|INFO |87f813bf405f494ababd687e6ce379a8|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 18400 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:42:33.378|INFO |87f813bf405f494ababd687e6ce379a8|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:42:34.478|INFO |87f813bf405f494ababd687e6ce379a8|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:42:34.480|INFO |87f813bf405f494ababd687e6ce379a8|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:42:34.481|INFO |87f813bf405f494ababd687e6ce379a8|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:42:34.541|INFO |87f813bf405f494ababd687e6ce379a8|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:42:34.959|INFO |87f813bf405f494ababd687e6ce379a8|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:42:35.003|INFO |87f813bf405f494ababd687e6ce379a8|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 2.23 seconds (process running for 2.952)
+2025-06-19 23:44:08.812|INFO |5d5fc1c930234442af2d753b59abfb4d|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 21120 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:44:08.880|INFO |5d5fc1c930234442af2d753b59abfb4d|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:44:09.983|INFO |5d5fc1c930234442af2d753b59abfb4d|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:44:09.986|INFO |5d5fc1c930234442af2d753b59abfb4d|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:44:09.986|INFO |5d5fc1c930234442af2d753b59abfb4d|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:44:10.055|INFO |5d5fc1c930234442af2d753b59abfb4d|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:44:10.586|INFO |5d5fc1c930234442af2d753b59abfb4d|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:44:10.624|INFO |5d5fc1c930234442af2d753b59abfb4d|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 2.316 seconds (process running for 2.963)
+2025-06-19 23:44:22.253|INFO |4e0b401c921843b194daa4a608b70c08|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 12904 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:44:22.322|INFO |4e0b401c921843b194daa4a608b70c08|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:44:23.622|INFO |4e0b401c921843b194daa4a608b70c08|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:44:23.625|INFO |4e0b401c921843b194daa4a608b70c08|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:44:23.626|INFO |4e0b401c921843b194daa4a608b70c08|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:44:23.709|INFO |4e0b401c921843b194daa4a608b70c08|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:44:24.304|INFO |4e0b401c921843b194daa4a608b70c08|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:44:24.348|INFO |4e0b401c921843b194daa4a608b70c08|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 2.629 seconds (process running for 3.303)
+2025-06-19 23:47:48.770|INFO |8d533ff3c64f468a9b5af2060073d3e2|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 13796 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:47:48.847|INFO |8d533ff3c64f468a9b5af2060073d3e2|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:47:49.973|INFO |8d533ff3c64f468a9b5af2060073d3e2|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:47:49.975|INFO |8d533ff3c64f468a9b5af2060073d3e2|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:47:49.976|INFO |8d533ff3c64f468a9b5af2060073d3e2|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:47:50.032|INFO |8d533ff3c64f468a9b5af2060073d3e2|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:47:50.467|INFO |8d533ff3c64f468a9b5af2060073d3e2|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:47:50.509|INFO |8d533ff3c64f468a9b5af2060073d3e2|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 2.287 seconds (process running for 3.046)
+2025-06-19 23:49:55.179|INFO |559fe68b1fa2464d970c4c067b778376|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 19360 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:49:55.371|INFO |559fe68b1fa2464d970c4c067b778376|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:49:58.489|INFO |559fe68b1fa2464d970c4c067b778376|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:49:58.496|INFO |559fe68b1fa2464d970c4c067b778376|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:49:58.497|INFO |559fe68b1fa2464d970c4c067b778376|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:49:58.622|INFO |559fe68b1fa2464d970c4c067b778376|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:49:59.581|INFO |559fe68b1fa2464d970c4c067b778376|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:49:59.648|INFO |559fe68b1fa2464d970c4c067b778376|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 5.366 seconds (process running for 6.634)
+2025-06-19 23:51:58.345|INFO |1e4252a796aa45e38f92bb3df6719bbb|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 14572 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:51:58.460|INFO |1e4252a796aa45e38f92bb3df6719bbb|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:52:00.686|INFO |1e4252a796aa45e38f92bb3df6719bbb|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:52:00.689|INFO |1e4252a796aa45e38f92bb3df6719bbb|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:52:00.690|INFO |1e4252a796aa45e38f92bb3df6719bbb|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:52:00.794|INFO |1e4252a796aa45e38f92bb3df6719bbb|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:52:00.924|INFO |1e4252a796aa45e38f92bb3df6719bbb|org.apache.catalina.core.StandardService          :168 - Stopping service [Tomcat]
+2025-06-19 23:52:16.181|INFO |9700c4be399148a8882e4afe88037cdf|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 7788 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:52:16.312|INFO |9700c4be399148a8882e4afe88037cdf|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:52:18.621|INFO |9700c4be399148a8882e4afe88037cdf|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:52:18.625|INFO |9700c4be399148a8882e4afe88037cdf|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:52:18.626|INFO |9700c4be399148a8882e4afe88037cdf|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:52:18.733|INFO |9700c4be399148a8882e4afe88037cdf|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:52:18.865|INFO |9700c4be399148a8882e4afe88037cdf|org.apache.catalina.core.StandardService          :168 - Stopping service [Tomcat]
+2025-06-19 23:53:53.833|INFO |7021c29adbc04d7e8d72a762fd0bb255|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 18988 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:53:53.890|INFO |7021c29adbc04d7e8d72a762fd0bb255|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:53:55.346|INFO |7021c29adbc04d7e8d72a762fd0bb255|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:53:55.349|INFO |7021c29adbc04d7e8d72a762fd0bb255|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:53:55.349|INFO |7021c29adbc04d7e8d72a762fd0bb255|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:53:55.424|INFO |7021c29adbc04d7e8d72a762fd0bb255|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:53:56.127|INFO |7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-19 23:53:56.355|INFO |7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@74fc3fc7
+2025-06-19 23:53:56.358|INFO |7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-19 23:53:56.858|INFO |7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
+2025-06-19 23:53:56.912|INFO |7021c29adbc04d7e8d72a762fd0bb255|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
+2025-06-19 23:53:56.914|INFO |7021c29adbc04d7e8d72a762fd0bb255|org.apache.catalina.core.StandardService          :168 - Stopping service [Tomcat]
+2025-06-19 23:55:23.802|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 19448 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:55:23.873|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:55:25.246|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:55:25.249|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:55:25.249|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:55:25.314|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:55:25.940|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-19 23:55:26.159|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@45707f76
+2025-06-19 23:55:26.162|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-19 23:55:28.323|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:55:28.369|INFO |37c839bf29ef4942b8f9ec2c1ac713ae|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 5.068 seconds (process running for 5.74)
+2025-06-19 23:56:08.581|INFO |ff385462bd72401e830209f9d605ba05|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
+2025-06-19 23:56:08.587|INFO |ff385462bd72401e830209f9d605ba05|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
+2025-06-19 23:56:11.207|INFO |6ae09d9f709b49b69f1c5474db02c671|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 14528 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:56:11.271|INFO |6ae09d9f709b49b69f1c5474db02c671|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:56:12.574|INFO |6ae09d9f709b49b69f1c5474db02c671|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:56:12.577|INFO |6ae09d9f709b49b69f1c5474db02c671|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:56:12.577|INFO |6ae09d9f709b49b69f1c5474db02c671|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:56:12.643|INFO |6ae09d9f709b49b69f1c5474db02c671|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:56:13.260|INFO |6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-19 23:56:13.443|INFO |6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@682266d8
+2025-06-19 23:56:13.445|INFO |6ae09d9f709b49b69f1c5474db02c671|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-19 23:56:15.611|INFO |6ae09d9f709b49b69f1c5474db02c671|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:56:15.652|INFO |6ae09d9f709b49b69f1c5474db02c671|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 4.907 seconds (process running for 5.557)
+2025-06-19 23:56:41.553|INFO |f3ad4752eb6948718bd0718dad9346ea|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
+2025-06-19 23:56:41.559|INFO |f3ad4752eb6948718bd0718dad9346ea|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
+2025-06-19 23:57:14.168|INFO |4240e860bd1a46a1930f3eb45fc7da77|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 9064 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-19 23:57:14.228|INFO |4240e860bd1a46a1930f3eb45fc7da77|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-19 23:57:15.563|INFO |4240e860bd1a46a1930f3eb45fc7da77|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:57:15.565|INFO |4240e860bd1a46a1930f3eb45fc7da77|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-19 23:57:15.566|INFO |4240e860bd1a46a1930f3eb45fc7da77|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-19 23:57:15.627|INFO |4240e860bd1a46a1930f3eb45fc7da77|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-19 23:57:16.290|INFO |4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-19 23:57:16.485|INFO |4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@682266d8
+2025-06-19 23:57:16.487|INFO |4240e860bd1a46a1930f3eb45fc7da77|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-19 23:57:18.602|INFO |4240e860bd1a46a1930f3eb45fc7da77|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-19 23:57:18.649|INFO |4240e860bd1a46a1930f3eb45fc7da77|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 4.969 seconds (process running for 5.633)
