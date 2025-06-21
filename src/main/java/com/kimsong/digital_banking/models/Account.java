@@ -23,13 +23,13 @@ public class Account {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long accountId;
+    private Long id;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "customerId", nullable = false)
+    @JoinColumn(name = "customerId", referencedColumnName = "id", nullable = false)
     private Customer customer;
 
-    @Column(name = "account_number")
+    @Column(name = "account_number", unique = true)
     private Integer accountNumber;
 
     @Column(name = "account_type")

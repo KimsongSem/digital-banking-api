@@ -5,7 +5,6 @@ import lombok.Data;
 @Data
 public class BaseFilterHelper {
     private String search;
-    private String code;
     private int page;
     private int size;
 }

@@ -1,7 +1,8 @@
 package com.kimsong.digital_banking.controllers;
 
-import com.kimsong.digital_banking.payloads.response.TransactionHistoryResponse;
-import com.kimsong.digital_banking.services.ITransactionHisService;
+import com.kimsong.digital_banking.dtos.transaction.TransactionHistoryFilter;
+import com.kimsong.digital_banking.dtos.transaction.TransactionHistoryResponse;
+import com.kimsong.digital_banking.services.TransactionService;
 import com.kimsong.digital_banking.shared.response.PaginationResponseDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -12,13 +13,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("api/transactionHistory")
+@RequestMapping("api/transaction")
 public class TransactionHistoryController {
-    private final ITransactionHisService transactionHisService;
+    private final TransactionService transactionService;
 
-    @GetMapping("getAll")
-    public ResponseEntity<PaginationResponseDto<TransactionHistoryResponse>> transactionHistory() {
-        return ResponseEntity.status(HttpStatus.OK).body(transactionHisService.getAll());
+    @GetMapping("getAllHistory")
+    public ResponseEntity<PaginationResponseDto<TransactionHistoryResponse>> transactionHistory(TransactionHistoryFilter filter) {
+        return ResponseEntity.status(HttpStatus.OK).body(transactionService.getAll(filter));
     }
 
 }

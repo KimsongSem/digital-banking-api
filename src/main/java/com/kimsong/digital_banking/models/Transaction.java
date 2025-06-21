@@ -1,6 +1,7 @@
 package com.kimsong.digital_banking.models;
 
 import com.kimsong.digital_banking.utils.EChannel;
+import com.kimsong.digital_banking.utils.ECurrency;
 import com.kimsong.digital_banking.utils.ETransactionStatus;
 import com.kimsong.digital_banking.utils.ETransactionType;
 import jakarta.persistence.*;
@@ -9,6 +10,7 @@ import lombok.*;
 import java.math.BigDecimal;
 import java.time.Instant;
 import java.util.Date;
+import java.util.UUID;
 
 @Entity
 @Table(name = "transaction")
@@ -21,8 +23,11 @@ public class Transaction {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "transaction_reference")
+    private String transactionReference;
+
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "accountId", nullable = false)
+    @JoinColumn(name = "accountId", referencedColumnName = "id", nullable = false)
     private Account account;
 
     @Enumerated(EnumType.STRING)
@@ -32,24 +37,21 @@ public class Transaction {
     @Column(name = "amount")
     private BigDecimal amount;
 
-    @Column(length = 3)
-    private String currency = "USD";
+    @Column(name = "currency")
+    @Enumerated(EnumType.STRING)
+    private ECurrency currency;
 
     @Column(name = "transaction_date")
     private Date transactionDate = Date.from(Instant.now());
 
     @Column(name = "status")
     @Enumerated(EnumType.STRING)
-    private ETransactionStatus status = ETransactionStatus.SUCCESS;
-
-    @Column(name = "reference_number")
-    private String referenceNumber;
+    private ETransactionStatus status;
 
     @Column(name = "channel")
     @Enumerated(EnumType.STRING)
     private EChannel channel;
 
-    @Column(name = "purpose")
     private String purpose;
 
 }

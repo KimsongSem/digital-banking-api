@@ -1,6 +1,10 @@
 package com.kimsong.digital_banking.utils;
 
 public enum EChannel {
+    ATM,
     VTM,
-    MOBILE
+    MOBILE,
+    BRANCH,
+    ONLINE,
+    API
 }

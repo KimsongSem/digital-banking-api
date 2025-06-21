@@ -18,7 +18,7 @@ public class Customer {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long customerId;
+    private Long id;
 
     @Column(name = "first_name")
     private String firstName;
@@ -47,9 +47,6 @@ public class Customer {
     @Column(name = "date_of_birth")
     private Date dateOfBirth;
 
-    @Column(name = "nationality")
-    private String nationality;
-
     @Column(name = "address")
     private String address;
 
@@ -65,7 +62,7 @@ public class Customer {
     @Column(name = "updated_by")
     private String updatedBy;
 
-    @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Account> accounts;
+    /*@OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Account> accounts;*/
 
 }

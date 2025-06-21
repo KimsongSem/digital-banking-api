@@ -1,35 +1,33 @@
 package com.kimsong.digital_banking.controllers;
 
-import com.kimsong.digital_banking.payloads.request.CheckAccountBalanceRequest;
-import com.kimsong.digital_banking.payloads.request.CreateCustomerAccountRequest;
-import com.kimsong.digital_banking.payloads.response.CheckAccountBalanceResponse;
-import com.kimsong.digital_banking.services.IAccountService;
+import com.kimsong.digital_banking.dtos.account.CheckAccountBalanceRequest;
+import com.kimsong.digital_banking.dtos.account.CreateCustomerAccountRequest;
+import com.kimsong.digital_banking.dtos.account.CheckAccountBalanceResponse;
+import com.kimsong.digital_banking.services.AccountService;
 import com.kimsong.digital_banking.shared.response.DataResponseDto;
 import com.kimsong.digital_banking.shared.response.ResponseDTO;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("api/account")
 public class AccountController {
-    private final IAccountService accountService;
+    private final AccountService accountService;
 
-    @PostMapping("createCustomerAccount")
-    public ResponseEntity<ResponseDTO> createCustomerAccount(@RequestBody CreateCustomerAccountRequest request) {
+    @PostMapping("create")
+    public ResponseEntity<ResponseDTO> createCustomerAccount(@Valid @RequestBody CreateCustomerAccountRequest request) {
         accountService.createAccount(request);
         return ResponseEntity.status(HttpStatus.CREATED).body(ResponseDTO.create());
     }
 
-    @PostMapping("transfer")
-    public ResponseEntity<ResponseDTO> transfer() {
-        return ResponseEntity.status(HttpStatus.OK).body(ResponseDTO.success());
-    }
-
-    @PostMapping("balance")
+    @PostMapping("checkBalance")
     public ResponseEntity<DataResponseDto<CheckAccountBalanceResponse>> balance(@RequestBody CheckAccountBalanceRequest request) {
         return ResponseEntity.status(HttpStatus.OK).body(accountService.checkAccountBalance(request));
     }
