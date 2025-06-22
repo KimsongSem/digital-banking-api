@@ -11,5 +11,7 @@ public interface TransactionHistoryMapper {
     TransactionHistoryResponse mapFromEntity(Transaction transaction);
     List<TransactionHistoryResponse> mapListFromEntities(List<Transaction> transactionList);
 
+
+
 }
 

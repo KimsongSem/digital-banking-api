@@ -3,6 +3,7 @@ package com.kimsong.digital_banking.controllers;
 import com.kimsong.digital_banking.dtos.account.CheckAccountBalanceRequest;
 import com.kimsong.digital_banking.dtos.account.CreateCustomerAccountRequest;
 import com.kimsong.digital_banking.dtos.account.CheckAccountBalanceResponse;
+import com.kimsong.digital_banking.dtos.account.CustomerAccountResponse;
 import com.kimsong.digital_banking.services.AccountService;
 import com.kimsong.digital_banking.shared.response.DataResponseDto;
 import com.kimsong.digital_banking.shared.response.ResponseDTO;
@@ -22,9 +23,8 @@ public class AccountController {
     private final AccountService accountService;
 
     @PostMapping("create")
-    public ResponseEntity<ResponseDTO> createCustomerAccount(@Valid @RequestBody CreateCustomerAccountRequest request) {
-        accountService.createAccount(request);
-        return ResponseEntity.status(HttpStatus.CREATED).body(ResponseDTO.create());
+    public ResponseEntity<DataResponseDto<CustomerAccountResponse>> createCustomerAccount(@Valid @RequestBody CreateCustomerAccountRequest request) {
+        return ResponseEntity.status(HttpStatus.CREATED).body(accountService.createAccount(request));
     }
 
     @PostMapping("checkBalance")

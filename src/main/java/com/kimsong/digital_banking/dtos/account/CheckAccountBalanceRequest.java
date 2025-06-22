@@ -8,5 +8,5 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class CheckAccountBalanceRequest {
-    private Integer accountNumber;
+    private String accountNumber;
 }

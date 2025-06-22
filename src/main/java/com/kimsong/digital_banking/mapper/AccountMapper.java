@@ -12,8 +12,8 @@ import org.mapstruct.Mapping;
 public interface AccountMapper {
     CustomerAccountResponse mapFromEntity(Account account);
 
-    @Mapping(target = "customer", source = "customer")
-    Account mapFromRequest(CreateCustomerAccountRequest request, Customer customer);
+    @Mapping(target = "id", ignore = true)
+    Account mapFromRequest(CreateCustomerAccountRequest request, String accountNumber);
 
     CheckAccountBalanceResponse mapCheckBalance(Account account);
 }

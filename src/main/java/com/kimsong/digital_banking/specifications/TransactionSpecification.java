@@ -1,4 +1,4 @@
-package com.kimsong.digital_banking.specification;
+package com.kimsong.digital_banking.specifications;
 
 import com.kimsong.digital_banking.dtos.transaction.TransactionHistoryFilter;
 import com.kimsong.digital_banking.models.Transaction;
@@ -13,9 +13,9 @@ public class TransactionSpecification {
     public static Specification<Transaction> getSpecification(TransactionHistoryFilter filter) {
         return (root, query, criteriaBuilder) -> {
             List<Predicate> predicateList = new ArrayList<>();
-            if (Objects.nonNull(filter.getSearch())) {
+            if (Objects.nonNull(filter.getKeyword())) {
                 predicateList.add(criteriaBuilder.like(
-                        criteriaBuilder.lower(root.get("name")), "%" + filter.getSearch().toLowerCase().trim() + "%"));
+                        criteriaBuilder.lower(root.get("name")), "%" + filter.getKeyword().toLowerCase().trim() + "%"));
             }
             if (Objects.nonNull(filter.getAccountNumber())) {
                 predicateList.add(criteriaBuilder.equal(root.get("account").get("accountNumber"), filter.getAccountNumber()));

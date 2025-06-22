@@ -14,13 +14,14 @@ import java.util.Date;
 @AllArgsConstructor
 public class CustomerResponse implements Serializable {
 //    private Long id;
+    private String CIF;
 
     private String firstName;
 
     private String lastName;
 
-//    private String phone;
-//
+    private String phone;
+
 //    private String gender;
 //
 //    private String email;

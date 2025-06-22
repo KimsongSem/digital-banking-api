@@ -20,6 +20,9 @@ public class Customer {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "cif")
+    private String CIF;
+
     @Column(name = "first_name")
     private String firstName;
 
@@ -44,7 +47,6 @@ public class Customer {
     @Column(name = "occupation")
     private String occupation;
 
-    @Column(name = "date_of_birth")
     private Date dateOfBirth;
 
     @Column(name = "address")

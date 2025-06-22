@@ -19,6 +19,7 @@ public class CustomerRequest {
     @NotBlank
     private String lastName;
 
+    @NotBlank
     private String gender;
 
     private String email;
@@ -26,6 +27,7 @@ public class CustomerRequest {
     @NotBlank
     private String phone;
 
+    @NotBlank
     private String nationalId;
 
     private String passportNumber;
@@ -35,6 +37,7 @@ public class CustomerRequest {
     @NotNull
     private Date dateOfBirth;
 
+    @NotBlank
     private String address;
 
 }

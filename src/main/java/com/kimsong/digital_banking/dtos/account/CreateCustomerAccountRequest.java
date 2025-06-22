@@ -20,8 +20,8 @@ public class CreateCustomerAccountRequest {
     @Valid
     private CustomerRequest customer;
 
-    @NotBlank
-    private String accountNumber;
+//    @NotBlank
+//    private String accountNumber;
 
     @NotNull
     private EAccountType accountType;

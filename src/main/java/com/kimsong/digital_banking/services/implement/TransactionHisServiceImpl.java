@@ -10,7 +10,7 @@ import com.kimsong.digital_banking.services.TransactionService;
 import com.kimsong.digital_banking.shared.pagination.PageConfig;
 import com.kimsong.digital_banking.shared.pagination.PaginationConfig;
 import com.kimsong.digital_banking.shared.response.PaginationResponseDto;
-import com.kimsong.digital_banking.specification.TransactionSpecification;
+import com.kimsong.digital_banking.specifications.TransactionSpecification;
 import com.kimsong.digital_banking.utils.ETransactionStatus;
 import com.kimsong.digital_banking.utils.ETransactionType;
 import lombok.RequiredArgsConstructor;
@@ -35,9 +35,9 @@ public class TransactionHisServiceImpl implements TransactionService {
     private final PaginationConfig paginationConfig;
 
     @Override
-    public void createTransaction(Transaction transaction) {
+    public void createTransaction(Transaction transaction, ETransactionType transactionType) {
         transactionRepository.save(transaction);
-        log.info("Transaction created: {}", transaction);
+        log.info("{} transaction created with ref: {}", transactionType, transaction.getTransactionReference());
     }
 
     @Override
@@ -74,13 +74,6 @@ public class TransactionHisServiceImpl implements TransactionService {
                 .data(transactionHistoryMapper.mapListFromEntities(pageConfig.getContent()))
                 .build();
 
-
-        /*List<Transaction> getAllTxnHistory = transactionRepository.findAll();
-
-        return PaginationResponseDto.<TransactionHistoryResponse>builder()
-                .pagination(null)
-                .data(transactionHistoryMapper.mapListFromEntities(getAllTxnHistory))
-                .build();*/
     }
 
 }

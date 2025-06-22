@@ -1,9 +1,9 @@
 package com.kimsong.digital_banking.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.kimsong.digital_banking.utils.EAccountStatus;
 import com.kimsong.digital_banking.utils.EAccountType;
 import com.kimsong.digital_banking.utils.ECurrency;
-
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -20,6 +20,8 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Account {
+//    @Version
+//    private Long version;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -30,7 +32,7 @@ public class Account {
     private Customer customer;
 
     @Column(name = "account_number", unique = true)
-    private Integer accountNumber;
+    private String accountNumber;
 
     @Column(name = "account_type")
     @Enumerated(EnumType.STRING)
@@ -65,6 +67,7 @@ public class Account {
     @Column(name = "updated_by")
     private String updatedBy;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "account", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Transaction> transactions;
 

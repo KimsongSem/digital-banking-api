@@ -42,7 +42,7 @@ public class Transaction {
     private ECurrency currency;
 
     @Column(name = "transaction_date")
-    private Date transactionDate = Date.from(Instant.now());
+    private Date transactionDate;
 
     @Column(name = "status")
     @Enumerated(EnumType.STRING)

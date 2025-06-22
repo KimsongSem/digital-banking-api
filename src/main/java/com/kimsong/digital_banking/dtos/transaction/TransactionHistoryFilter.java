@@ -5,6 +5,6 @@ import lombok.Data;
 
 @Data
 public class TransactionHistoryFilter extends BaseFilterHelper {
-    private Integer accountNumber;
+    private String accountNumber;
     private String transactionReference;
 }

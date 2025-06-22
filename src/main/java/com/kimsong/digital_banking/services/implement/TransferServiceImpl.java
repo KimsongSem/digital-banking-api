@@ -2,6 +2,7 @@ package com.kimsong.digital_banking.services.implement;
 
 import com.kimsong.digital_banking.config.LimitTransferProperties;
 import com.kimsong.digital_banking.exception.ValidationException;
+import com.kimsong.digital_banking.mapper.TransferMapper;
 import com.kimsong.digital_banking.models.Account;
 import com.kimsong.digital_banking.models.Transaction;
 import com.kimsong.digital_banking.dtos.transfer.TransferMoneyRequest;
@@ -19,6 +20,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
+import java.time.Instant;
+import java.util.Date;
 
 @Service
 @RequiredArgsConstructor
@@ -28,18 +31,19 @@ public class TransferServiceImpl implements TransferService {
     private final AccountService accountService;
     private final CurrencyExchangeService currencyExchangeService;
     private final TransactionService transactionService;
+    private final TransferMapper transferMapper;
     private final LimitTransferProperties limitTransferProp;
 
     @Override
     @Transactional
     public DataResponseDto<TransferMoneyResponse> transferMoney(TransferMoneyRequest request) {
         if (request.getFromAccountNumber().equals(request.getToAccountNumber())) {
-            log.error("Can't transfer for same account");
+            log.error("Can't transfer for same account: {}", request.getFromAccountNumber());
             throw new ValidationException(ErrorStatusEnum.SAME_ACCOUNT_TRANSFER);
         }
 
-        Account fromAccount = accountService.getAccountByAccountNumber(request.getFromAccountNumber(), true);
-        Account toAccount = accountService.getAccountByAccountNumber(request.getToAccountNumber(), false);
+        Account fromAccount = accountService.getAccountWithLockByAccountNumber(request.getFromAccountNumber(), true);
+        Account toAccount = accountService.getAccountWithLockByAccountNumber(request.getToAccountNumber(), false);
 
         BigDecimal creditAmount = request.getAmount();
         BigDecimal deductAmount = currencyExchangeService.convert(
@@ -48,7 +52,7 @@ public class TransferServiceImpl implements TransferService {
                 fromAccount.getCurrency()
         );
         if (fromAccount.getBalance().compareTo(deductAmount) < 0) {
-            log.error(ErrorStatusEnum.INSUFFICIENT_BALANCE.message);
+            log.error("{}, request balance: {}, available balance: {}", ErrorStatusEnum.INSUFFICIENT_BALANCE.message, deductAmount, fromAccount.getBalance());
             throw new ValidationException(ErrorStatusEnum.INSUFFICIENT_BALANCE);
         }
 
@@ -80,9 +84,11 @@ public class TransferServiceImpl implements TransferService {
 
         accountService.updateAccount(fromAccount);
         accountService.updateAccount(toAccount);
+        log.info("Transfer success");
 
         // Log debit/credit transactions
         String txnReference = RefGeneratorUtil.generateTransactionRef();
+        Date txnDate = Date.from(Instant.now());
         Transaction debitTransaction = new Transaction();
         debitTransaction.setTransactionReference(txnReference);
         debitTransaction.setAccount(fromAccount);
@@ -93,7 +99,8 @@ public class TransferServiceImpl implements TransferService {
         debitTransaction.setStatus(ETransactionStatus.SUCCESS);
         debitTransaction.setChannel(EChannel.API);
         debitTransaction.setPurpose(request.getPurpose());
-        transactionService.createTransaction(debitTransaction);
+        debitTransaction.setTransactionDate(txnDate);
+        transactionService.createTransaction(debitTransaction, ETransactionType.DEBIT);
 
         Transaction creditTransaction = new Transaction();
         creditTransaction.setTransactionReference(txnReference);
@@ -101,14 +108,21 @@ public class TransferServiceImpl implements TransferService {
         creditTransaction.setTransactionType(ETransactionType.CREDIT);
         creditTransaction.setAmount(creditAmount);
         creditTransaction.setCurrency(toAccount.getCurrency());
-        creditTransaction.setChannel(EChannel.MOBILE);
         creditTransaction.setStatus(ETransactionStatus.SUCCESS);
         creditTransaction.setChannel(EChannel.API);
         creditTransaction.setPurpose(request.getPurpose());
-        transactionService.createTransaction(creditTransaction);
+        creditTransaction.setTransactionDate(txnDate);
+        transactionService.createTransaction(creditTransaction, ETransactionType.CREDIT);
 
+        TransferMoneyResponse response = transferMapper.mapFromRequest(request);
+        response.setTransactionReference(txnReference);
+        response.setChannel(EChannel.API);
+        response.setStatus(ETransactionStatus.SUCCESS);
+        response.setTransactionDate(txnDate);
+        response.setFromCcy(fromAccount.getCurrency());
+        response.setToCcy(toAccount.getCurrency());
         return DataResponseDto.<TransferMoneyResponse>builder()
-                .data(new TransferMoneyResponse())
+                .data(response)
                 .build();
 
     }
