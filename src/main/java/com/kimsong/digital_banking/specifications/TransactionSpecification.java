@@ -14,8 +14,9 @@ public class TransactionSpecification {
         return (root, query, criteriaBuilder) -> {
             List<Predicate> predicateList = new ArrayList<>();
             if (Objects.nonNull(filter.getKeyword())) {
-                predicateList.add(criteriaBuilder.like(
-                        criteriaBuilder.lower(root.get("name")), "%" + filter.getKeyword().toLowerCase().trim() + "%"));
+                predicateList.add(criteriaBuilder.or(
+                        criteriaBuilder.equal(root.get("transactionReference"), filter.getKeyword()),
+                        criteriaBuilder.like(criteriaBuilder.lower(root.get("purpose")), "%" + filter.getKeyword().toLowerCase().trim() + "%")));
             }
             if (Objects.nonNull(filter.getAccountNumber())) {
                 predicateList.add(criteriaBuilder.equal(root.get("account").get("accountNumber"), filter.getAccountNumber()));

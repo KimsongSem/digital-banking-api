@@ -1,7 +1,9 @@
-package com.kimsong.digital_banking.exception;
+package com.kimsong.digital_banking.exceptions;
 
 import com.kimsong.digital_banking.shared.responseStatus.ErrorStatusEnum;
+import lombok.Getter;
 
+@Getter
 public class DatabaseException extends RuntimeException{
     private final ErrorStatusEnum statusEnum;
 
@@ -15,7 +17,4 @@ public class DatabaseException extends RuntimeException{
         this.statusEnum = statusEnum;
     }
 
-    public ErrorStatusEnum getStatusEnum() {
-        return statusEnum;
-    }
 }

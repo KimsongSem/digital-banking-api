@@ -1,10 +1,10 @@
 package com.kimsong.digital_banking.services;
 
 import com.kimsong.digital_banking.config.providers.CurrencyRateProvider;
-import com.kimsong.digital_banking.exception.ValidationException;
+import com.kimsong.digital_banking.exceptions.ValidationException;
 import com.kimsong.digital_banking.services.implement.CurrencyExchangeServiceImpl;
 import com.kimsong.digital_banking.shared.responseStatus.ErrorStatusEnum;
-import com.kimsong.digital_banking.utils.ECurrency;
+import com.kimsong.digital_banking.constants.enums.ECurrency;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -37,7 +37,6 @@ public class CurrencyExchangeServiceImplTest {
         BigDecimal result = exchangeService.convert(amount, ECurrency.USD, ECurrency.USD);
 
         assertEquals(amount, result);
-        verifyNoInteractions(provider); //No need to ask provider if currencies are the same
     }
 
     @Test

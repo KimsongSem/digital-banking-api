@@ -1,7 +1,7 @@
 package com.kimsong.digital_banking.dtos.account;
 
 import com.kimsong.digital_banking.dtos.customer.CustomerResponse;
-import com.kimsong.digital_banking.utils.EAccountType;
+import com.kimsong.digital_banking.constants.enums.EAccountType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -14,7 +14,6 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 public class AccountResponse implements Serializable {
-//    private Long id;
 
     private String accountNumber;
 

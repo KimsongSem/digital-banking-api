@@ -1,6 +1,6 @@
-package com.kimsong.digital_banking.exception;
+package com.kimsong.digital_banking.exceptions;
 
-import com.kimsong.digital_banking.exception.response.ErrorResponseDetail;
+import com.kimsong.digital_banking.exceptions.response.ErrorResponseDetail;
 import com.kimsong.digital_banking.shared.responseStatus.ErrorStatusEnum;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

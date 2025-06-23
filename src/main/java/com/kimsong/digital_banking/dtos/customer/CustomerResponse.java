@@ -6,14 +6,13 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
-import java.util.Date;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class CustomerResponse implements Serializable {
-//    private Long id;
+
     private String CIF;
 
     private String firstName;
@@ -21,19 +20,5 @@ public class CustomerResponse implements Serializable {
     private String lastName;
 
     private String phone;
-
-//    private String gender;
-//
-//    private String email;
-//
-//    private String nationalId;
-//
-//    private String passportNumber;
-//
-//    private String occupation;
-//
-//    private Date dateOfBirth;
-//
-//    private String address;
 
 }

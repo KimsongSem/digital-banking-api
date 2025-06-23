@@ -1,76 +1,76 @@
-//package com.kimsong.digital_banking;
-//
-//import com.kimsong.digital_banking.dtos.account.CreateCustomerAccountRequest;
-//import com.kimsong.digital_banking.dtos.customer.CustomerRequest;
-//import com.kimsong.digital_banking.dtos.transfer.TransferMoneyRequest;
-//import com.kimsong.digital_banking.models.Account;
-//import com.kimsong.digital_banking.models.Customer;
-//import com.kimsong.digital_banking.repositories.AccountRepository;
-//import com.kimsong.digital_banking.services.AccountService;
-//import com.kimsong.digital_banking.services.TransferService;
-//import com.kimsong.digital_banking.utils.EAccountType;
-//import com.kimsong.digital_banking.utils.ECurrency;
-//import org.junit.jupiter.api.BeforeEach;
-//import org.junit.jupiter.api.Test;
-//import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.boot.test.context.SpringBootTest;
-//
-//import java.math.BigDecimal;
-//import java.util.concurrent.CountDownLatch;
-//import java.util.concurrent.ExecutorService;
-//import java.util.concurrent.Executors;
-//
-//import static org.junit.jupiter.api.Assertions.assertEquals;
-//import static org.junit.jupiter.api.Assertions.assertTrue;
-//
-//@SpringBootTest
-//class DigitalBankingApplicationTests {
-//
-//	@Test
-//	void contextLoads() {
-//	}
-//
-//	@Autowired
-//	private TransferService transferService;
-//	@Autowired
-//	private AccountRepository accountRepository;
-//	@Autowired
-//	private AccountService accountService;
-//
-//	@Test
-//	void testConcurrentTransfersFromSameAccount() throws InterruptedException {
+package com.kimsong.digital_banking;
+
+import com.kimsong.digital_banking.dtos.account.CreateCustomerAccountRequest;
+import com.kimsong.digital_banking.dtos.customer.CustomerRequest;
+import com.kimsong.digital_banking.dtos.transfer.TransferMoneyRequest;
+import com.kimsong.digital_banking.models.Account;
+import com.kimsong.digital_banking.models.Customer;
+import com.kimsong.digital_banking.repositories.AccountRepository;
+import com.kimsong.digital_banking.services.AccountService;
+import com.kimsong.digital_banking.services.TransferService;
+import com.kimsong.digital_banking.constants.enums.EAccountType;
+import com.kimsong.digital_banking.constants.enums.ECurrency;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import java.math.BigDecimal;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+@SpringBootTest
+class DigitalBankingApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+	@Autowired
+	private TransferService transferService;
+	@Autowired
+	private AccountRepository accountRepository;
+	@Autowired
+	private AccountService accountService;
+
+	@Test
+	void concurrentTransfersMoney_FromSameAccount() throws InterruptedException {
 //		// Setup
-////		Account from = accountService.getAccountByAccountNumber(1111, true);
-////		Account to = accountService.getAccountByAccountNumber(2222, false);
-//
-//		int threads = 5;
-//		BigDecimal transferAmount = new BigDecimal("10.00");
-//		ExecutorService executor = Executors.newFixedThreadPool(threads);
-//		CountDownLatch latch = new CountDownLatch(threads);
-//
-//		for (int i = 0; i < threads; i++) {
-//			executor.submit(() -> {
-//				try {
-//					TransferMoneyRequest req = new TransferMoneyRequest();
-//					req.setFromAccountNumber(1111);
-//					req.setToAccountNumber(2222);
-//					req.setAmount(transferAmount);
-//					req.setPurpose("Test transfer");
-//					transferService.transferMoney(req);
-//				} catch (Exception e) {
-//					System.out.println("Transfer failed: " + e.getMessage());
-//				} finally {
-//					latch.countDown();
-//				}
-//			});
-//		}
-//
-//		latch.await();
-//		executor.shutdown();
-//
+//		Account from = accountService.getAccountWithLockByAccountNumber("100000009", true);
+//		Account to = accountService.getAccountWithLockByAccountNumber("100000010", false);
+
+		int threads = 5;
+		BigDecimal transferAmount = new BigDecimal("10.00");
+		ExecutorService executor = Executors.newFixedThreadPool(threads);
+		CountDownLatch latch = new CountDownLatch(threads);
+
+		for (int i = 0; i < threads; i++) {
+			executor.submit(() -> {
+				try {
+					TransferMoneyRequest req = new TransferMoneyRequest();
+					req.setFromAccountNumber("100000009");
+					req.setToAccountNumber("100000010");
+					req.setAmount(transferAmount);
+					req.setPurpose("Test transfer");
+					transferService.transferMoney(req);
+				} catch (Exception e) {
+					System.out.println("Transfer failed: " + e.getMessage());
+				} finally {
+					latch.countDown();
+				}
+			});
+		}
+
+		latch.await();
+		executor.shutdown();
+
 //		// ✅ Check final balance
-//		Account updatedFrom = accountRepository.findByAccountNumber(1111).orElseThrow();
-//		Account updatedTo = accountRepository.findByAccountNumber(2222).orElseThrow();
+//		Account updatedFrom = accountRepository.findByAccountNumber("100000009").orElseThrow();
+//		Account updatedTo = accountRepository.findByAccountNumber("100000010").orElseThrow();
 //
 //		System.out.println("FROM BALANCE: " + updatedFrom.getBalance());
 //		System.out.println("TO BALANCE: " + updatedTo.getBalance());
@@ -78,8 +78,8 @@
 //		// ✅ Ensure no overdraw
 //		assertTrue(updatedFrom.getBalance().compareTo(BigDecimal.ZERO) >= 0);
 //		assertEquals(new BigDecimal("100.00"), updatedFrom.getBalance().add(updatedTo.getBalance()));
-//	}
-//
+	}
+
 //	@BeforeEach
 //	void setup() {
 //		// Create accounts if not exist
@@ -168,6 +168,6 @@
 //		accountRepository.findAll().forEach(a ->
 //				System.out.println("Account " + a.getAccountNumber() + ": " + a.getBalance()));
 //	}
-//
-//
-//}
+
+
+}

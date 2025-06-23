@@ -1,8 +1,12 @@
 package com.kimsong.digital_banking.services.implement;
 
 import com.kimsong.digital_banking.config.LimitTransferProperties;
-import com.kimsong.digital_banking.exception.ValidationException;
-import com.kimsong.digital_banking.mapper.TransferMapper;
+import com.kimsong.digital_banking.constants.enums.EChannel;
+import com.kimsong.digital_banking.constants.enums.ECurrency;
+import com.kimsong.digital_banking.constants.enums.ETransactionStatus;
+import com.kimsong.digital_banking.constants.enums.ETransactionType;
+import com.kimsong.digital_banking.exceptions.ValidationException;
+import com.kimsong.digital_banking.mappers.TransferMapper;
 import com.kimsong.digital_banking.models.Account;
 import com.kimsong.digital_banking.models.Transaction;
 import com.kimsong.digital_banking.dtos.transfer.TransferMoneyRequest;
@@ -62,9 +66,11 @@ public class TransferServiceImpl implements TransferService {
                 ECurrency.USD
         );
         if (amountInUSD.compareTo(BigDecimal.valueOf(0.01)) < 0) {
+            log.error(ErrorStatusEnum.AMOUNT_LESS_THAN_MIN_LIMIT.message);
             throw new ValidationException(ErrorStatusEnum.AMOUNT_LESS_THAN_MIN_LIMIT);
         }
         if (amountInUSD.compareTo(limitTransferProp.getSingleTransfer()) > 0) {
+            log.error(ErrorStatusEnum.SINGLE_TRANSFER_EXCEEDED_LIMIT.message);
             throw new ValidationException(ErrorStatusEnum.SINGLE_TRANSFER_EXCEEDED_LIMIT);
         }
 
@@ -76,6 +82,7 @@ public class TransferServiceImpl implements TransferService {
 
         BigDecimal totalTodayDebitInUSD = todayDebitInUSD.add(amountInUSD);
         if (totalTodayDebitInUSD.compareTo(limitTransferProp.getDailyTransfer()) > 0) {
+            log.error(ErrorStatusEnum.DAILY_TRANSFER_EXCEEDED_LIMIT.message);
             throw new ValidationException(ErrorStatusEnum.DAILY_TRANSFER_EXCEEDED_LIMIT);
         }
 
@@ -95,7 +102,6 @@ public class TransferServiceImpl implements TransferService {
         debitTransaction.setTransactionType(ETransactionType.DEBIT);
         debitTransaction.setAmount(deductAmount);
         debitTransaction.setCurrency(fromAccount.getCurrency());
-        debitTransaction.setChannel(EChannel.MOBILE);
         debitTransaction.setStatus(ETransactionStatus.SUCCESS);
         debitTransaction.setChannel(EChannel.API);
         debitTransaction.setPurpose(request.getPurpose());

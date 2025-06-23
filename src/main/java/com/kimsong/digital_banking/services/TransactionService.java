@@ -5,7 +5,7 @@ import com.kimsong.digital_banking.models.Account;
 import com.kimsong.digital_banking.models.Transaction;
 import com.kimsong.digital_banking.dtos.transaction.TransactionHistoryResponse;
 import com.kimsong.digital_banking.shared.response.PaginationResponseDto;
-import com.kimsong.digital_banking.utils.ETransactionType;
+import com.kimsong.digital_banking.constants.enums.ETransactionType;
 
 import java.math.BigDecimal;
 

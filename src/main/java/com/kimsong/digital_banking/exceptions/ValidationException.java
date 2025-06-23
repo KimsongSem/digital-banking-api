@@ -1,7 +1,9 @@
-package com.kimsong.digital_banking.exception;
+package com.kimsong.digital_banking.exceptions;
 
 import com.kimsong.digital_banking.shared.responseStatus.ErrorStatusEnum;
+import lombok.Getter;
 
+@Getter
 public class ValidationException extends RuntimeException{
     private final ErrorStatusEnum statusEnum;
 
@@ -13,10 +15,6 @@ public class ValidationException extends RuntimeException{
     public ValidationException(ErrorStatusEnum statusEnum, Throwable cause) {
         super(statusEnum.message, cause);
         this.statusEnum = statusEnum;
-    }
-
-    public ErrorStatusEnum getStatusEnum() {
-        return statusEnum;
     }
 
 }

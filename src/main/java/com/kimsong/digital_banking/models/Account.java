@@ -1,9 +1,9 @@
 package com.kimsong.digital_banking.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.kimsong.digital_banking.utils.EAccountStatus;
-import com.kimsong.digital_banking.utils.EAccountType;
-import com.kimsong.digital_banking.utils.ECurrency;
+import com.kimsong.digital_banking.constants.enums.EAccountStatus;
+import com.kimsong.digital_banking.constants.enums.EAccountType;
+import com.kimsong.digital_banking.constants.enums.ECurrency;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -20,8 +20,6 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Account {
-//    @Version
-//    private Long version;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

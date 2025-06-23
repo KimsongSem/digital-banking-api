@@ -4,6 +4,7 @@ public enum ErrorStatusEnum {
     SUCCESS(200, "Success"),
 
     BAD_REQUEST(400, "Missing mandatory field"),
+    CUSTOMER_ALREADY_EXISTS(400, "Customer already exists"),
     UNSUPPORTED_CURRENCY_PAIR(400, "Unsupported currency pair"),
     SAME_ACCOUNT_TRANSFER(400, "Can't transfer same account"),
     SINGLE_TRANSFER_EXCEEDED_LIMIT(400, "Single transfer exceeded limit"),

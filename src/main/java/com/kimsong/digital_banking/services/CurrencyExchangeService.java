@@ -1,6 +1,6 @@
 package com.kimsong.digital_banking.services;
 
-import com.kimsong.digital_banking.utils.ECurrency;
+import com.kimsong.digital_banking.constants.enums.ECurrency;
 
 import java.math.BigDecimal;
 

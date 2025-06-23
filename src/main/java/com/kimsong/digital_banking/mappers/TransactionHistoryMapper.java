@@ -1,4 +1,4 @@
-package com.kimsong.digital_banking.mapper;
+package com.kimsong.digital_banking.mappers;
 
 import com.kimsong.digital_banking.models.Transaction;
 import com.kimsong.digital_banking.dtos.transaction.TransactionHistoryResponse;

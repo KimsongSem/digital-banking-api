@@ -1,7 +1,6 @@
-package com.kimsong.digital_banking.mapper;
+package com.kimsong.digital_banking.mappers;
 
 import com.kimsong.digital_banking.models.Account;
-import com.kimsong.digital_banking.models.Customer;
 import com.kimsong.digital_banking.dtos.account.CreateCustomerAccountRequest;
 import com.kimsong.digital_banking.dtos.account.CheckAccountBalanceResponse;
 import com.kimsong.digital_banking.dtos.account.CustomerAccountResponse;

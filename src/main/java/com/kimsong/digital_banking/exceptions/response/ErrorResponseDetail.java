@@ -1,4 +1,4 @@
-package com.kimsong.digital_banking.exception.response;
+package com.kimsong.digital_banking.exceptions.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.*;

@@ -1,7 +1,7 @@
 package com.kimsong.digital_banking.services.implement;
 
 import com.kimsong.digital_banking.dtos.transaction.TransactionHistoryFilter;
-import com.kimsong.digital_banking.mapper.TransactionHistoryMapper;
+import com.kimsong.digital_banking.mappers.TransactionHistoryMapper;
 import com.kimsong.digital_banking.models.Account;
 import com.kimsong.digital_banking.models.Transaction;
 import com.kimsong.digital_banking.dtos.transaction.TransactionHistoryResponse;
@@ -11,8 +11,8 @@ import com.kimsong.digital_banking.shared.pagination.PageConfig;
 import com.kimsong.digital_banking.shared.pagination.PaginationConfig;
 import com.kimsong.digital_banking.shared.response.PaginationResponseDto;
 import com.kimsong.digital_banking.specifications.TransactionSpecification;
-import com.kimsong.digital_banking.utils.ETransactionStatus;
-import com.kimsong.digital_banking.utils.ETransactionType;
+import com.kimsong.digital_banking.constants.enums.ETransactionStatus;
+import com.kimsong.digital_banking.constants.enums.ETransactionType;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;

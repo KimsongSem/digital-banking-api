@@ -1,6 +1,6 @@
 package com.kimsong.digital_banking.dtos.account;
 
-import com.kimsong.digital_banking.utils.ECurrency;
+import com.kimsong.digital_banking.constants.enums.ECurrency;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

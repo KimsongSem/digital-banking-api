@@ -1,10 +1,10 @@
 package com.kimsong.digital_banking.services.implement;
 
-import com.kimsong.digital_banking.exception.ValidationException;
+import com.kimsong.digital_banking.exceptions.ValidationException;
 import com.kimsong.digital_banking.services.CurrencyExchangeService;
 import com.kimsong.digital_banking.config.providers.CurrencyRateProvider;
 import com.kimsong.digital_banking.shared.responseStatus.ErrorStatusEnum;
-import com.kimsong.digital_banking.utils.ECurrency;
+import com.kimsong.digital_banking.constants.enums.ECurrency;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

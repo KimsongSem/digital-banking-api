@@ -5,18 +5,18 @@ import com.kimsong.digital_banking.dtos.account.CheckAccountBalanceResponse;
 import com.kimsong.digital_banking.dtos.account.CreateCustomerAccountRequest;
 import com.kimsong.digital_banking.dtos.account.CustomerAccountResponse;
 import com.kimsong.digital_banking.dtos.customer.CustomerRequest;
-import com.kimsong.digital_banking.exception.ResourceNotFoundException;
+import com.kimsong.digital_banking.exceptions.ResourceNotFoundException;
 import com.kimsong.digital_banking.generators.SequenceGenerator;
-import com.kimsong.digital_banking.mapper.AccountMapper;
-import com.kimsong.digital_banking.mapper.CustomerMapper;
+import com.kimsong.digital_banking.mappers.AccountMapper;
+import com.kimsong.digital_banking.mappers.CustomerMapper;
 import com.kimsong.digital_banking.models.Account;
 import com.kimsong.digital_banking.models.Customer;
 import com.kimsong.digital_banking.repositories.AccountRepository;
 import com.kimsong.digital_banking.repositories.CustomerRepository;
 import com.kimsong.digital_banking.services.implement.AccountServiceImpl;
 import com.kimsong.digital_banking.shared.response.DataResponseDto;
-import com.kimsong.digital_banking.utils.EAccountType;
-import com.kimsong.digital_banking.utils.ECurrency;
+import com.kimsong.digital_banking.constants.enums.EAccountType;
+import com.kimsong.digital_banking.constants.enums.ECurrency;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -35,13 +35,11 @@ public class AccountServiceImplTest {
     @Mock
     private AccountRepository accountRepository;
     @Mock
-    private CustomerRepository customerRepository;
-    @Mock
     private AccountMapper accountMapper;
     @Mock
     private SequenceGenerator generator;
     @Mock
-    private CustomerMapper customerMapper;
+    private CustomerService customerService;
     @InjectMocks
     private AccountServiceImpl accountService;
 
@@ -51,17 +49,10 @@ public class AccountServiceImplTest {
         CustomerRequest customerRequest = new CustomerRequest();
         customerRequest.setFirstName("Kimsong");
         customerRequest.setLastName("SEM");
-        customerRequest.setPhone("0962192240");
-        customerRequest.setGender("M");
+        customerRequest.setNationalId("123456");
         request.setCustomer(customerRequest);
-        request.setCustomer(customerRequest);
-        request.setAccountType(EAccountType.SAVINGS);
-        request.setBalance(new BigDecimal("100.00"));
-        request.setCurrency(ECurrency.USD);
 
-        String generatedCIF = "000001";
         Customer customer = new Customer();
-        customer.setCIF(generatedCIF);
 
         String generatedAccountNumber = "100000001";
         Account account = new Account();
@@ -71,18 +62,18 @@ public class AccountServiceImplTest {
         CustomerAccountResponse response = new CustomerAccountResponse();
         response.setAccountNumber(generatedAccountNumber);
 
-        when(generator.generateCifNumber()).thenReturn(generatedCIF);
+        when(customerService.createCustomer(customerRequest)).thenReturn(customer);
         when(generator.generateAccountNumber()).thenReturn(generatedAccountNumber);
-        when(customerMapper.mapFromRequest(customerRequest, generatedCIF)).thenReturn(customer);
         when(accountMapper.mapFromRequest(request, generatedAccountNumber)).thenReturn(account);
         when(accountMapper.mapFromEntity(account)).thenReturn(response);
+        when(accountRepository.save(account)).thenReturn(account);
 
         DataResponseDto<CustomerAccountResponse> result = accountService.createAccount(request);
 
-        verify(customerRepository).save(customer);
         verify(accountRepository).save(account);
         assertNotNull(result.getData());
         assertEquals(generatedAccountNumber, result.getData().getAccountNumber());
+
     }
 
     @Test

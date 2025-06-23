@@ -1,11 +1,8 @@
 package com.kimsong.digital_banking.dtos.transfer;
 
-import com.kimsong.digital_banking.models.Account;
-import com.kimsong.digital_banking.utils.EChannel;
-import com.kimsong.digital_banking.utils.ECurrency;
-import com.kimsong.digital_banking.utils.ETransactionStatus;
-import com.kimsong.digital_banking.utils.ETransactionType;
-import jakarta.persistence.*;
+import com.kimsong.digital_banking.constants.enums.EChannel;
+import com.kimsong.digital_banking.constants.enums.ECurrency;
+import com.kimsong.digital_banking.constants.enums.ETransactionStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -13,7 +10,6 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
-import java.time.Instant;
 import java.util.Date;
 
 @Data

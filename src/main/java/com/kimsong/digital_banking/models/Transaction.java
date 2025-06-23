@@ -1,16 +1,14 @@
 package com.kimsong.digital_banking.models;
 
-import com.kimsong.digital_banking.utils.EChannel;
-import com.kimsong.digital_banking.utils.ECurrency;
-import com.kimsong.digital_banking.utils.ETransactionStatus;
-import com.kimsong.digital_banking.utils.ETransactionType;
+import com.kimsong.digital_banking.constants.enums.EChannel;
+import com.kimsong.digital_banking.constants.enums.ECurrency;
+import com.kimsong.digital_banking.constants.enums.ETransactionStatus;
+import com.kimsong.digital_banking.constants.enums.ETransactionType;
 import jakarta.persistence.*;
 import lombok.*;
 
 import java.math.BigDecimal;
-import java.time.Instant;
 import java.util.Date;
-import java.util.UUID;
 
 @Entity
 @Table(name = "transaction")

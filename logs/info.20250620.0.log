@@ -2209,7 +2209,7 @@ Caused by: org.hibernate.PropertyValueException: not-null property references a 
 2025-06-20 01:02:04.389|INFO |afd24ed7eab74172b37d9c0b251c65fa|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-06-20 01:02:04.394|INFO |afd24ed7eab74172b37d9c0b251c65fa|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/balance, method:POST, remote address:0:0:0:0:0:0:0:1
 2025-06-20 01:02:04.699|INFO |afd24ed7eab74172b37d9c0b251c65fa|c.k.d.exception.GlobalExceptionHandler            :26 - Error: {}
-com.kimsong.digital_banking.exception.NotFoundException: Account not found!
+com.kimsong.digital_banking.exceptions.NotFoundException: Account not found!
 	at com.kimsong.digital_banking.services.implement.AccountImpl.lambda$checkAccountBalance$0(AccountImpl.java:45)
 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
 	at com.kimsong.digital_banking.services.implement.AccountImpl.checkAccountBalance(AccountImpl.java:45)
@@ -2273,7 +2273,7 @@ com.kimsong.digital_banking.exception.NotFoundException: Account not found!
 2025-06-20 01:02:04.814|INFO |afd24ed7eab74172b37d9c0b251c65fa|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:404
 2025-06-20 01:02:16.501|INFO |27d247b7fc25412aa8f08400b43b3fb2|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/balance, method:POST, remote address:0:0:0:0:0:0:0:1
 2025-06-20 01:02:16.507|INFO |27d247b7fc25412aa8f08400b43b3fb2|c.k.d.exception.GlobalExceptionHandler            :26 - Error: {}
-com.kimsong.digital_banking.exception.NotFoundException: Account not found!
+com.kimsong.digital_banking.exceptions.NotFoundException: Account not found!
 	at com.kimsong.digital_banking.services.implement.AccountImpl.lambda$checkAccountBalance$0(AccountImpl.java:45)
 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
 	at com.kimsong.digital_banking.services.implement.AccountImpl.checkAccountBalance(AccountImpl.java:45)
@@ -2337,7 +2337,7 @@ com.kimsong.digital_banking.exception.NotFoundException: Account not found!
 2025-06-20 01:02:16.508|INFO |27d247b7fc25412aa8f08400b43b3fb2|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:404
 2025-06-20 01:02:19.644|INFO |ccda262aa7fb467ca4db914739cc551b|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/balance, method:POST, remote address:0:0:0:0:0:0:0:1
 2025-06-20 01:02:19.647|INFO |ccda262aa7fb467ca4db914739cc551b|c.k.d.exception.GlobalExceptionHandler            :26 - Error: {}
-com.kimsong.digital_banking.exception.NotFoundException: Account not found!
+com.kimsong.digital_banking.exceptions.NotFoundException: Account not found!
 	at com.kimsong.digital_banking.services.implement.AccountImpl.lambda$checkAccountBalance$0(AccountImpl.java:45)
 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
 	at com.kimsong.digital_banking.services.implement.AccountImpl.checkAccountBalance(AccountImpl.java:45)
@@ -2415,7 +2415,7 @@ com.kimsong.digital_banking.exception.NotFoundException: Account not found!
 2025-06-20 01:03:08.599|INFO |385560f47dfa4a60aa654bedc84d667e|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-06-20 01:03:08.604|INFO |385560f47dfa4a60aa654bedc84d667e|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/balance, method:POST, remote address:0:0:0:0:0:0:0:1
 2025-06-20 01:03:29.272|INFO |385560f47dfa4a60aa654bedc84d667e|c.k.d.exception.GlobalExceptionHandler            :26 - Error: {}
-com.kimsong.digital_banking.exception.NotFoundException: Account not found!
+com.kimsong.digital_banking.exceptions.NotFoundException: Account not found!
 	at com.kimsong.digital_banking.services.implement.AccountImpl.lambda$checkAccountBalance$0(AccountImpl.java:45)
 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
 	at com.kimsong.digital_banking.services.implement.AccountImpl.checkAccountBalance(AccountImpl.java:45)
@@ -2506,7 +2506,7 @@ com.kimsong.digital_banking.exception.NotFoundException: Account not found!
 2025-06-20 01:04:20.118|INFO |1bcec3937ecf4eb9b5ad3d03b472aba5|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-06-20 01:04:20.122|INFO |1bcec3937ecf4eb9b5ad3d03b472aba5|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/balance, method:POST, remote address:0:0:0:0:0:0:0:1
 2025-06-20 01:05:04.442|INFO |1bcec3937ecf4eb9b5ad3d03b472aba5|c.k.d.exception.GlobalExceptionHandler            :26 - Error: {}
-com.kimsong.digital_banking.exception.NotFoundException: Account not found!
+com.kimsong.digital_banking.exceptions.NotFoundException: Account not found!
 	at com.kimsong.digital_banking.services.implement.AccountImpl.lambda$checkAccountBalance$0(AccountImpl.java:46)
 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
 	at com.kimsong.digital_banking.services.implement.AccountImpl.checkAccountBalance(AccountImpl.java:46)
@@ -2570,7 +2570,7 @@ com.kimsong.digital_banking.exception.NotFoundException: Account not found!
 2025-06-20 01:05:04.487|INFO |1bcec3937ecf4eb9b5ad3d03b472aba5|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:404
 2025-06-20 01:05:06.722|INFO |92a79ed1f6b5439b8d505e466589156c|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/balance, method:POST, remote address:0:0:0:0:0:0:0:1
 2025-06-20 01:05:10.947|INFO |92a79ed1f6b5439b8d505e466589156c|c.k.d.exception.GlobalExceptionHandler            :26 - Error: {}
-com.kimsong.digital_banking.exception.NotFoundException: Account not found!
+com.kimsong.digital_banking.exceptions.NotFoundException: Account not found!
 	at com.kimsong.digital_banking.services.implement.AccountImpl.lambda$checkAccountBalance$0(AccountImpl.java:46)
 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
 	at com.kimsong.digital_banking.services.implement.AccountImpl.checkAccountBalance(AccountImpl.java:46)

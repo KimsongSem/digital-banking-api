@@ -1,7 +1,7 @@
 package com.kimsong.digital_banking.config.providers;
 
 import com.kimsong.digital_banking.config.CurrencyProperties;
-import com.kimsong.digital_banking.utils.ECurrency;
+import com.kimsong.digital_banking.constants.enums.ECurrency;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

@@ -1,15 +1,17 @@
 package com.kimsong.digital_banking.services.implement;
 
-import com.kimsong.digital_banking.dtos.account.*;
-import com.kimsong.digital_banking.exception.ResourceNotFoundException;
+import com.kimsong.digital_banking.dtos.account.CheckAccountBalanceRequest;
+import com.kimsong.digital_banking.dtos.account.CheckAccountBalanceResponse;
+import com.kimsong.digital_banking.dtos.account.CreateCustomerAccountRequest;
+import com.kimsong.digital_banking.dtos.account.CustomerAccountResponse;
+import com.kimsong.digital_banking.exceptions.ResourceNotFoundException;
 import com.kimsong.digital_banking.generators.SequenceGenerator;
-import com.kimsong.digital_banking.mapper.AccountMapper;
-import com.kimsong.digital_banking.mapper.CustomerMapper;
+import com.kimsong.digital_banking.mappers.AccountMapper;
 import com.kimsong.digital_banking.models.Account;
 import com.kimsong.digital_banking.models.Customer;
 import com.kimsong.digital_banking.repositories.AccountRepository;
-import com.kimsong.digital_banking.repositories.CustomerRepository;
 import com.kimsong.digital_banking.services.AccountService;
+import com.kimsong.digital_banking.services.CustomerService;
 import com.kimsong.digital_banking.shared.response.DataResponseDto;
 import com.kimsong.digital_banking.shared.responseStatus.ErrorStatusEnum;
 import lombok.RequiredArgsConstructor;
@@ -22,18 +24,14 @@ import org.springframework.transaction.annotation.Transactional;
 @Slf4j
 public class AccountServiceImpl implements AccountService {
     private final AccountMapper accountMapper;
-    private final CustomerMapper customerMapper;
     private final SequenceGenerator generator;
     private final AccountRepository accountRepository;
-    private final CustomerRepository customerRepository;
+    private final CustomerService customerService;
 
     @Override
     @Transactional
     public DataResponseDto<CustomerAccountResponse> createAccount(CreateCustomerAccountRequest request) {
-        Customer customer = customerMapper.mapFromRequest(request.getCustomer(), generator.generateCifNumber());
-        customerRepository.save(customer);
-        log.info("Customer created with CIF:{}", customer.getCIF());
-
+        Customer customer = customerService.createCustomer(request.getCustomer());
         Account account = accountMapper.mapFromRequest(request, generator.generateAccountNumber());
         account.setCustomer(customer);
         accountRepository.save(account);

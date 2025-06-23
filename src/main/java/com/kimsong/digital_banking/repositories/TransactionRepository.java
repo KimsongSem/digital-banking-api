@@ -2,8 +2,8 @@ package com.kimsong.digital_banking.repositories;
 
 import com.kimsong.digital_banking.models.Account;
 import com.kimsong.digital_banking.models.Transaction;
-import com.kimsong.digital_banking.utils.ETransactionStatus;
-import com.kimsong.digital_banking.utils.ETransactionType;
+import com.kimsong.digital_banking.constants.enums.ETransactionStatus;
+import com.kimsong.digital_banking.constants.enums.ETransactionType;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
