@@ -41,13 +41,29 @@ public class TransferServiceImpl implements TransferService {
     @Override
     @Transactional
     public DataResponseDto<TransferMoneyResponse> transferMoney(TransferMoneyRequest request) {
-        if (request.getFromAccountNumber().equals(request.getToAccountNumber())) {
+        String from = request.getFromAccountNumber();
+        String to = request.getToAccountNumber();
+        if (from.equals(to)) {
             log.error("Can't transfer for same account: {}", request.getFromAccountNumber());
             throw new ValidationException(ErrorStatusEnum.SAME_ACCOUNT_TRANSFER);
         }
 
-        Account fromAccount = accountService.getAccountWithLockByAccountNumber(request.getFromAccountNumber(), true);
-        Account toAccount = accountService.getAccountWithLockByAccountNumber(request.getToAccountNumber(), false);
+        Account firstLock;
+        Account secondLock;
+        boolean fromIsFirst;
+
+        if (from.compareTo(to) < 0) {
+            firstLock = accountService.getAccountWithLockByAccountNumber(from, true);
+            secondLock = accountService.getAccountWithLockByAccountNumber(to, false);
+            fromIsFirst = true;
+        } else {
+            firstLock = accountService.getAccountWithLockByAccountNumber(to, false);
+            secondLock = accountService.getAccountWithLockByAccountNumber(from, true);
+            fromIsFirst = false;
+        }
+
+        Account fromAccount = fromIsFirst ? firstLock : secondLock;
+        Account toAccount = fromIsFirst ? secondLock : firstLock;
 
         BigDecimal creditAmount = request.getAmount();
         BigDecimal deductAmount = currencyExchangeService.convert(

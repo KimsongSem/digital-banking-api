@@ -1,6 +1,6 @@
 # 💳 Digital Banking API
 
-A secure, scalable, and modular RESTful API built with Spring Boot 3.5 for digital banking operations. It supports account creation, balance tracking, fund transfers, and customer management with robust error handling.
+A secure, scalable, and modular RESTful API built with Spring Boot 3.5 for digital banking operations. It supports customer account creation, check balance, fund transfers (concurrent transfers) and get transaction history with robust error handling.
 
 ---
 
@@ -175,7 +175,6 @@ Test cases are located under the `src/test` directory and include coverage for:
 - Controllers with mocks
 - Services with mocks
 - Integration with repositories
-- 
 ---
 
 ## 🙋‍♂️ Contact

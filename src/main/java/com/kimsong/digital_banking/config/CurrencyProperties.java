@@ -12,7 +12,6 @@ import java.util.Map;
 @Component
 @Data
 public class CurrencyProperties {
-//    private Map<String, BigDecimal> rates = new HashMap<>();
     private BigDecimal USD_KHR;
     private BigDecimal KHR_USD;
 }
