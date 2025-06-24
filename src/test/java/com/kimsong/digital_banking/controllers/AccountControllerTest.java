@@ -63,16 +63,14 @@ public class AccountControllerTest {
     @Test
     void checkBalance_whenAccountExist_thenReturnResponse() {
         String accountNumber = "100000001";
-        CheckAccountBalanceRequest request = new CheckAccountBalanceRequest();
-        request.setAccountNumber(accountNumber);
 
         CheckAccountBalanceResponse response = new CheckAccountBalanceResponse();
         response.setAccountNumber(accountNumber);
         response.setBalance(new BigDecimal("100.00"));
 
-        when(accountService.checkAccountBalance(request)).thenReturn(DataResponseDto.<CheckAccountBalanceResponse>builder().data(response).build());
+        when(accountService.checkAccountBalance(accountNumber)).thenReturn(DataResponseDto.<CheckAccountBalanceResponse>builder().data(response).build());
 
-        ResponseEntity<DataResponseDto<CheckAccountBalanceResponse>> result = accountController.balance(request);
+        ResponseEntity<DataResponseDto<CheckAccountBalanceResponse>> result = accountController.balance(accountNumber);
 
         assertEquals(HttpStatus.OK, result.getStatusCode());
         assertNotNull(result.getBody());

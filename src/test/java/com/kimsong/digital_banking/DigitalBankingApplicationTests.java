@@ -43,7 +43,7 @@ class DigitalBankingApplicationTests {
 //		Account from = accountService.getAccountWithLockByAccountNumber("100000009", true);
 //		Account to = accountService.getAccountWithLockByAccountNumber("100000010", false);
 
-		int threads = 5;
+		/*int threads = 5;
 		BigDecimal transferAmount = new BigDecimal("10.00");
 		ExecutorService executor = Executors.newFixedThreadPool(threads);
 		CountDownLatch latch = new CountDownLatch(threads);
@@ -66,7 +66,7 @@ class DigitalBankingApplicationTests {
 		}
 
 		latch.await();
-		executor.shutdown();
+		executor.shutdown();*/
 
 //		// ✅ Check final balance
 //		Account updatedFrom = accountRepository.findByAccountNumber("100000009").orElseThrow();

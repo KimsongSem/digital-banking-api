@@ -64,7 +64,7 @@ public class Customer {
     @Column(name = "updated_by")
     private String updatedBy;
 
-    /*@OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Account> accounts;*/
+    @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Account> accounts;
 
 }

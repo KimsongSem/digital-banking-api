@@ -8,14 +8,11 @@ import com.kimsong.digital_banking.dtos.customer.CustomerRequest;
 import com.kimsong.digital_banking.exceptions.ResourceNotFoundException;
 import com.kimsong.digital_banking.generators.SequenceGenerator;
 import com.kimsong.digital_banking.mappers.AccountMapper;
-import com.kimsong.digital_banking.mappers.CustomerMapper;
 import com.kimsong.digital_banking.models.Account;
 import com.kimsong.digital_banking.models.Customer;
 import com.kimsong.digital_banking.repositories.AccountRepository;
-import com.kimsong.digital_banking.repositories.CustomerRepository;
 import com.kimsong.digital_banking.services.implement.AccountServiceImpl;
 import com.kimsong.digital_banking.shared.response.DataResponseDto;
-import com.kimsong.digital_banking.constants.enums.EAccountType;
 import com.kimsong.digital_banking.constants.enums.ECurrency;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -78,8 +75,7 @@ public class AccountServiceImplTest {
 
     @Test
     void checkAccountBalance_whenAccountExist_thenReturnBalanceResponse() {
-        CheckAccountBalanceRequest request = new CheckAccountBalanceRequest();
-        request.setAccountNumber("100000001");
+        String accountNumber = "100000001";
 
         Account account = new Account();
         account.setAccountNumber("100000001");
@@ -91,10 +87,10 @@ public class AccountServiceImplTest {
         response.setBalance(account.getBalance());
         response.setCurrency(account.getCurrency());
 
-        when(accountRepository.findByAccountNumber("100000001")).thenReturn(Optional.of(account));
+        when(accountRepository.findByAccountNumber(accountNumber)).thenReturn(Optional.of(account));
         when(accountMapper.mapCheckBalance(account)).thenReturn(response);
 
-        DataResponseDto<CheckAccountBalanceResponse> result = accountService.checkAccountBalance(request);
+        DataResponseDto<CheckAccountBalanceResponse> result = accountService.checkAccountBalance(accountNumber);
 
         assertNotNull(result.getData());
         assertEquals(account.getBalance(), result.getData().getBalance());
@@ -102,11 +98,10 @@ public class AccountServiceImplTest {
 
     @Test
     void checkAccountBalance_whenAccountNotFound_thenThrowException() {
-        CheckAccountBalanceRequest request = new CheckAccountBalanceRequest();
-        request.setAccountNumber("200000001");
+        String accountNumber = "200000001";
 
-        when(accountRepository.findByAccountNumber("200000001")).thenReturn(Optional.empty());
-        assertThrows(ResourceNotFoundException.class, () -> accountService.checkAccountBalance(request));
+        when(accountRepository.findByAccountNumber(accountNumber)).thenReturn(Optional.empty());
+        assertThrows(ResourceNotFoundException.class, () -> accountService.checkAccountBalance(accountNumber));
     }
 
     @Test

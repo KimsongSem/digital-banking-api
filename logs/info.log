@@ -295,3 +295,325 @@
 2025-06-24 01:29:27.244|INFO |24e371badad44ab48fe4339b3f9f702c|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
 2025-06-24 01:50:13.091|INFO |4e1a8904605e48478754364376c80b14|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
 2025-06-24 01:50:13.097|INFO |4e1a8904605e48478754364376c80b14|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
+2025-06-24 10:57:58.553|INFO |6ccce43520584119abb8f0a8ae7699ac|c.k.digital_banking.DigitalBankingApplicationTests:53 - Starting DigitalBankingApplicationTests using Java 17.0.2 with PID 19924 (started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-24 10:57:58.557|INFO |6ccce43520584119abb8f0a8ae7699ac|c.k.digital_banking.DigitalBankingApplicationTests:658 - The following 1 profile is active: "dev"
+2025-06-24 10:58:01.441|INFO |6ccce43520584119abb8f0a8ae7699ac|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-24 10:58:01.786|INFO |6ccce43520584119abb8f0a8ae7699ac|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@54e06788
+2025-06-24 10:58:01.789|INFO |6ccce43520584119abb8f0a8ae7699ac|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-24 10:58:04.772|INFO |6ccce43520584119abb8f0a8ae7699ac|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
+2025-06-24 10:58:04.782|INFO |6ccce43520584119abb8f0a8ae7699ac|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
+2025-06-24 10:58:05.477|INFO |6ccce43520584119abb8f0a8ae7699ac|c.k.d.services.implement.AccountServiceImpl       :76 - Account updated with account number:100000001
+2025-06-24 10:58:05.509|INFO |6ccce43520584119abb8f0a8ae7699ac|c.k.d.services.implement.AccountServiceImpl       :37 - Account created with account number:100000001
+2025-06-24 10:58:05.811|INFO |6ccce43520584119abb8f0a8ae7699ac|c.k.d.services.implement.CustomerServiceImpl      :40 - Customer created with CIF:000001
+2025-06-24 10:58:06.024|INFO |6ccce43520584119abb8f0a8ae7699ac|c.k.d.services.implement.TransactionHisServiceImpl:40 - DEBIT transaction created with ref: TXN20250622-172627-111
+2025-06-24 10:58:06.188|INFO |6ccce43520584119abb8f0a8ae7699ac|c.k.d.services.implement.TransferServiceImpl      :94 - Transfer success
+2025-06-24 10:58:06.202|INFO |6ccce43520584119abb8f0a8ae7699ac|c.k.d.services.implement.TransferServiceImpl      :94 - Transfer success
+2025-06-24 10:58:06.214|INFO |6ccce43520584119abb8f0a8ae7699ac|c.k.d.services.implement.TransferServiceImpl      :94 - Transfer success
+2025-06-24 10:59:44.202|INFO |6c4a4dee9a004d968a8d9cc5a6be7df5|c.k.d.services.implement.AccountServiceImpl       :76 - Account updated with account number:100000001
+2025-06-24 10:59:44.222|INFO |6c4a4dee9a004d968a8d9cc5a6be7df5|c.k.d.services.implement.AccountServiceImpl       :37 - Account created with account number:100000001
+2025-06-24 11:00:49.345|INFO |798166c491334dc19444133393b1bb50|c.k.d.services.implement.TransferServiceImpl      :94 - Transfer success
+2025-06-24 11:00:49.360|INFO |798166c491334dc19444133393b1bb50|c.k.d.services.implement.TransferServiceImpl      :94 - Transfer success
+2025-06-24 11:00:49.370|INFO |798166c491334dc19444133393b1bb50|c.k.d.services.implement.TransferServiceImpl      :94 - Transfer success
+2025-06-24 11:01:05.802|INFO |cce6e2e955324b1c99ed52a6bd0530e8|c.k.d.services.implement.TransactionHisServiceImpl:40 - DEBIT transaction created with ref: TXN20250622-172627-111
+2025-06-24 11:01:14.338|INFO |15272f5fad974f3d92af0470df5b154b|c.k.d.services.implement.TransferServiceImpl      :94 - Transfer success
+2025-06-24 11:01:14.362|INFO |15272f5fad974f3d92af0470df5b154b|c.k.d.services.implement.TransferServiceImpl      :94 - Transfer success
+2025-06-24 11:01:14.375|INFO |15272f5fad974f3d92af0470df5b154b|c.k.d.services.implement.TransferServiceImpl      :94 - Transfer success
+2025-06-24 11:02:38.108|INFO |7a8e1f8bfbe948809e1c4682361b9a80|c.k.digital_banking.DigitalBankingApplicationTests:53 - Starting DigitalBankingApplicationTests using Java 17.0.2 with PID 11992 (started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-24 11:02:38.111|INFO |7a8e1f8bfbe948809e1c4682361b9a80|c.k.digital_banking.DigitalBankingApplicationTests:658 - The following 1 profile is active: "dev"
+2025-06-24 11:02:39.980|INFO |7a8e1f8bfbe948809e1c4682361b9a80|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-24 11:02:40.262|INFO |7a8e1f8bfbe948809e1c4682361b9a80|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7cbede2b
+2025-06-24 11:02:40.265|INFO |7a8e1f8bfbe948809e1c4682361b9a80|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-24 11:02:43.511|INFO |7a8e1f8bfbe948809e1c4682361b9a80|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
+2025-06-24 11:02:43.522|INFO |7a8e1f8bfbe948809e1c4682361b9a80|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
+2025-06-24 11:02:44.065|INFO |7a8e1f8bfbe948809e1c4682361b9a80|c.k.d.services.implement.AccountServiceImpl       :76 - Account updated with account number:100000001
+2025-06-24 11:02:44.089|INFO |7a8e1f8bfbe948809e1c4682361b9a80|c.k.d.services.implement.AccountServiceImpl       :37 - Account created with account number:100000001
+2025-06-24 11:02:44.353|INFO |7a8e1f8bfbe948809e1c4682361b9a80|c.k.d.services.implement.CustomerServiceImpl      :40 - Customer created with CIF:000001
+2025-06-24 11:02:44.544|INFO |7a8e1f8bfbe948809e1c4682361b9a80|c.k.d.services.implement.TransactionHisServiceImpl:40 - DEBIT transaction created with ref: TXN20250622-172627-111
+2025-06-24 11:02:44.688|INFO |7a8e1f8bfbe948809e1c4682361b9a80|c.k.d.services.implement.TransferServiceImpl      :94 - Transfer success
+2025-06-24 11:02:44.699|INFO |7a8e1f8bfbe948809e1c4682361b9a80|c.k.d.services.implement.TransferServiceImpl      :94 - Transfer success
+2025-06-24 11:02:44.706|INFO |7a8e1f8bfbe948809e1c4682361b9a80|c.k.d.services.implement.TransferServiceImpl      :94 - Transfer success
+2025-06-24 11:03:52.818|INFO |1e00266d80844effb1b55dbd64440eb8|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 17692 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-24 11:03:52.831|INFO |1e00266d80844effb1b55dbd64440eb8|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-24 11:03:54.476|INFO |1e00266d80844effb1b55dbd64440eb8|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-24 11:03:54.478|INFO |1e00266d80844effb1b55dbd64440eb8|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-24 11:03:54.479|INFO |1e00266d80844effb1b55dbd64440eb8|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-24 11:03:54.563|INFO |1e00266d80844effb1b55dbd64440eb8|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-24 11:03:55.287|INFO |1e00266d80844effb1b55dbd64440eb8|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-24 11:03:55.508|INFO |1e00266d80844effb1b55dbd64440eb8|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@c4cceb
+2025-06-24 11:03:55.511|INFO |1e00266d80844effb1b55dbd64440eb8|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-24 11:03:57.601|INFO |1e00266d80844effb1b55dbd64440eb8|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
+2025-06-24 11:03:57.609|INFO |1e00266d80844effb1b55dbd64440eb8|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
+2025-06-24 11:03:57.613|INFO |1e00266d80844effb1b55dbd64440eb8|org.apache.catalina.core.StandardService          :168 - Stopping service [Tomcat]
+2025-06-24 11:05:03.118|INFO |03147676d29d4f5e83f56061a44abe59|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 23104 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-24 11:05:03.128|INFO |03147676d29d4f5e83f56061a44abe59|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-24 11:05:05.107|INFO |03147676d29d4f5e83f56061a44abe59|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-24 11:05:05.111|INFO |03147676d29d4f5e83f56061a44abe59|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-24 11:05:05.111|INFO |03147676d29d4f5e83f56061a44abe59|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-24 11:05:05.223|INFO |03147676d29d4f5e83f56061a44abe59|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-24 11:05:06.368|INFO |03147676d29d4f5e83f56061a44abe59|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-24 11:05:06.678|INFO |03147676d29d4f5e83f56061a44abe59|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@28ce75ec
+2025-06-24 11:05:06.681|INFO |03147676d29d4f5e83f56061a44abe59|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-24 11:05:09.272|INFO |03147676d29d4f5e83f56061a44abe59|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
+2025-06-24 11:05:09.280|INFO |03147676d29d4f5e83f56061a44abe59|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
+2025-06-24 11:05:09.284|INFO |03147676d29d4f5e83f56061a44abe59|org.apache.catalina.core.StandardService          :168 - Stopping service [Tomcat]
+2025-06-24 11:06:32.328|INFO |e695eef8e3d74b5c884b26e44fa2ac5c|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 20072 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-24 11:06:32.342|INFO |e695eef8e3d74b5c884b26e44fa2ac5c|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-24 11:06:34.062|INFO |e695eef8e3d74b5c884b26e44fa2ac5c|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-24 11:06:34.064|INFO |e695eef8e3d74b5c884b26e44fa2ac5c|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-24 11:06:34.064|INFO |e695eef8e3d74b5c884b26e44fa2ac5c|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-24 11:06:34.132|INFO |e695eef8e3d74b5c884b26e44fa2ac5c|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-24 11:06:34.834|INFO |e695eef8e3d74b5c884b26e44fa2ac5c|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-24 11:06:35.018|INFO |e695eef8e3d74b5c884b26e44fa2ac5c|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@271e851e
+2025-06-24 11:06:35.020|INFO |e695eef8e3d74b5c884b26e44fa2ac5c|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-24 11:06:37.691|INFO |e695eef8e3d74b5c884b26e44fa2ac5c|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-24 11:06:37.730|INFO |e695eef8e3d74b5c884b26e44fa2ac5c|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 5.927 seconds (process running for 6.587)
+2025-06-24 11:06:41.672|INFO |9219a2bcd2134f6699e02a17640e5050|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-24 11:06:41.679|INFO |9219a2bcd2134f6699e02a17640e5050|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/accounts/create, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:06:42.018|INFO |9219a2bcd2134f6699e02a17640e5050|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:400
+2025-06-24 11:06:51.514|INFO |fcf0b5ea2fa347be82932262049c152e|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/accounts/create, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:06:51.587|INFO |fcf0b5ea2fa347be82932262049c152e|c.k.d.services.implement.CustomerServiceImpl      :40 - Customer created with CIF:100011
+2025-06-24 11:06:51.600|INFO |fcf0b5ea2fa347be82932262049c152e|c.k.d.services.implement.AccountServiceImpl       :37 - Account created with account number:100000011
+2025-06-24 11:06:51.619|INFO |fcf0b5ea2fa347be82932262049c152e|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-24 11:07:06.077|INFO |fd2833a7af2c4e158977b338bbd078e5|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/100000011/balance, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:07:06.099|INFO |fd2833a7af2c4e158977b338bbd078e5|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:404
+2025-06-24 11:07:17.327|INFO |04243b7375de4e5881b6e751d3c7dc67|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/account/100000011/balance, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:07:17.330|INFO |04243b7375de4e5881b6e751d3c7dc67|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:404
+2025-06-24 11:07:24.807|INFO |b1c0136bfb2843e5bfa40c2d8a4240cd|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/accounts/100000011/balance, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:07:24.811|INFO |b1c0136bfb2843e5bfa40c2d8a4240cd|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:405
+2025-06-24 11:07:36.613|INFO |0cb717dd25d546ceb8f7e7405d725c41|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
+2025-06-24 11:07:36.621|INFO |0cb717dd25d546ceb8f7e7405d725c41|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
+2025-06-24 11:07:40.649|INFO |657cc20fb3a243fca6c12e3bccb96f21|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 7416 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-24 11:07:40.666|INFO |657cc20fb3a243fca6c12e3bccb96f21|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-24 11:07:42.336|INFO |657cc20fb3a243fca6c12e3bccb96f21|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-24 11:07:42.339|INFO |657cc20fb3a243fca6c12e3bccb96f21|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-24 11:07:42.339|INFO |657cc20fb3a243fca6c12e3bccb96f21|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-24 11:07:42.404|INFO |657cc20fb3a243fca6c12e3bccb96f21|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-24 11:07:43.036|INFO |657cc20fb3a243fca6c12e3bccb96f21|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-24 11:07:43.236|INFO |657cc20fb3a243fca6c12e3bccb96f21|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6253e59a
+2025-06-24 11:07:43.239|INFO |657cc20fb3a243fca6c12e3bccb96f21|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-24 11:07:45.610|INFO |657cc20fb3a243fca6c12e3bccb96f21|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-24 11:07:45.641|INFO |657cc20fb3a243fca6c12e3bccb96f21|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 5.451 seconds (process running for 6.186)
+2025-06-24 11:07:48.547|INFO |0748b832ed8c4688b21e64218724491b|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-24 11:07:48.551|INFO |0748b832ed8c4688b21e64218724491b|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/accounts/100000011/balance, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:07:48.770|INFO |0748b832ed8c4688b21e64218724491b|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:404
+2025-06-24 11:08:06.499|INFO |93a27c7d16a945cd81c72fdaca8c8e29|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
+2025-06-24 11:08:06.507|INFO |93a27c7d16a945cd81c72fdaca8c8e29|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
+2025-06-24 11:08:09.893|INFO |1c608034f2514267a8c886125bd52cae|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 14584 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-24 11:08:09.910|INFO |1c608034f2514267a8c886125bd52cae|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-24 11:08:11.702|INFO |1c608034f2514267a8c886125bd52cae|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-24 11:08:11.705|INFO |1c608034f2514267a8c886125bd52cae|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-24 11:08:11.705|INFO |1c608034f2514267a8c886125bd52cae|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-24 11:08:11.830|INFO |1c608034f2514267a8c886125bd52cae|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-24 11:08:12.804|INFO |1c608034f2514267a8c886125bd52cae|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-24 11:08:13.063|INFO |1c608034f2514267a8c886125bd52cae|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@ff4b223
+2025-06-24 11:08:13.066|INFO |1c608034f2514267a8c886125bd52cae|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-24 11:08:28.224|INFO |1c608034f2514267a8c886125bd52cae|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 18.844 seconds (process running for 20.011)
+2025-06-24 11:08:28.628|INFO |594a2b68c37c499d9898aee8e3fd6a69|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
+2025-06-24 11:08:28.638|INFO |594a2b68c37c499d9898aee8e3fd6a69|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
+2025-06-24 11:08:45.107|INFO |67ec8c6434b541498fb3b70b6e2e3c82|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 22984 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-24 11:08:45.126|INFO |67ec8c6434b541498fb3b70b6e2e3c82|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-24 11:08:47.685|INFO |67ec8c6434b541498fb3b70b6e2e3c82|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-24 11:08:47.689|INFO |67ec8c6434b541498fb3b70b6e2e3c82|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-24 11:08:47.690|INFO |67ec8c6434b541498fb3b70b6e2e3c82|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-24 11:08:47.824|INFO |67ec8c6434b541498fb3b70b6e2e3c82|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-24 11:08:49.014|INFO |67ec8c6434b541498fb3b70b6e2e3c82|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-24 11:08:49.352|INFO |67ec8c6434b541498fb3b70b6e2e3c82|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@550fa96f
+2025-06-24 11:08:49.356|INFO |67ec8c6434b541498fb3b70b6e2e3c82|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-24 11:08:52.521|INFO |67ec8c6434b541498fb3b70b6e2e3c82|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-24 11:08:52.567|INFO |67ec8c6434b541498fb3b70b6e2e3c82|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 7.992 seconds (process running for 8.723)
+2025-06-24 11:08:54.956|INFO |25de51722bd94e728309b332013fa5be|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-24 11:08:54.965|INFO |25de51722bd94e728309b332013fa5be|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/accounts/100000011/balance, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:08:55.239|INFO |25de51722bd94e728309b332013fa5be|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:200
+2025-06-24 11:08:59.221|INFO |3afe948eb9ec4b718f4ee16a500ff744|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/accounts/10000001/balance2, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:08:59.243|INFO |3afe948eb9ec4b718f4ee16a500ff744|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:404
+2025-06-24 11:09:02.732|INFO |3818060fc79649ce807959178e4ba22c|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/accounts/100000012/balance, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:09:02.748|INFO |3818060fc79649ce807959178e4ba22c|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:404
+2025-06-24 11:09:06.161|INFO |b18b42a1e3d34ea99e0077ac0a55632d|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/accounts/100000011/balance, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:09:06.166|INFO |b18b42a1e3d34ea99e0077ac0a55632d|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:200
+2025-06-24 11:14:15.951|INFO |50de62b861fb4ebea73d525340b43242|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/transfer, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:14:16.059|INFO |50de62b861fb4ebea73d525340b43242|c.k.d.services.implement.AccountServiceImpl       :76 - Account updated with account number:100000007
+2025-06-24 11:14:16.060|INFO |50de62b861fb4ebea73d525340b43242|c.k.d.services.implement.AccountServiceImpl       :76 - Account updated with account number:100000008
+2025-06-24 11:14:16.060|INFO |50de62b861fb4ebea73d525340b43242|c.k.d.services.implement.TransferServiceImpl      :94 - Transfer success
+2025-06-24 11:14:16.089|INFO |50de62b861fb4ebea73d525340b43242|c.k.d.services.implement.TransactionHisServiceImpl:40 - DEBIT transaction created with ref: TXN20250624-111416-508
+2025-06-24 11:14:16.090|INFO |50de62b861fb4ebea73d525340b43242|c.k.d.services.implement.TransactionHisServiceImpl:40 - CREDIT transaction created with ref: TXN20250624-111416-508
+2025-06-24 11:14:16.110|INFO |50de62b861fb4ebea73d525340b43242|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:200
+2025-06-24 11:14:19.565|INFO |43aae70e1d9d404d97eca57786891f35|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
+2025-06-24 11:14:19.570|INFO |43aae70e1d9d404d97eca57786891f35|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
+2025-06-24 11:14:23.694|INFO |deaf31dce8e24466b95aa412bb5243ed|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 15752 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-24 11:14:23.707|INFO |deaf31dce8e24466b95aa412bb5243ed|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-24 11:14:25.296|INFO |deaf31dce8e24466b95aa412bb5243ed|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-24 11:14:25.298|INFO |deaf31dce8e24466b95aa412bb5243ed|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-24 11:14:25.299|INFO |deaf31dce8e24466b95aa412bb5243ed|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-24 11:14:25.372|INFO |deaf31dce8e24466b95aa412bb5243ed|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-24 11:14:26.013|INFO |deaf31dce8e24466b95aa412bb5243ed|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-24 11:14:26.229|INFO |deaf31dce8e24466b95aa412bb5243ed|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5d01b0d8
+2025-06-24 11:14:26.232|INFO |deaf31dce8e24466b95aa412bb5243ed|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-24 11:14:29.343|INFO |deaf31dce8e24466b95aa412bb5243ed|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-24 11:14:29.387|INFO |deaf31dce8e24466b95aa412bb5243ed|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 6.171 seconds (process running for 6.856)
+2025-06-24 11:14:39.796|INFO |0a8098178d414be0a578b2f6fecf4122|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-24 11:14:39.800|INFO |0a8098178d414be0a578b2f6fecf4122|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/transfer, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:14:39.891|INFO |0a8098178d414be0a578b2f6fecf4122|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:404
+2025-06-24 11:14:45.949|INFO |97f5f97d5f84448d996410924bc03a1e|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/transaction/getAllHistory, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:14:45.953|INFO |97f5f97d5f84448d996410924bc03a1e|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:404
+2025-06-24 11:14:50.016|INFO |fa6bf638f30c45228bc0dca4834f7704|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/transactions/getAllHistory, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:14:50.220|INFO |fa6bf638f30c45228bc0dca4834f7704|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:200
+2025-06-24 11:14:55.617|INFO |be40d52bb5c4445bb45315de0d9d4e30|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/transfers, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:14:55.718|INFO |be40d52bb5c4445bb45315de0d9d4e30|c.k.d.services.implement.AccountServiceImpl       :76 - Account updated with account number:100000007
+2025-06-24 11:14:55.719|INFO |be40d52bb5c4445bb45315de0d9d4e30|c.k.d.services.implement.AccountServiceImpl       :76 - Account updated with account number:100000008
+2025-06-24 11:14:55.719|INFO |be40d52bb5c4445bb45315de0d9d4e30|c.k.d.services.implement.TransferServiceImpl      :94 - Transfer success
+2025-06-24 11:14:55.739|INFO |be40d52bb5c4445bb45315de0d9d4e30|c.k.d.services.implement.TransactionHisServiceImpl:40 - DEBIT transaction created with ref: TXN20250624-111455-645
+2025-06-24 11:14:55.740|INFO |be40d52bb5c4445bb45315de0d9d4e30|c.k.d.services.implement.TransactionHisServiceImpl:40 - CREDIT transaction created with ref: TXN20250624-111455-645
+2025-06-24 11:14:55.768|INFO |be40d52bb5c4445bb45315de0d9d4e30|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:200
+2025-06-24 11:15:41.541|INFO |3323151006bb4a8d84ba93fdacebc638|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
+2025-06-24 11:15:41.547|INFO |3323151006bb4a8d84ba93fdacebc638|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
+2025-06-24 11:16:21.700|INFO |9f158f3941df44c1a4ae31ba5fcf34e8|c.k.digital_banking.DigitalBankingApplicationTests:53 - Starting DigitalBankingApplicationTests using Java 17.0.2 with PID 1272 (started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-24 11:16:21.703|INFO |9f158f3941df44c1a4ae31ba5fcf34e8|c.k.digital_banking.DigitalBankingApplicationTests:658 - The following 1 profile is active: "dev"
+2025-06-24 11:16:24.181|INFO |9f158f3941df44c1a4ae31ba5fcf34e8|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-24 11:16:24.517|INFO |9f158f3941df44c1a4ae31ba5fcf34e8|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@54e06788
+2025-06-24 11:16:24.522|INFO |9f158f3941df44c1a4ae31ba5fcf34e8|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-24 11:16:28.250|INFO |9f158f3941df44c1a4ae31ba5fcf34e8|c.k.digital_banking.DigitalBankingApplicationTests:59 - Started DigitalBankingApplicationTests in 6.898 seconds (process running for 9.294)
+2025-06-24 11:16:28.789|INFO |9f158f3941df44c1a4ae31ba5fcf34e8|c.k.d.services.implement.AccountServiceImpl       :76 - Account updated with account number:100000001
+2025-06-24 11:16:28.826|INFO |9f158f3941df44c1a4ae31ba5fcf34e8|c.k.d.services.implement.AccountServiceImpl       :37 - Account created with account number:100000001
+2025-06-24 11:16:29.197|INFO |9f158f3941df44c1a4ae31ba5fcf34e8|c.k.d.services.implement.CustomerServiceImpl      :40 - Customer created with CIF:000001
+2025-06-24 11:16:29.431|INFO |9f158f3941df44c1a4ae31ba5fcf34e8|c.k.d.services.implement.TransactionHisServiceImpl:40 - DEBIT transaction created with ref: TXN20250622-172627-111
+2025-06-24 11:16:29.598|INFO |9f158f3941df44c1a4ae31ba5fcf34e8|c.k.d.services.implement.TransferServiceImpl      :94 - Transfer success
+2025-06-24 11:16:29.606|INFO |9f158f3941df44c1a4ae31ba5fcf34e8|c.k.d.services.implement.TransferServiceImpl      :94 - Transfer success
+2025-06-24 11:16:29.614|INFO |9f158f3941df44c1a4ae31ba5fcf34e8|c.k.d.services.implement.TransferServiceImpl      :94 - Transfer success
+2025-06-24 11:16:29.665|INFO |fee8ca836c76416ca3f49b38c1bb40a9|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
+2025-06-24 11:16:29.678|INFO |fee8ca836c76416ca3f49b38c1bb40a9|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
+2025-06-24 11:22:24.076|INFO |7acb7cf220364fe193b146f77d02cbab|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 14956 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-24 11:22:24.088|INFO |7acb7cf220364fe193b146f77d02cbab|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-24 11:22:25.822|INFO |7acb7cf220364fe193b146f77d02cbab|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-24 11:22:25.824|INFO |7acb7cf220364fe193b146f77d02cbab|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-24 11:22:25.824|INFO |7acb7cf220364fe193b146f77d02cbab|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-24 11:22:25.899|INFO |7acb7cf220364fe193b146f77d02cbab|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-24 11:22:26.718|INFO |7acb7cf220364fe193b146f77d02cbab|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-24 11:22:26.909|INFO |7acb7cf220364fe193b146f77d02cbab|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@370a8b6e
+2025-06-24 11:22:26.911|INFO |7acb7cf220364fe193b146f77d02cbab|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-24 11:22:29.267|INFO |7acb7cf220364fe193b146f77d02cbab|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-24 11:22:29.304|INFO |7acb7cf220364fe193b146f77d02cbab|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 5.696 seconds (process running for 6.342)
+2025-06-24 11:23:03.337|INFO |7cc40051cea34c7cb7ecca2a2d4070c7|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
+2025-06-24 11:23:03.342|INFO |7cc40051cea34c7cb7ecca2a2d4070c7|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
+2025-06-24 11:23:14.242|INFO |ec9159a7a59942ef8e815080841c6329|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 19604 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-24 11:23:14.259|INFO |ec9159a7a59942ef8e815080841c6329|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-24 11:23:16.839|INFO |ec9159a7a59942ef8e815080841c6329|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-24 11:23:16.844|INFO |ec9159a7a59942ef8e815080841c6329|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-24 11:23:16.845|INFO |ec9159a7a59942ef8e815080841c6329|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-24 11:23:16.968|INFO |ec9159a7a59942ef8e815080841c6329|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-24 11:23:18.074|INFO |ec9159a7a59942ef8e815080841c6329|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-24 11:23:18.378|INFO |ec9159a7a59942ef8e815080841c6329|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6c830ebd
+2025-06-24 11:23:18.381|INFO |ec9159a7a59942ef8e815080841c6329|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-24 11:23:22.490|INFO |ec9159a7a59942ef8e815080841c6329|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-24 11:23:22.550|INFO |ec9159a7a59942ef8e815080841c6329|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 9.155 seconds (process running for 10.82)
+2025-06-24 11:23:36.789|INFO |97eb052981c24a36b10f68767c2b560c|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-24 11:23:36.798|INFO |97eb052981c24a36b10f68767c2b560c|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/accounts/create, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:23:37.283|INFO |97eb052981c24a36b10f68767c2b560c|c.k.d.services.implement.CustomerServiceImpl      :40 - Customer created with CIF:100012
+2025-06-24 11:23:37.296|INFO |97eb052981c24a36b10f68767c2b560c|c.k.d.services.implement.AccountServiceImpl       :37 - Account created with account number:100000012
+2025-06-24 11:23:37.351|INFO |97eb052981c24a36b10f68767c2b560c|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-24 11:23:38.862|INFO |1ccaed26e55c43d8916fc39d1067b160|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/accounts/create, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:23:38.892|INFO |1ccaed26e55c43d8916fc39d1067b160|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:400
+2025-06-24 11:23:45.556|INFO |09ccf77bf203438a9b4e95daeb191a12|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/accounts/100000011/balance, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:23:45.571|INFO |09ccf77bf203438a9b4e95daeb191a12|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:404
+2025-06-24 11:23:49.245|INFO |45b74932efb943ebbcf0bd7997ce0b4a|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/accounts/100000012/balance, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:23:49.260|INFO |45b74932efb943ebbcf0bd7997ce0b4a|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:200
+2025-06-24 11:24:01.478|INFO |f5bb6bb599804738ae62b72aeff5d867|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/transactions/getAllHistory, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:24:01.525|INFO |f5bb6bb599804738ae62b72aeff5d867|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:200
+2025-06-24 11:24:15.796|INFO |2a1a852623b945db9e1974b5145a4754|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/accounts/create, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:24:15.806|INFO |2a1a852623b945db9e1974b5145a4754|c.k.d.services.implement.CustomerServiceImpl      :40 - Customer created with CIF:100013
+2025-06-24 11:24:15.809|INFO |2a1a852623b945db9e1974b5145a4754|c.k.d.services.implement.AccountServiceImpl       :37 - Account created with account number:100000013
+2025-06-24 11:24:15.823|INFO |2a1a852623b945db9e1974b5145a4754|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-24 11:24:32.883|INFO |e5e04be5bc7a4000a131104b0de39d60|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/transfers, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:24:32.905|INFO |e5e04be5bc7a4000a131104b0de39d60|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:400
+2025-06-24 11:24:44.343|INFO |2bad59017fb646fe84a9b1c7487f6319|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/transfers, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:24:44.346|INFO |2bad59017fb646fe84a9b1c7487f6319|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:400
+2025-06-24 11:25:02.613|INFO |1ccaed26e55c43d8916fc39d1067b160|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/transfers, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:25:02.627|INFO |1ccaed26e55c43d8916fc39d1067b160|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:400
+2025-06-24 11:25:05.605|INFO |09ccf77bf203438a9b4e95daeb191a12|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/transfers, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:25:05.624|INFO |09ccf77bf203438a9b4e95daeb191a12|c.k.d.services.implement.AccountServiceImpl       :76 - Account updated with account number:100000012
+2025-06-24 11:25:05.625|INFO |09ccf77bf203438a9b4e95daeb191a12|c.k.d.services.implement.AccountServiceImpl       :76 - Account updated with account number:100000013
+2025-06-24 11:25:05.625|INFO |09ccf77bf203438a9b4e95daeb191a12|c.k.d.services.implement.TransferServiceImpl      :94 - Transfer success
+2025-06-24 11:25:05.628|INFO |09ccf77bf203438a9b4e95daeb191a12|c.k.d.services.implement.TransactionHisServiceImpl:40 - DEBIT transaction created with ref: TXN20250624-112505-782
+2025-06-24 11:25:05.629|INFO |09ccf77bf203438a9b4e95daeb191a12|c.k.d.services.implement.TransactionHisServiceImpl:40 - CREDIT transaction created with ref: TXN20250624-112505-782
+2025-06-24 11:25:05.641|INFO |09ccf77bf203438a9b4e95daeb191a12|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:200
+2025-06-24 11:25:08.009|INFO |45b74932efb943ebbcf0bd7997ce0b4a|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/transactions/getAllHistory, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-24 11:25:08.025|INFO |45b74932efb943ebbcf0bd7997ce0b4a|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:200
+2025-06-24 11:29:00.520|INFO |8e90257bb5124f569b7542d8d5168b48|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
+2025-06-24 11:29:00.525|INFO |8e90257bb5124f569b7542d8d5168b48|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
+2025-06-24 11:29:03.572|INFO |3a27e050df554e30aa802648dc775969|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 21296 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-24 11:29:03.582|INFO |3a27e050df554e30aa802648dc775969|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-24 11:29:05.191|INFO |3a27e050df554e30aa802648dc775969|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-24 11:29:05.194|INFO |3a27e050df554e30aa802648dc775969|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-24 11:29:05.195|INFO |3a27e050df554e30aa802648dc775969|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-24 11:29:05.279|INFO |3a27e050df554e30aa802648dc775969|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-24 11:29:05.957|INFO |3a27e050df554e30aa802648dc775969|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-24 11:29:06.214|INFO |3a27e050df554e30aa802648dc775969|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@38054d01
+2025-06-24 11:29:06.217|INFO |3a27e050df554e30aa802648dc775969|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-24 11:29:09.340|INFO |3a27e050df554e30aa802648dc775969|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-24 11:29:09.371|INFO |3a27e050df554e30aa802648dc775969|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 6.305 seconds (process running for 6.974)
+2025-06-24 11:34:51.813|INFO |40ff76a8f46540649282a873d4c7c6b3|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
+2025-06-24 11:34:51.819|INFO |40ff76a8f46540649282a873d4c7c6b3|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
+2025-06-24 17:10:45.150|INFO |08bd165c25cd41e88693359fa1d9e7e0|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 4912 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-24 17:10:45.157|INFO |08bd165c25cd41e88693359fa1d9e7e0|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-24 17:11:40.554|INFO |6e700517c0074e36b8eb15f32cd6444b|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 10956 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-24 17:11:40.568|INFO |6e700517c0074e36b8eb15f32cd6444b|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-24 17:11:42.425|INFO |6e700517c0074e36b8eb15f32cd6444b|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-24 17:11:42.427|INFO |6e700517c0074e36b8eb15f32cd6444b|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-24 17:11:42.428|INFO |6e700517c0074e36b8eb15f32cd6444b|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-24 17:11:42.494|INFO |6e700517c0074e36b8eb15f32cd6444b|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-24 17:11:43.167|INFO |6e700517c0074e36b8eb15f32cd6444b|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-24 17:11:43.361|INFO |6e700517c0074e36b8eb15f32cd6444b|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@401926df
+2025-06-24 17:11:43.363|INFO |6e700517c0074e36b8eb15f32cd6444b|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-24 17:11:45.527|INFO |6e700517c0074e36b8eb15f32cd6444b|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-24 17:11:45.564|INFO |6e700517c0074e36b8eb15f32cd6444b|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 5.484 seconds (process running for 6.138)
+2025-06-24 17:12:08.303|INFO |fbe6e75908724b3781ef793cd6db7ae7|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-24 17:12:08.307|INFO |fbe6e75908724b3781ef793cd6db7ae7|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/transactions/getAllHistory, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-24 17:12:08.550|INFO |fbe6e75908724b3781ef793cd6db7ae7|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:200
+2025-06-24 17:12:13.416|INFO |57178d8865c34ab48de50f5e8b4b69d7|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/transfers, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-24 17:12:13.522|INFO |57178d8865c34ab48de50f5e8b4b69d7|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:404
+2025-06-24 17:12:17.146|INFO |33141b6b589f4e29ae2a42698ef14580|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/accounts/create, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-24 17:12:17.218|INFO |33141b6b589f4e29ae2a42698ef14580|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:500
+2025-06-24 17:15:35.779|INFO |a8548a9425f34cfa8d24c3d563233323|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
+2025-06-24 17:15:35.785|INFO |a8548a9425f34cfa8d24c3d563233323|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.
+2025-06-24 17:15:38.271|INFO |77b65d34d5fd44efa7ebd1c1c165e2d4|c.k.digital_banking.DigitalBankingApplication     :53 - Starting DigitalBankingApplication using Java 18.0.2.1 with PID 23288 (D:\Spring-boot\Digital baking sample project\digital_banking\target\classes started by Kimsong Sem in D:\Spring-boot\Digital baking sample project\digital_banking)
+2025-06-24 17:15:38.285|INFO |77b65d34d5fd44efa7ebd1c1c165e2d4|c.k.digital_banking.DigitalBankingApplication     :658 - The following 1 profile is active: "dev"
+2025-06-24 17:15:39.847|INFO |77b65d34d5fd44efa7ebd1c1c165e2d4|org.apache.coyote.http11.Http11NioProtocol        :168 - Initializing ProtocolHandler ["http-nio-9099"]
+2025-06-24 17:15:39.849|INFO |77b65d34d5fd44efa7ebd1c1c165e2d4|org.apache.catalina.core.StandardService          :168 - Starting service [Tomcat]
+2025-06-24 17:15:39.850|INFO |77b65d34d5fd44efa7ebd1c1c165e2d4|org.apache.catalina.core.StandardEngine           :168 - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-24 17:15:39.919|INFO |77b65d34d5fd44efa7ebd1c1c165e2d4|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring embedded WebApplicationContext
+2025-06-24 17:15:40.543|INFO |77b65d34d5fd44efa7ebd1c1c165e2d4|com.zaxxer.hikari.HikariDataSource                :109 - HikariPool-1 - Starting...
+2025-06-24 17:15:40.722|INFO |77b65d34d5fd44efa7ebd1c1c165e2d4|com.zaxxer.hikari.pool.HikariPool                 :575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@693f2c89
+2025-06-24 17:15:40.724|INFO |77b65d34d5fd44efa7ebd1c1c165e2d4|com.zaxxer.hikari.HikariDataSource                :122 - HikariPool-1 - Start completed.
+2025-06-24 17:15:42.909|INFO |77b65d34d5fd44efa7ebd1c1c165e2d4|org.apache.coyote.http11.Http11NioProtocol        :168 - Starting ProtocolHandler ["http-nio-9099"]
+2025-06-24 17:15:42.941|INFO |77b65d34d5fd44efa7ebd1c1c165e2d4|c.k.digital_banking.DigitalBankingApplication     :59 - Started DigitalBankingApplication in 5.13 seconds (process running for 5.783)
+2025-06-24 17:16:16.096|INFO |70b42816033e47349db59ac6c1894458|o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-24 17:16:16.099|INFO |70b42816033e47349db59ac6c1894458|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/accounts/create, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-24 17:16:16.385|INFO |70b42816033e47349db59ac6c1894458|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:500
+2025-06-24 17:16:18.698|INFO |36da1534068d45ad84576bdfe8fbdd4d|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/transactions/getAllHistory, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-24 17:16:18.723|INFO |36da1534068d45ad84576bdfe8fbdd4d|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:500
+2025-06-24 17:16:38.053|INFO |0749fd755d7541afb8e670287485478e|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/transactions/getAllHistory, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-24 17:16:38.087|INFO |0749fd755d7541afb8e670287485478e|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:200
+2025-06-24 17:16:40.763|INFO |3f644e3400804479aa197da32eff5008|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/transfers, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-24 17:16:40.792|INFO |3f644e3400804479aa197da32eff5008|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:404
+2025-06-24 17:16:43.589|INFO |c44eb3978e7c4b1c918f05367239b790|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/accounts/100000012/balance, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-24 17:16:43.599|INFO |c44eb3978e7c4b1c918f05367239b790|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:404
+2025-06-24 17:16:46.293|INFO |0366865890124a4898c40e5ac73255a9|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/accounts/create, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-24 17:16:46.348|INFO |0366865890124a4898c40e5ac73255a9|c.k.d.services.implement.CustomerServiceImpl      :40 - Customer created with CIF:100000
+2025-06-24 17:16:46.358|INFO |0366865890124a4898c40e5ac73255a9|c.k.d.services.implement.AccountServiceImpl       :37 - Account created with account number:100000000
+2025-06-24 17:16:46.369|INFO |0366865890124a4898c40e5ac73255a9|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-24 17:16:57.200|INFO |ebbb783a10324d959ad49508c5df8174|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/accounts/create, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-24 17:16:57.210|INFO |ebbb783a10324d959ad49508c5df8174|c.k.d.services.implement.CustomerServiceImpl      :40 - Customer created with CIF:100001
+2025-06-24 17:16:57.214|INFO |ebbb783a10324d959ad49508c5df8174|c.k.d.services.implement.AccountServiceImpl       :37 - Account created with account number:100000001
+2025-06-24 17:16:57.227|INFO |ebbb783a10324d959ad49508c5df8174|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:201
+2025-06-24 17:17:02.898|INFO |dd18735554b04b75a019aa01b8684a6e|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/accounts/100000001/balance, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-24 17:17:02.924|INFO |dd18735554b04b75a019aa01b8684a6e|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:200
+2025-06-24 17:17:18.407|INFO |70b42816033e47349db59ac6c1894458|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/transfers, method:POST, remote address:0:0:0:0:0:0:0:1
+2025-06-24 17:17:18.432|INFO |70b42816033e47349db59ac6c1894458|c.k.d.services.implement.AccountServiceImpl       :76 - Account updated with account number:100000001
+2025-06-24 17:17:18.433|INFO |70b42816033e47349db59ac6c1894458|c.k.d.services.implement.AccountServiceImpl       :76 - Account updated with account number:100000000
+2025-06-24 17:17:18.433|INFO |70b42816033e47349db59ac6c1894458|c.k.d.services.implement.TransferServiceImpl      :94 - Transfer success
+2025-06-24 17:17:18.438|INFO |70b42816033e47349db59ac6c1894458|c.k.d.services.implement.TransactionHisServiceImpl:40 - DEBIT transaction created with ref: TXN20250624-171718-446
+2025-06-24 17:17:18.439|INFO |70b42816033e47349db59ac6c1894458|c.k.d.services.implement.TransactionHisServiceImpl:40 - CREDIT transaction created with ref: TXN20250624-171718-446
+2025-06-24 17:17:18.462|INFO |70b42816033e47349db59ac6c1894458|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:200
+2025-06-24 17:17:20.706|INFO |9547f1fcdc7c4dd1a7adea2b8b85c81c|c.k.d.shared.log.RequestResponseLogFilter         :40 - request url:/api/transactions/getAllHistory, method:GET, remote address:0:0:0:0:0:0:0:1
+2025-06-24 17:17:20.726|INFO |9547f1fcdc7c4dd1a7adea2b8b85c81c|c.k.d.shared.log.RequestResponseLogFilter         :45 - response status:200
+2025-06-24 17:20:13.535|INFO |c218f66f411149918b145223a098c533|com.zaxxer.hikari.HikariDataSource                :349 - HikariPool-1 - Shutdown initiated...
+2025-06-24 17:20:13.539|INFO |c218f66f411149918b145223a098c533|com.zaxxer.hikari.HikariDataSource                :351 - HikariPool-1 - Shutdown completed.

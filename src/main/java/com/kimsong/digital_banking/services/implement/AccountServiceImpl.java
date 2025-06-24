@@ -1,6 +1,5 @@
 package com.kimsong.digital_banking.services.implement;
 
-import com.kimsong.digital_banking.dtos.account.CheckAccountBalanceRequest;
 import com.kimsong.digital_banking.dtos.account.CheckAccountBalanceResponse;
 import com.kimsong.digital_banking.dtos.account.CreateCustomerAccountRequest;
 import com.kimsong.digital_banking.dtos.account.CustomerAccountResponse;
@@ -44,10 +43,10 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     @Transactional
-    public DataResponseDto<CheckAccountBalanceResponse> checkAccountBalance(CheckAccountBalanceRequest request) {
-        Account account = accountRepository.findByAccountNumber(request.getAccountNumber())
+    public DataResponseDto<CheckAccountBalanceResponse> checkAccountBalance(String accountNumber) {
+        Account account = accountRepository.findByAccountNumber(accountNumber)
                 .orElseThrow(() -> {
-                    log.error("{}: {}", ErrorStatusEnum.ACCOUNT_NOT_FOUND.message, request.getAccountNumber());
+                    log.error("{}: {}", ErrorStatusEnum.ACCOUNT_NOT_FOUND.message, accountNumber);
                     return new ResourceNotFoundException(ErrorStatusEnum.ACCOUNT_NOT_FOUND);
                 });
 
