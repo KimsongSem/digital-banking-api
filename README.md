@@ -19,12 +19,14 @@ A secure, scalable, and modular RESTful API built with Spring Boot 3.5 for digit
 
 ## 🚀 Features
 
-- ✅ Customer Account create  
-- ✅ Balance inquiry and transaction history  
-- ✅ Transfers  
-- ✅ Global exception handling with custom errors  
-- ✅ Swagger/OpenAPI integration for API documentation  
-- ✅ Database integration with Spring Data JPA
+- Customer Account create  
+- Balance inquiry 
+- Money Transfers
+- Transactions history
+- Global exception handling with custom errors
+- Logging with custom formats, request and response activities tracking
+- Swagger/OpenAPI integration for API documentation  
+- Database integration with Spring Data JPA
 
 ---
 

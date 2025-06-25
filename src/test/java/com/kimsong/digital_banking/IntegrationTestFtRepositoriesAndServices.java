@@ -164,7 +164,7 @@ class IntegrationTestFtRepositoriesAndServices {
 
         Runnable transferAccountB_To_AccountA = () -> {
             try {
-                TransferMoneyRequest request = baseRequest("100000002", "100000001", new BigDecimal("10.00"));
+                TransferMoneyRequest request = baseRequest("100000002", "100000001", new BigDecimal("20.00"));
 
                 System.out.println("transfer from 100000002 to 100000001");
                 transferService.transferMoney(request);
