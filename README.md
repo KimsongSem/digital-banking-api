@@ -116,8 +116,6 @@ Access Swagger UI once the app is running:
 http://localhost:9099/swagger-ui/index.html
 ```
 
-OpenAPI docs are auto-generated from annotations in your controllers and DTOs.
-
 ---
 
 ## 📦 Usage Examples
