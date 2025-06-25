@@ -59,7 +59,7 @@ public class TransactionHisServiceImpl implements TransactionService {
     }
 
     @Override
-    public PaginationResponseDto<TransactionHistoryResponse> getAll(TransactionHistoryFilter filter) {
+    public PaginationResponseDto<TransactionHistoryResponse> getAllWithFilter(TransactionHistoryFilter filter) {
         PageRequest pageRequest = PageRequest.of(
                 filter.getPage() <= 0 ? paginationConfig.getPage() - 1 : filter.getPage() - 1,
                 filter.getSize() <= 0 ? paginationConfig.getSize() : filter.getSize());

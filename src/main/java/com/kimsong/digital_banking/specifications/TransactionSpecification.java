@@ -21,6 +21,9 @@ public class TransactionSpecification {
             if (Objects.nonNull(filter.getAccountNumber())) {
                 predicateList.add(criteriaBuilder.equal(root.get("account").get("accountNumber"), filter.getAccountNumber()));
             }
+            if (Objects.nonNull(filter.getTransactionReference())) {
+                predicateList.add(criteriaBuilder.equal(root.get("transactionReference"), filter.getTransactionReference()));
+            }
 
             return criteriaBuilder.and(predicateList.toArray(new Predicate[0]));
         };

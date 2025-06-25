@@ -14,6 +14,6 @@ public interface TransactionService {
 
     BigDecimal getTodayDebitTotal(Account account);
 
-    PaginationResponseDto<TransactionHistoryResponse> getAll(TransactionHistoryFilter filter);
+    PaginationResponseDto<TransactionHistoryResponse> getAllWithFilter(TransactionHistoryFilter filter);
 
 }

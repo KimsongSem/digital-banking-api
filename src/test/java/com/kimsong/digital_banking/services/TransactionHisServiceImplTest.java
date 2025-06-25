@@ -117,7 +117,7 @@ public class TransactionHisServiceImplTest {
         when(transactionHistoryMapper.mapListFromEntities(anyList()))
                 .thenReturn(List.of(new TransactionHistoryResponse()));
 
-        PaginationResponseDto<TransactionHistoryResponse> result = transactionService.getAll(filter);
+        PaginationResponseDto<TransactionHistoryResponse> result = transactionService.getAllWithFilter(filter);
 
         assertNotNull(result);
         assertNotNull(result.getData());

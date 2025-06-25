@@ -19,7 +19,7 @@ public class TransactionHistoryController {
 
     @GetMapping("getAllHistory")
     public ResponseEntity<PaginationResponseDto<TransactionHistoryResponse>> transactionHistory(TransactionHistoryFilter filter) {
-        return ResponseEntity.status(HttpStatus.OK).body(transactionService.getAll(filter));
+        return ResponseEntity.status(HttpStatus.OK).body(transactionService.getAllWithFilter(filter));
     }
 
 }

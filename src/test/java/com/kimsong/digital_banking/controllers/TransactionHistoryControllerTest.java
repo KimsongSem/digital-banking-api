@@ -61,7 +61,7 @@ public class TransactionHistoryControllerTest {
                 .data(content)
                 .build();
 
-        when(transactionService.getAll(filter)).thenReturn(paginationResponse);
+        when(transactionService.getAllWithFilter(filter)).thenReturn(paginationResponse);
 
         ResponseEntity<PaginationResponseDto<TransactionHistoryResponse>> result = transactionHistoryController.transactionHistory(filter);
 
@@ -71,7 +71,7 @@ public class TransactionHistoryControllerTest {
         assertEquals("TXN20250622-172627-694", result.getBody().getData().get(0).getTransactionReference());
         assertEquals("100000001", result.getBody().getData().get(0).getAccount().getAccountNumber());
 
-        verify(transactionService).getAll(filter);
+        verify(transactionService).getAllWithFilter(filter);
     }
 
 }
